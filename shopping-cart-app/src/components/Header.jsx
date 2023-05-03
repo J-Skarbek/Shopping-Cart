@@ -1,6 +1,6 @@
 import React from "react";
-import reactLogo from './assets/react.svg';
-import hamburger from './assets/hamburger.svg';
+import reactLogo from '../assets/react.svg';
+import hamburger from '../assets/hamburger.svg';
 
 function Header() {
 
