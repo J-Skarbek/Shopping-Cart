@@ -7,8 +7,8 @@ import instagram from '../assets/instagram.svg';
 function Footer() {
 
   return (
-    <div className="footer flex">
-       <div className="left-col">
+    <div className="footer flex items-center">
+       <div className="left-col px-16">
         <img className="logo-img" src={reactLogo} alt="logo" />
         <h2>Company Name</h2>
         <p>
@@ -18,7 +18,7 @@ function Footer() {
           ut aliquip ex ea commodo consequat.
         </p>
       </div>
-      <div className="middle-col">
+      <div className="middle-col px-16">
         <p>
           This site was created as a personal project, and all images were pulled 
           from very talented photographers found on <a href="#">FashionEditorals.com</a>. 
@@ -26,11 +26,11 @@ function Footer() {
           purpose.
         </p>
       </div>
-      <div className="right-col">
+      <div className="right-col px-16">
         <div className="social-media-links flex">
-          <img className="ig-logo" src={instagram} alt="Our Instagram" />
-          <img className="tiktok-logo" src={tikTok} alt="Our Tik Tok" />
-          <img className="meta-logo" src={meta} alt="Our Facebook" />
+          <img className="ig-logo w-6 mx-1" src={instagram} alt="Our Instagram" />
+          <img className="tiktok-logo w-6 mx-1" src={tikTok} alt="Our Tik Tok" />
+          <img className="meta-logo w-6 mx-1" src={meta} alt="Our Facebook" />
         </div>
         <div className="copyright">
           <p>Copyright StoreName 2023</p>

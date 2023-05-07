@@ -1,6 +1,13 @@
 import React from "react";
+import ProductData from '../productData.json'
 
 function HeroSection() {
+
+  function dataCallClick() {
+    console.log(ProductData.Tops.products[0].name)
+    console.log(ProductData.Tops.products[0].sizes.xs)
+    console.log(ProductData.Tops.products[0].sizes)
+  }
 
   return (
     <div className="hero-section">
@@ -15,6 +22,7 @@ function HeroSection() {
           <div className="buttons">
             <button type="button">Shop Now</button>
             <button type="button">Join Our Mailing List</button>
+            <button type="button" onClick={dataCallClick}>Test call the data</button>
           </div>
         </div>  
       </div>

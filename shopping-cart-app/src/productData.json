@@ -14,15 +14,14 @@
             "altImage4": "alt1-url-here"
           }
         ,
-        "sizes": [
+        "sizes":
           {
-            "extra-small": "xs",
-            "small": "sm",
-            "medium": "md",
-            "large": "lg",
-            "extra-large": "xl"
-          }
-        ],
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
         "price": "$xx.xx"
       },
       {
