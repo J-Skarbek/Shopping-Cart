@@ -1,605 +1,602 @@
 
 {
-  "collections": [
-    {
-      "name": "Tops",
-      "products": [
-        {
-          "name": "product name",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 2",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 3",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 4",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 5",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        }
-      ]
-    },
-    {
-      "name": "Dresses",
-      "products": [
-        {
-          "name": "product name",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 2",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 3",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 4",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 5",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        }
-      ]
-    },
-    {
-      "name": "Shoes",
-      "products": [
-        {
-          "name": "product name",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 2",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 3",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 4",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 5",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        }
-      ]
-    },
-    {
-      "name": "Bottoms",
-      "products": [
-        {
-          "name": "product name",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 2",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 3",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 4",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 5",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        }
-      ]
-    },
-    {
-      "name": "Accessories",
-      "products": [
-        {
-          "name": "product name",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 2",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 3",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 4",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        },
-        {
-          "name": "product name 5",
-          "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "images": [
-            {
-              "image": "img-url-here",
-              "altImage1": "alt1-url-here",
-              "altImage2": "alt1-url-here",
-              "altImage3": "alt1-url-here",
-              "altImage4": "alt1-url-here"
-            }
-          ],
-          "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
-          "price": "$xx.xx"
-        }
-      ]
-    }
-  ]
+  "Tops": {
+    "products": [
+      {
+        "name": "product name",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images":
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ,
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 2",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 3",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 4",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 5",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      }
+    ]
+  },
+  "Dresses": {
+    "name": "Dresses",
+    "products": [
+      {
+        "name": "product name",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 2",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 3",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 4",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 5",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      }
+    ]
+  },
+  "Shoes" : {
+    "name": "Shoes",
+    "products": [
+      {
+        "name": "product name",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 2",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 3",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 4",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 5",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      }
+    ]
+  },
+  "Bottoms": {
+    "name": "Bottoms",
+    "products": [
+      {
+        "name": "product name",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 2",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 3",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 4",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 5",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      }
+    ]
+  },
+  "Accessories": {
+    "name": "Accessories",
+    "products": [
+      {
+        "name": "product name",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 2",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 3",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 4",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      },
+      {
+        "name": "product name 5",
+        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "images": [
+          {
+            "image": "img-url-here",
+            "altImage1": "alt1-url-here",
+            "altImage2": "alt1-url-here",
+            "altImage3": "alt1-url-here",
+            "altImage4": "alt1-url-here"
+          }
+        ],
+        "sizes": [
+          {
+            "extra-small": "xs",
+            "small": "sm",
+            "medium": "md",
+            "large": "lg",
+            "extra-large": "xl"
+          }
+        ],
+        "price": "$xx.xx"
+      }
+    ]
+  }
 }
