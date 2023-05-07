@@ -346,19 +346,18 @@
       }
     ]
   },
-  "Bottoms": {
-    "name": "Bottoms",
+  "Skirts": {
     "products": [
       {
-        "name": "product name",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Mini Skirt",
+        "desciption": "Short, fitted skirt in soft cotton jersey with a wide, elasticized waistband. Unlined.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
@@ -373,15 +372,15 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 2",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Jersey Skirt",
+        "desciption": "Calf-length skirt in jersey. Concealed, elasticized waistband with narrow, decorative ties and a gathered seam at top for a gently draped effect.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
@@ -396,15 +395,15 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 3",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Flared Skirt",
+        "desciption": "Calf-length skirt in viscose twill with a sheen. Concealed, elasticized waistband and a flared hem.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
@@ -419,15 +418,15 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 4",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Crêped Skirt",
+        "desciption": "Fitted, calf-length skirt in crêped, woven viscose fabric. High waist, concealed zipper at one side with hook-and-eye fastening, and a high slit at front. Unlined.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
@@ -442,15 +441,15 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 5",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Pleated Chiffon Skirt",
+        "desciption": "A-line, calf-length skirt in pleated chiffon. High waist, elasticized waistband, and satin lining.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
@@ -474,11 +473,11 @@
         "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
@@ -497,11 +496,11 @@
         "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
@@ -520,11 +519,11 @@
         "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
@@ -543,11 +542,11 @@
         "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
@@ -566,11 +565,11 @@
         "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
