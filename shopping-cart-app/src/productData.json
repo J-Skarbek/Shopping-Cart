@@ -117,17 +117,16 @@
     "name": "Dresses",
     "products": [
       {
-        "name": "product name",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "images": [
+        "name": "Draped Dress",
+        "desciption": "Short, fitted dress in soft, draped jersey. Narrow shoulder straps, low-cut, elasticized sweetheart neckline with ruffle trim at top and a bow at front.",
+        "images":
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
-          }
-        ],
+            "image": "src/assets/products/dresses/dress1/draped-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress1/draped-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress1/draped-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress1/draped-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress1/draped-dress-5.webp"
+          },
         "sizes": [
           {
             "extra-small": "xs",
@@ -140,17 +139,16 @@
         "price": "$xx.xx"
       },
       {
-        "name": "Fitted tank top in soft, ribbed cotton jersey with narrow trim.",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "images": [
+        "name": "Open-backed Chiffon Dress",
+        "desciption": "Long dress in airy chiffon with a fitted bodice. Ruffle-trimmed shoulder straps, V-shaped neckline at front, and partially open back with a wide, smocked panel at top. Seam at waist with narrow elastic at back, concealed zipper at one side, and gently flared skirt with a gathered seam below hips for added volume. Straight-cut hem with high slits at front. Partly lined.",
+        "images":
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
-          }
-        ],
+            "image": "src/assets/products/dresses/dress2/open-backed-chiffon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress2/open-backed-chiffon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress2/open-backed-chiffon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress2/open-backed-chiffon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress2/open-backed-chiffon-dress-5.webp"
+          },
         "sizes": [
           {
             "extra-small": "xs",
@@ -163,17 +161,16 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 3",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "images": [
+        "name": "Cotton Bodycon Dress",
+        "desciption": "Short, fitted dress in soft cotton jersey with cap sleeves. Round neckline with narrow trim. Unlined.",
+        "images":
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
-          }
-        ],
+            "image": "src/assets/products/dresses/dress3/cotton-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress3/cotton-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress3/cotton-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress3/cotton-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress3/cotton-bodycon-dress-5.webp"
+          },
         "sizes": [
           {
             "extra-small": "xs",
@@ -186,17 +183,16 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 4",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "images": [
+        "name": "Denim Bodycon Dress",
+        "desciption": "Short, fitted, sleeveless dress in cotton-blend stretch denim. Narrow, adjustable shoulder straps, narrow cut at top, and square neckline. Concealed zipper at back with hook-and-eye fastening, a defined waistband, and vertical, flat-fell seams at front. Straight-cut hem.",
+        "images":
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
-          }
-        ],
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+          },
         "sizes": [
           {
             "extra-small": "xs",
@@ -209,17 +205,16 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 5",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "images": [
+        "name": "Ruffle-trimmed Crêped Dress",
+        "desciption": "Short dress in woven, crêped fabric with lined cups. Narrow, adjustable shoulder straps, V-shaped neckline at front with a small overlap, and overlocked ruffle trim below bust and at hips. Fitted bodice and gently flared skirt.",
+        "images":
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
-          }
-        ],
+            "image": "src/assets/products/dresses/dress5/ruffle-trimmed-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress5/ruffle-trimmed-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress5/ruffle-trimmed-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress5/ruffle-trimmed-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress5/ruffle-trimmed-dress-5.webp"
+          },
         "sizes": [
           {
             "extra-small": "xs",
