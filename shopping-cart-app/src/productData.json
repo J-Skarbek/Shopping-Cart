@@ -3,17 +3,16 @@
   "Tops": {
     "products": [
       {
-        "name": "product name",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Textured-knit Tube Top",
+        "desciption": "Short, textured-knit tube top. Sweetheart neckline at front with a metal wire and silicone trim inside upper edge to keep top in place.",
         "images":
           {
             "image": "src/assets/products/tops/top1/textured-knit-tube-top-1.jpeg",
             "image2": "src/assets/products/tops/top1/textured-knit-tube-top-2.webp",
-            "image3": "src/assets/products/tops/top1/rib-knit-tank-top-3.webp",
-            "image4": "src/assets/products/tops/top1/rib-knit-tank-top-4.webp",
-            "image5": "src/assets/products/tops/top1/rib-knit-tank-top-5.webp"
-          }
-        ,
+            "image3": "src/assets/products/tops/top1/textured-knit-tube-top-3.webp",
+            "image4": "src/assets/products/tops/top1/textured-knit-tube-top-4.webp",
+            "image5": "src/assets/products/tops/top1/textured-knit-tube-top-5.webp"
+          },
         "sizes":
           {
             "xs": "extra-small",
@@ -25,17 +24,16 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 2",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "images": [
+        "name": "Ribbed Tank Top",
+        "desciption": "Fitted tank top in soft, ribbed cotton jersey with narrow trim.",
+        "images":
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
-          }
-        ],
+            "image": "src/assets/products/tops/top2/ribbed-tank-top-1.jpeg",
+            "image2": "src/assets/products/tops/top2/ribbed-tank-top-2.webp",
+            "image3": "src/assets/products/tops/top2/ribbed-tank-top-3.webp",
+            "image4": "src/assets/products/tops/top2/ribbed-tank-top-4.webp",
+            "image5": "src/assets/products/tops/top2/ribbed-tank-top-5.webp"
+          },
         "sizes": [
           {
             "extra-small": "xs",
@@ -48,17 +46,16 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 3",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "images": [
+        "name": "Linen T-Shirt",
+        "desciption": "T-shirt in soft linen jersey with a low-cut, V-shaped neckline.",
+        "images":
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
-          }
-        ],
+            "image": "src/assets/products/tops/top3/linen-tshirt-1.jpeg",
+            "image2": "src/assets/products/tops/top3/linen-tshirt-2.webp",
+            "image3": "src/assets/products/tops/top3/linen-tshirt-3.webp",
+            "image4": "src/assets/products/tops/top3/linen-tshirt-4.webp",
+            "image5": "src/assets/products/tops/top3/linen-tshirt-5.webp"
+          },
         "sizes": [
           {
             "extra-small": "xs",
@@ -71,17 +68,16 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 4",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "images": [
+        "name": "Fine-knit Corset-style Top",
+        "desciption": "Short, fitted, corset-style top in a soft, fine-knit viscose blend with flat felled seams at front. Wide shoulder straps, square neckline, rounded, slightly longer hem at front, and a straight hem at back.",
+        "images":
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
-          }
-        ],
+            "image": "src/assets/products/tops/top4/fine-knit-corset-style-top.jpeg",
+            "image2": "src/assets/products/tops/top4/fine-knit-corset-style-top-2.webp",
+            "image3": "src/assets/products/tops/top4/fine-knit-corset-style-top-3.webp",
+            "image4": "src/assets/products/tops/top4/fine-knit-corset-style-top-4.webp",
+            "image5": "src/assets/products/tops/top4/fine-knit-corset-style-top-5.webp"
+          },
         "sizes": [
           {
             "extra-small": "xs",
@@ -94,17 +90,16 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 5",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "images": [
-          {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
-          }
-        ],
+        "name": "Ribbed Thong Bodysuit",
+        "desciption":"Fitted, sleeveless thong bodysuit in ribbed jersey with a racer back. Concealed snap fasteners at gusset.",
+        "images":
+        {
+          "image": "src/assets/products/tops/top5/ribbed-thong-bodysuit.jpeg",
+          "image2": "src/assets/products/tops/top5/ribbed-thong-bodysuit-2.webp",
+          "image3": "src/assets/products/tops/top5/ribbed-thong-bodysuit-3.webp",
+          "image4": "src/assets/products/tops/top5/ribbed-thong-bodysuit-4.webp",
+          "image5": "src/assets/products/tops/top5/ribbed-thong-bodysuit-5.webp"
+        },
         "sizes": [
           {
             "extra-small": "xs",
@@ -145,7 +140,7 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 2",
+        "name": "Fitted tank top in soft, ribbed cotton jersey with narrow trim.",
         "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "images": [
           {

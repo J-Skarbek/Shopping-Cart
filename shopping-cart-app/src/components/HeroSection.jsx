@@ -7,6 +7,7 @@ function HeroSection() {
     console.log(ProductData.Tops.products[0].name)
     console.log(ProductData.Tops.products[0].sizes.xs)
     console.log(ProductData.Tops.products[0].sizes)
+    console.log(ProductData.Tops.products[0].desciption)
   }
 
   return (
