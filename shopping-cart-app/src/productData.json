@@ -466,11 +466,10 @@
     ]
   },
   "Accessories": {
-    "name": "Accessories",
     "products": [
       {
-        "name": "product name",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Straw Bucket Hat",
+        "desciption": "Bucket hat in braided paper straw. Rounded crown, sloped brim, and a grosgrain sweatband. Width of brim 3 1/4 in.",
         "images": [
           {
             "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
@@ -492,8 +491,8 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 2",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Crochet-look Sarong",
+        "desciption": "Short sarong in crochet-look jersey with a perforated pattern. Wide ties at waist and rounded corners. Unlined.",
         "images": [
           {
             "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
@@ -515,8 +514,8 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 3",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Shoulder Bag with Pouch",
+        "desciption": "Small shoulder bag with matching pouch bag. Shoulder bag with adjustable, detachable shoulder strap with fastening for the pouch bag, handle in metal chain, and zipper at top. Round pouch bag for storage of items such as earphones. Carabiner hook and zipper at top. Height of shoulder bag approx. 6 3/4 in. Width approx. 9 1/2 in. Depth approx. 2 3/4 in. Diameter of pouch bag approx. 3 1/2 in. Depth 3/4 in. Both bags lined in taffeta made from recycled polyester.",
         "images": [
           {
             "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
@@ -538,8 +537,8 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 4",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Large Straw Shopper",
+        "desciption": "Crochet-look shopper in braided paper straw. Long handles for easy wear over shoulder or as a handbag. One inner compartment. Lined. Depth 5 1/4 in. Height 14 1/4 in. Width 18 in.",
         "images": [
           {
             "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
@@ -561,8 +560,8 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 5",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Jute-blend Mini Shopper",
+        "desciption": "Mini shopper in a jacquard-weave jute blend. Adjustable, detachable shoulder strap, two handles at top, and an inner compartment with zipper. Lined.",
         "images": [
           {
             "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
