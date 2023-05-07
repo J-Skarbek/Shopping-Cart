@@ -114,7 +114,6 @@
     ]
   },
   "Dresses": {
-    "name": "Dresses",
     "products": [
       {
         "name": "Draped Dress",
@@ -229,18 +228,17 @@
     ]
   },
   "Shoes" : {
-    "name": "Shoes",
     "products": [
       {
-        "name": "product name",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Wedge-heeled Espadrille Mules",
+        "desciption": "Wedge-heeled espadrille mules with a transparent, asymmetric foot strap and braided jute trim around heel. Canvas insoles made from a jute blend. Heel height 3 in.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
@@ -255,15 +253,15 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 2",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Heeled Sandals",
+        "desciption": "Sandals with square toes, narrow foot straps, and narrow elastic heel strap. Partly covered block heels. Heel height 3 1/4 in.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
@@ -278,15 +276,15 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 3",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Leather Sandals",
+        "desciption": "Sandals in soft leather with round toes, a toe post, narrow foot straps, and long, narrow straps to tie around ankle. Sole thickness approx. 1/2 in.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
@@ -301,15 +299,15 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 4",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Knot-detail Platform Sandals",
+        "desciption": "Platform sandals with rounded toes, wide foot strap with decorative knot detail, and a narrow, adjustable ankle strap. Partially covered block heels.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
@@ -324,15 +322,15 @@
         "price": "$xx.xx"
       },
       {
-        "name": "product name 5",
-        "desciption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Chunky Sneakers",
+        "desciption": "Sneakers with a padded edge and tongue. Loop and lacing at front. Chunky, patterned soles. Sole thickness 1 3/4 in.",
         "images": [
           {
-            "image": "img-url-here",
-            "altImage1": "alt1-url-here",
-            "altImage2": "alt1-url-here",
-            "altImage3": "alt1-url-here",
-            "altImage4": "alt1-url-here"
+            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           }
         ],
         "sizes": [
