@@ -1,7 +1,7 @@
 import React from "react";
 import reactLogo from '../assets/react.svg';
 import meta from '../assets/meta.svg';
-import tikTok from '../assets/tikTok.svg';
+import tikTok from '../assets/tik-tok.svg';
 import instagram from '../assets/instagram.svg';
 
 function Footer() {
