@@ -1,0 +1,78 @@
+
+{
+  "collections": [
+    {
+      "name": "Tops",
+      "products": [
+        {
+          "name": "product name",
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "product name 2",
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "product name 3",
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "product name 4",
+          "image": "img-url-here",
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "product name 5",
+          "image": "img-url-here",
+          "alt1": "alt1-url-here",
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        }
+      ]
+    }
+  ]
+}
