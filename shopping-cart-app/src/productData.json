@@ -234,11 +234,11 @@
         "desciption": "Wedge-heeled espadrille mules with a transparent, asymmetric foot strap and braided jute trim around heel. Canvas insoles made from a jute blend. Heel height 3 in.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/shoes/shoes1/wedge-heeled-mules.jpeg",
+            "image2": "src/assets/products/shoes/shoes1/wedge-heeled-mules-2.webp",
+            "image3": "src/assets/products/shoes/shoes1/wedge-heeled-mules-3.webp",
+            "image4": "src/assets/products/shoes/shoes1/wedge-heeled-mules-4.webp",
+            "image5": "src/assets/products/shoes/shoes1/wedge-heeled-mules-5.webp"
           }
         ],
         "sizes": [
@@ -257,11 +257,11 @@
         "desciption": "Sandals with square toes, narrow foot straps, and narrow elastic heel strap. Partly covered block heels. Heel height 3 1/4 in.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/shoes/shoes2/heeled-sandals.jpeg",
+            "image2": "src/assets/products/shoes/shoes2/heeled-sandals-2.webp",
+            "image3": "src/assets/products/shoes/shoes2/heeled-sandals-3.webp",
+            "image4": "src/assets/products/shoes/shoes2/heeled-sandals-4.webp",
+            "image5": "src/assets/products/shoes/shoes2/heeled-sandals-5.webp"
           }
         ],
         "sizes": [
@@ -280,11 +280,11 @@
         "desciption": "Sandals in soft leather with round toes, a toe post, narrow foot straps, and long, narrow straps to tie around ankle. Sole thickness approx. 1/2 in.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/shoes/shoes3/leather-sandals.jpeg",
+            "image2": "src/assets/products/shoes/shoes3/leather-sandals-2.webp",
+            "image3": "src/assets/products/shoes/shoes3/leather-sandals-3.webp",
+            "image4": "src/assets/products/shoes/shoes3/leather-sandals-4.webp",
+            "image5": "src/assets/products/shoes/shoes3/leather-sandals-5.webp"
           }
         ],
         "sizes": [
@@ -303,11 +303,11 @@
         "desciption": "Platform sandals with rounded toes, wide foot strap with decorative knot detail, and a narrow, adjustable ankle strap. Partially covered block heels.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals.jpeg",
+            "image2": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-2.webp",
+            "image3": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-3.webp",
+            "image4": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-4.webp",
+            "image5": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-5.webp"
           }
         ],
         "sizes": [
@@ -326,11 +326,11 @@
         "desciption": "Sneakers with a padded edge and tongue. Loop and lacing at front. Chunky, patterned soles. Sole thickness 1 3/4 in.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/shoes/shoes5/chunky-sneakers.jpeg",
+            "image2": "src/assets/products/shoes/shoes5/chunky-sneakers-2.webp",
+            "image3": "src/assets/products/shoes/shoes5/chunky-sneakers-3.webp",
+            "image4": "src/assets/products/shoes/shoes5/chunky-sneakers-4.webp",
+            "image5": "src/assets/products/shoes/shoes5/chunky-sneakers-5.webp"
           }
         ],
         "sizes": [
@@ -353,11 +353,11 @@
         "desciption": "Short, fitted skirt in soft cotton jersey with a wide, elasticized waistband. Unlined.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/skirts/skirt1/mini-skirt.jpeg",
+            "image2": "src/assets/products/skirts/skirt1/mini-skirt-2.webp",
+            "image3": "src/assets/products/skirts/skirt1/mini-skirt-3.webp",
+            "image4": "src/assets/products/skirts/skirt1/mini-skirt-4.webp",
+            "image5": "src/assets/products/skirts/skirt1/mini-skirt-5.webp"
           }
         ],
         "sizes": [
@@ -376,11 +376,11 @@
         "desciption": "Calf-length skirt in jersey. Concealed, elasticized waistband with narrow, decorative ties and a gathered seam at top for a gently draped effect.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/skirts/skirt2/jersey-skirt.jpeg",
+            "image2": "src/assets/products/skirts/skirt2/jersey-skirt-2.webp",
+            "image3": "src/assets/products/skirts/skirt2/jersey-skirt-3.webp",
+            "image4": "src/assets/products/skirts/skirt2/jersey-skirt-4.webp",
+            "image5": "src/assets/products/skirts/skirt2/jersey-skirt-5.webp"
           }
         ],
         "sizes": [
@@ -399,11 +399,11 @@
         "desciption": "Calf-length skirt in viscose twill with a sheen. Concealed, elasticized waistband and a flared hem.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/skirts/skirt3/flared-skirt.jpeg",
+            "image2": "src/assets/products/skirts/skirt3/flared-skirt-2.webp",
+            "image3": "src/assets/products/skirts/skirt3/flared-skirt-3.webp",
+            "image4": "src/assets/products/skirts/skirt3/flared-skirt-4.webp",
+            "image5": "src/assets/products/skirts/skirt3/flared-skirt-5.webp"
           }
         ],
         "sizes": [
@@ -422,11 +422,11 @@
         "desciption": "Fitted, calf-length skirt in crêped, woven viscose fabric. High waist, concealed zipper at one side with hook-and-eye fastening, and a high slit at front. Unlined.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/skirts/skirt4/creped-skirt.jpeg",
+            "image2": "src/assets/products/skirts/skirt4/creped-skirt-2.webp",
+            "image3": "src/assets/products/skirts/skirt4/creped-skirt-3.webp",
+            "image4": "src/assets/products/skirts/skirt4/creped-skirt-4.webp",
+            "image5": "src/assets/products/skirts/skirt4/creped-skirt-5.webp"
           }
         ],
         "sizes": [
@@ -445,11 +445,11 @@
         "desciption": "A-line, calf-length skirt in pleated chiffon. High waist, elasticized waistband, and satin lining.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt.webp",
+            "image2": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-2.jpeg",
+            "image3": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-3.webp",
+            "image4": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-4.webp",
+            "image5": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-5.webp"
           }
         ],
         "sizes": [
@@ -472,11 +472,9 @@
         "desciption": "Bucket hat in braided paper straw. Rounded crown, sloped brim, and a grosgrain sweatband. Width of brim 3 1/4 in.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/accessories/accessory1/straw-bucket-hat.jpeg",
+            "image2": "src/assets/products/accessories/accessory1/straw-bucket-hat-2.webp",
+            "image3": "src/assets/products/accessories/accessory1/straw-bucket-hat-3.webp"
           }
         ],
         "sizes": [
@@ -495,11 +493,11 @@
         "desciption": "Short sarong in crochet-look jersey with a perforated pattern. Wide ties at waist and rounded corners. Unlined.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/accessories/accessory2/crochet-look-sarong.jpeg",
+            "image2": "src/assets/products/accessories/accessory2/crochet-look-sarong-2.webp",
+            "image3": "src/assets/products/accessories/accessory2/crochet-look-sarong-3.webp",
+            "image4": "src/assets/products/accessories/accessory2/crochet-look-sarong-4.webp",
+            "image5": "src/assets/products/accessories/accessory2/crochet-look-sarong-5.webp"
           }
         ],
         "sizes": [
@@ -518,11 +516,11 @@
         "desciption": "Small shoulder bag with matching pouch bag. Shoulder bag with adjustable, detachable shoulder strap with fastening for the pouch bag, handle in metal chain, and zipper at top. Round pouch bag for storage of items such as earphones. Carabiner hook and zipper at top. Height of shoulder bag approx. 6 3/4 in. Width approx. 9 1/2 in. Depth approx. 2 3/4 in. Diameter of pouch bag approx. 3 1/2 in. Depth 3/4 in. Both bags lined in taffeta made from recycled polyester.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch.jpeg",
+            "image2": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-2.webp",
+            "image3": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-3.webp",
+            "image4": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-4.webp",
+            "image5": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-5.webp"
           }
         ],
         "sizes": [
@@ -541,11 +539,11 @@
         "desciption": "Crochet-look shopper in braided paper straw. Long handles for easy wear over shoulder or as a handbag. One inner compartment. Lined. Depth 5 1/4 in. Height 14 1/4 in. Width 18 in.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/accessories/accessory4/large-straw-shopper.jpeg",
+            "image2": "src/assets/products/accessories/accessory4/large-straw-shopper-2.webp",
+            "image3": "src/assets/products/accessories/accessory4/large-straw-shopper-3.webp",
+            "image4": "src/assets/products/accessories/accessory4/large-straw-shopper-4.webp",
+            "image5": "src/assets/products/accessories/accessory4/large-straw-shopper-5.webp"
           }
         ],
         "sizes": [
@@ -564,11 +562,11 @@
         "desciption": "Mini shopper in a jacquard-weave jute blend. Adjustable, detachable shoulder strap, two handles at top, and an inner compartment with zipper. Lined.",
         "images": [
           {
-            "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "image": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper.jpeg",
+            "image2": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-2.webp",
+            "image3": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-3.webp",
+            "image4": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-4.webp",
+            "image5": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-5.webp"
           }
         ],
         "sizes": [
