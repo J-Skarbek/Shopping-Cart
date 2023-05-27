@@ -78,7 +78,7 @@ function ProductsOverview() {
 
   return (
     <div className='products-container'>
-      <div className='category-pills flex'>
+      <div className='category-pills flex justify-center gap-2'>
           { getProductCategories() }
         </div>
       <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
