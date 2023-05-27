@@ -1,4 +1,5 @@
 import React from 'react';
+import { nanoid } from 'nanoid'
 import ProductCard from './ProductCard';
 import ProductData from '../productData.json';
 
@@ -6,11 +7,10 @@ function ProductsOverview() {
 
   const [products, setProducts] = React.useState(ProductData);
 
-  const { Tops, Bottoms, Dresses, Skirts, Accessories} = products;
+  const { Tops, Shoes, Dresses, Skirts, Accessories} = products;
 
-  console.log(products.Bottoms);
-
-  let test = 0;
+  console.log(typeof Shoes.products);
+  console.table(Tops.products);
 
   // console.log(products)
   // console.log(products.Tops.products)
@@ -20,8 +20,7 @@ function ProductsOverview() {
       <ProductCard 
         name={top.name}
         img={top.images.image}
-        key={test += 1}
-
+        key={nanoid()}
       />
     )
   });
