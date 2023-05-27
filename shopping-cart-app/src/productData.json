@@ -350,7 +350,7 @@
       {
         "name": "Mini Skirt",
         "desciption": "Short, fitted skirt in soft cotton jersey with a wide, elasticized waistband. Unlined.",
-        "images": [
+        "images": 
           {
             "image": "src/assets/products/skirts/skirt1/mini-skirt.jpeg",
             "image2": "src/assets/products/skirts/skirt1/mini-skirt-2.webp",
@@ -358,7 +358,7 @@
             "image4": "src/assets/products/skirts/skirt1/mini-skirt-4.webp",
             "image5": "src/assets/products/skirts/skirt1/mini-skirt-5.webp"
           }
-        ],
+        ,
         "sizes": [
           {
             "extra-small": "xs",
@@ -373,7 +373,7 @@
       {
         "name": "Jersey Skirt",
         "desciption": "Calf-length skirt in jersey. Concealed, elasticized waistband with narrow, decorative ties and a gathered seam at top for a gently draped effect.",
-        "images": [
+        "images": 
           {
             "image": "src/assets/products/skirts/skirt2/jersey-skirt.jpeg",
             "image2": "src/assets/products/skirts/skirt2/jersey-skirt-2.webp",
@@ -381,7 +381,7 @@
             "image4": "src/assets/products/skirts/skirt2/jersey-skirt-4.webp",
             "image5": "src/assets/products/skirts/skirt2/jersey-skirt-5.webp"
           }
-        ],
+        ,
         "sizes": [
           {
             "extra-small": "xs",
@@ -396,7 +396,7 @@
       {
         "name": "Flared Skirt",
         "desciption": "Calf-length skirt in viscose twill with a sheen. Concealed, elasticized waistband and a flared hem.",
-        "images": [
+        "images": 
           {
             "image": "src/assets/products/skirts/skirt3/flared-skirt.jpeg",
             "image2": "src/assets/products/skirts/skirt3/flared-skirt-2.webp",
@@ -404,7 +404,7 @@
             "image4": "src/assets/products/skirts/skirt3/flared-skirt-4.webp",
             "image5": "src/assets/products/skirts/skirt3/flared-skirt-5.webp"
           }
-        ],
+        ,
         "sizes": [
           {
             "extra-small": "xs",
@@ -419,7 +419,7 @@
       {
         "name": "Crêped Skirt",
         "desciption": "Fitted, calf-length skirt in crêped, woven viscose fabric. High waist, concealed zipper at one side with hook-and-eye fastening, and a high slit at front. Unlined.",
-        "images": [
+        "images": 
           {
             "image": "src/assets/products/skirts/skirt4/creped-skirt.jpeg",
             "image2": "src/assets/products/skirts/skirt4/creped-skirt-2.webp",
@@ -427,7 +427,7 @@
             "image4": "src/assets/products/skirts/skirt4/creped-skirt-4.webp",
             "image5": "src/assets/products/skirts/skirt4/creped-skirt-5.webp"
           }
-        ],
+        ,
         "sizes": [
           {
             "extra-small": "xs",
@@ -442,7 +442,7 @@
       {
         "name": "Pleated Chiffon Skirt",
         "desciption": "A-line, calf-length skirt in pleated chiffon. High waist, elasticized waistband, and satin lining.",
-        "images": [
+        "images": 
           {
             "image": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt.webp",
             "image2": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-2.jpeg",
@@ -450,7 +450,7 @@
             "image4": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-4.webp",
             "image5": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-5.webp"
           }
-        ],
+        ,
         "sizes": [
           {
             "extra-small": "xs",

@@ -12,6 +12,51 @@ function ProductsOverview() {
   console.log(typeof Shoes.products);
   console.table(Tops.products);
 
+  const displayAllProducts = () => {
+    const newArray = [];
+    Tops.products.forEach(item => {
+      newArray.push(item)
+    });
+    Shoes.products.forEach(item => {
+      newArray.push(item)
+    });
+    Dresses.products.forEach(item => {
+      newArray.push(item)
+    });
+    Skirts.products.forEach(item => {
+      newArray.push(item)
+    });
+    Accessories.products.forEach(item => {
+      newArray.push(item)
+    });
+    console.log(newArray);
+
+    let all = newArray.map(product => {
+      return (
+        <ProductCard 
+        name={product.name}
+        img={product.images.image}
+        key={nanoid()}
+      />
+      );
+    })
+
+    return all;
+  }
+
+  // displayAllProducts();
+
+  // const testingloop = () => {
+  //   for (let property in products) {
+  //     for (let item in property) {
+  //       console.log(`${item}: ${property[item]}`)
+  //     }
+  //     console.log(`${property}: ${products[property].name}`)
+  //   }
+  // }
+
+  // testingloop();
+
   // console.log(products)
   // console.log(products.Tops.products)
 
@@ -27,7 +72,8 @@ function ProductsOverview() {
 
   return (
     <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
-      { productCards }
+      {/* { productCards } */}
+      { displayAllProducts() }
     </div>
   )
 }
