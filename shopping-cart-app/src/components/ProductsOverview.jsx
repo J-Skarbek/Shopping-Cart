@@ -47,19 +47,24 @@ function ProductsOverview() {
 
   // displayAllProducts();
 
-  // const testingloop = () => {
-  //   for (let property in products) {
-  //     for (let item in property) {
-  //       console.log(`${item}: ${property[item]}`)
-  //     }
-  //     console.log(`${property}: ${products[property].name}`)
-  //   }
-  // }
+  const getProductCategories = () => {
+    let productCategories = [];
+    for (let property in products) {
+      console.log(`${property}`);
+      productCategories.push(property);
+    }
+    let cats = productCategories.map(category => {
+      return (
+        <Pill 
+        categoryName={category}
+        />
+      )
+    })
 
-  // testingloop();
+    return cats;
+  }
 
-  // console.log(products)
-  // console.log(products.Tops.products)
+// getProductCategories();
 
   const productCards = products.Tops.products.map(top => {
     return (
@@ -72,26 +77,14 @@ function ProductsOverview() {
   });
 
   return (
-    <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
-      {/* { productCards } */}
-      <div className='category-pills'>
-        <Pill 
-          categoryName='hello'
-        />
-        <Pill 
-          categoryName='hello'
-        />
-        <Pill 
-          categoryName='hello'
-        />
-        <Pill 
-          categoryName='hello'
-        />
-        <Pill 
-          categoryName='hello'
-        />
+    <div className='products-container'>
+      <div className='category-pills flex'>
+          { getProductCategories() }
+        </div>
+      <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
+        {/* { productCards } */}
+        { displayAllProducts() }
       </div>
-      { displayAllProducts() }
     </div>
   )
 }
