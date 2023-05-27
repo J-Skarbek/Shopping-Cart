@@ -6,23 +6,29 @@ function ProductsOverview() {
 
   const [products, setProducts] = React.useState(ProductData);
 
-  console.log(products)
-  console.log(products.Tops.products)
+  const { Tops, Bottoms, Dresses, Skirts, Accessories} = products;
 
+  console.log(products.Bottoms);
 
-  
-  const prodCards = products.Tops.products.map(top => {
+  let test = 0;
+
+  // console.log(products)
+  // console.log(products.Tops.products)
+
+  const productCards = products.Tops.products.map(top => {
     return (
       <ProductCard 
         name={top.name}
         img={top.images.image}
+        key={test += 1}
+
       />
     )
   });
 
   return (
     <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
-      { prodCards }
+      { productCards }
     </div>
   )
 }
