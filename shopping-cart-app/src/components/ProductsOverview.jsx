@@ -2,6 +2,7 @@ import React from 'react';
 import { nanoid } from 'nanoid'
 import ProductCard from './ProductCard';
 import ProductData from '../productData.json';
+import Pill from './Pill';
 
 function ProductsOverview() {
 
@@ -73,6 +74,23 @@ function ProductsOverview() {
   return (
     <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
       {/* { productCards } */}
+      <div className='category-pills'>
+        <Pill 
+          categoryName='hello'
+        />
+        <Pill 
+          categoryName='hello'
+        />
+        <Pill 
+          categoryName='hello'
+        />
+        <Pill 
+          categoryName='hello'
+        />
+        <Pill 
+          categoryName='hello'
+        />
+      </div>
       { displayAllProducts() }
     </div>
   )
