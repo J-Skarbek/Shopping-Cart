@@ -10,8 +10,8 @@ function ProductsOverview() {
 
   const { Tops, Shoes, Dresses, Skirts, Accessories} = products;
 
-  console.log(typeof Shoes.products);
-  console.table(Tops.products);
+  // console.log(typeof Shoes.products);
+  // console.table(Tops.products);
 
   const displayAllProducts = () => {
     const newArray = [];
@@ -30,7 +30,7 @@ function ProductsOverview() {
     Accessories.products.forEach(item => {
       newArray.push(item)
     });
-    console.log(newArray);
+    // console.log(newArray);
 
     let all = newArray.map(product => {
       return (
@@ -49,7 +49,7 @@ function ProductsOverview() {
   const getProductCategories = () => {
     let productCategories = [];
     for (let property in products) {
-      console.log(`${property}`);
+      // console.log(`${property}`);
       productCategories.push(property);
     }
     let cats = productCategories.map(category => {
@@ -62,6 +62,23 @@ function ProductsOverview() {
     })
 
     return cats;
+  }
+
+  const viewAll = () => {
+    for (let productCategory in products) {
+      console.log(typeof productCategory)
+    //   const getProducts = productCategory.products.map(product => {
+    //     return (
+    //       <ProductCard 
+    //         name={product.name}
+    //         img={product.images.image}
+    //         price={product.price}
+    //         key={nanoid()}
+    //       />
+    //     );
+    //   })
+    // return getProducts;
+    }
   }
 
 // getProductCategories();
@@ -79,6 +96,7 @@ function ProductsOverview() {
   return (
     <div className='products-container'>
       <div className='category-pills flex justify-center gap-2'>
+        <button type='button' onClick={viewAll()}>Get all Products</button>
           { getProductCategories() }
         </div>
       <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
