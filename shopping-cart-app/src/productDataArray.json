@@ -1,0 +1,585 @@
+{
+  "products": [
+    {
+      "products2": [
+        {
+          "name": "Textured-knit Tube Top",
+          "desciption": "Short, textured-knit tube top. Sweetheart neckline at front with a metal wire and silicone trim inside upper edge to keep top in place.",
+          "images": [
+              "src/assets/products/tops/top1/textured-knit-tube-top-1.jpeg",
+              "src/assets/products/tops/top1/textured-knit-tube-top-2.webp",
+              "src/assets/products/tops/top1/textured-knit-tube-top-3.webp",
+              "src/assets/products/tops/top1/textured-knit-tube-top-4.webp",
+              "src/assets/products/tops/top1/textured-knit-tube-top-5.webp"
+          ],
+          "sizes":
+            {
+              "xs": "extra-small",
+              "sm": "small",
+              "md": "medium",
+              "lg": "large",
+              "xl": "extra-large",=
+            },
+          "price": "$xx.xx",
+        },
+        {
+          "name": "Ribbed Tank Top",
+          "desciption": "Fitted tank top in soft, ribbed cotton jersey with narrow trim.",
+          "images":
+            {
+              "image": "src/assets/products/tops/top2/ribbed-tank-top-1.jpeg",
+              "image2": "src/assets/products/tops/top2/ribbed-tank-top-2.webp",
+              "image3": "src/assets/products/tops/top2/ribbed-tank-top-3.webp",
+              "image4": "src/assets/products/tops/top2/ribbed-tank-top-4.webp",
+              "image5": "src/assets/products/tops/top2/ribbed-tank-top-5.webp"
+            },
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Linen T-Shirt",
+          "desciption": "T-shirt in soft linen jersey with a low-cut, V-shaped neckline.",
+          "images":
+            {
+              "image": "src/assets/products/tops/top3/linen-tshirt-1.jpeg",
+              "image2": "src/assets/products/tops/top3/linen-tshirt-2.webp",
+              "image3": "src/assets/products/tops/top3/linen-tshirt-3.webp",
+              "image4": "src/assets/products/tops/top3/linen-tshirt-4.webp",
+              "image5": "src/assets/products/tops/top3/linen-tshirt-5.webp"
+            },
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Fine-knit Corset-style Top",
+          "desciption": "Short, fitted, corset-style top in a soft, fine-knit viscose blend with flat felled seams at front. Wide shoulder straps, square neckline, rounded, slightly longer hem at front, and a straight hem at back.",
+          "images":
+            {
+              "image": "src/assets/products/tops/top4/fine-knit-corset-style-top.jpeg",
+              "image2": "src/assets/products/tops/top4/fine-knit-corset-style-top-2.webp",
+              "image3": "src/assets/products/tops/top4/fine-knit-corset-style-top-3.webp",
+              "image4": "src/assets/products/tops/top4/fine-knit-corset-style-top-4.webp",
+              "image5": "src/assets/products/tops/top4/fine-knit-corset-style-top-5.webp"
+            },
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Ribbed Thong Bodysuit",
+          "desciption":"Fitted, sleeveless thong bodysuit in ribbed jersey with a racer back. Concealed snap fasteners at gusset.",
+          "images":
+          {
+            "image": "src/assets/products/tops/top5/ribbed-thong-bodysuit.jpeg",
+            "image2": "src/assets/products/tops/top5/ribbed-thong-bodysuit-2.webp",
+            "image3": "src/assets/products/tops/top5/ribbed-thong-bodysuit-3.webp",
+            "image4": "src/assets/products/tops/top5/ribbed-thong-bodysuit-4.webp",
+            "image5": "src/assets/products/tops/top5/ribbed-thong-bodysuit-5.webp"
+          },
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        }
+      ]
+    },
+    "Dresses": {
+      "products": [
+        {
+          "name": "Draped Dress",
+          "desciption": "Short, fitted dress in soft, draped jersey. Narrow shoulder straps, low-cut, elasticized sweetheart neckline with ruffle trim at top and a bow at front.",
+          "images":
+            {
+              "image": "src/assets/products/dresses/dress1/draped-dress.jpeg",
+              "image2": "src/assets/products/dresses/dress1/draped-dress-2.webp",
+              "image3": "src/assets/products/dresses/dress1/draped-dress-3.webp",
+              "image4": "src/assets/products/dresses/dress1/draped-dress-4.webp",
+              "image5": "src/assets/products/dresses/dress1/draped-dress-5.webp"
+            },
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Open-backed Chiffon Dress",
+          "desciption": "Long dress in airy chiffon with a fitted bodice. Ruffle-trimmed shoulder straps, V-shaped neckline at front, and partially open back with a wide, smocked panel at top. Seam at waist with narrow elastic at back, concealed zipper at one side, and gently flared skirt with a gathered seam below hips for added volume. Straight-cut hem with high slits at front. Partly lined.",
+          "images":
+            {
+              "image": "src/assets/products/dresses/dress2/open-backed-chiffon-dress.jpeg",
+              "image2": "src/assets/products/dresses/dress2/open-backed-chiffon-dress-2.webp",
+              "image3": "src/assets/products/dresses/dress2/open-backed-chiffon-dress-3.webp",
+              "image4": "src/assets/products/dresses/dress2/open-backed-chiffon-dress-4.webp",
+              "image5": "src/assets/products/dresses/dress2/open-backed-chiffon-dress-5.webp"
+            },
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Cotton Bodycon Dress",
+          "desciption": "Short, fitted dress in soft cotton jersey with cap sleeves. Round neckline with narrow trim. Unlined.",
+          "images":
+            {
+              "image": "src/assets/products/dresses/dress3/cotton-bodycon-dress.jpeg",
+              "image2": "src/assets/products/dresses/dress3/cotton-bodycon-dress-2.webp",
+              "image3": "src/assets/products/dresses/dress3/cotton-bodycon-dress-3.webp",
+              "image4": "src/assets/products/dresses/dress3/cotton-bodycon-dress-4.webp",
+              "image5": "src/assets/products/dresses/dress3/cotton-bodycon-dress-5.webp"
+            },
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Denim Bodycon Dress",
+          "desciption": "Short, fitted, sleeveless dress in cotton-blend stretch denim. Narrow, adjustable shoulder straps, narrow cut at top, and square neckline. Concealed zipper at back with hook-and-eye fastening, a defined waistband, and vertical, flat-fell seams at front. Straight-cut hem.",
+          "images":
+            {
+              "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
+              "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
+              "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
+              "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
+              "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            },
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Ruffle-trimmed Crêped Dress",
+          "desciption": "Short dress in woven, crêped fabric with lined cups. Narrow, adjustable shoulder straps, V-shaped neckline at front with a small overlap, and overlocked ruffle trim below bust and at hips. Fitted bodice and gently flared skirt.",
+          "images":
+            {
+              "image": "src/assets/products/dresses/dress5/ruffle-trimmed-dress.jpeg",
+              "image2": "src/assets/products/dresses/dress5/ruffle-trimmed-dress-2.webp",
+              "image3": "src/assets/products/dresses/dress5/ruffle-trimmed-dress-3.webp",
+              "image4": "src/assets/products/dresses/dress5/ruffle-trimmed-dress-4.webp",
+              "image5": "src/assets/products/dresses/dress5/ruffle-trimmed-dress-5.webp"
+            },
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        }
+      ]
+    },
+    "Shoes" : {
+      "products": [
+        {
+          "name": "Wedge-heeled Espadrille Mules",
+          "desciption": "Wedge-heeled espadrille mules with a transparent, asymmetric foot strap and braided jute trim around heel. Canvas insoles made from a jute blend. Heel height 3 in.",
+          "images": 
+            {
+              "image": "src/assets/products/shoes/shoes1/wedge-heeled-mules.jpeg",
+              "image2": "src/assets/products/shoes/shoes1/wedge-heeled-mules-2.webp",
+              "image3": "src/assets/products/shoes/shoes1/wedge-heeled-mules-3.webp",
+              "image4": "src/assets/products/shoes/shoes1/wedge-heeled-mules-4.webp",
+              "image5": "src/assets/products/shoes/shoes1/wedge-heeled-mules-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Heeled Sandals",
+          "desciption": "Sandals with square toes, narrow foot straps, and narrow elastic heel strap. Partly covered block heels. Heel height 3 1/4 in.",
+          "images": 
+            {
+              "image": "src/assets/products/shoes/shoes2/heeled-sandals.jpeg",
+              "image2": "src/assets/products/shoes/shoes2/heeled-sandals-2.webp",
+              "image3": "src/assets/products/shoes/shoes2/heeled-sandals-3.webp",
+              "image4": "src/assets/products/shoes/shoes2/heeled-sandals-4.webp",
+              "image5": "src/assets/products/shoes/shoes2/heeled-sandals-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Leather Sandals",
+          "desciption": "Sandals in soft leather with round toes, a toe post, narrow foot straps, and long, narrow straps to tie around ankle. Sole thickness approx. 1/2 in.",
+          "images": 
+            {
+              "image": "src/assets/products/shoes/shoes3/leather-sandals.jpeg",
+              "image2": "src/assets/products/shoes/shoes3/leather-sandals-2.webp",
+              "image3": "src/assets/products/shoes/shoes3/leather-sandals-3.webp",
+              "image4": "src/assets/products/shoes/shoes3/leather-sandals-4.webp",
+              "image5": "src/assets/products/shoes/shoes3/leather-sandals-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Knot-detail Platform Sandals",
+          "desciption": "Platform sandals with rounded toes, wide foot strap with decorative knot detail, and a narrow, adjustable ankle strap. Partially covered block heels.",
+          "images": 
+            {
+              "image": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals.jpeg",
+              "image2": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-2.webp",
+              "image3": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-3.webp",
+              "image4": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-4.webp",
+              "image5": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Chunky Sneakers",
+          "desciption": "Sneakers with a padded edge and tongue. Loop and lacing at front. Chunky, patterned soles. Sole thickness 1 3/4 in.",
+          "images": 
+            {
+              "image": "src/assets/products/shoes/shoes5/chunky-sneakers.jpeg",
+              "image2": "src/assets/products/shoes/shoes5/chunky-sneakers-2.webp",
+              "image3": "src/assets/products/shoes/shoes5/chunky-sneakers-3.webp",
+              "image4": "src/assets/products/shoes/shoes5/chunky-sneakers-4.webp",
+              "image5": "src/assets/products/shoes/shoes5/chunky-sneakers-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        }
+      ]
+    },
+    "Skirts": {
+      "products": [
+        {
+          "name": "Mini Skirt",
+          "desciption": "Short, fitted skirt in soft cotton jersey with a wide, elasticized waistband. Unlined.",
+          "images": 
+            {
+              "image": "src/assets/products/skirts/skirt1/mini-skirt.jpeg",
+              "image2": "src/assets/products/skirts/skirt1/mini-skirt-2.webp",
+              "image3": "src/assets/products/skirts/skirt1/mini-skirt-3.webp",
+              "image4": "src/assets/products/skirts/skirt1/mini-skirt-4.webp",
+              "image5": "src/assets/products/skirts/skirt1/mini-skirt-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Jersey Skirt",
+          "desciption": "Calf-length skirt in jersey. Concealed, elasticized waistband with narrow, decorative ties and a gathered seam at top for a gently draped effect.",
+          "images": 
+            {
+              "image": "src/assets/products/skirts/skirt2/jersey-skirt.jpeg",
+              "image2": "src/assets/products/skirts/skirt2/jersey-skirt-2.webp",
+              "image3": "src/assets/products/skirts/skirt2/jersey-skirt-3.webp",
+              "image4": "src/assets/products/skirts/skirt2/jersey-skirt-4.webp",
+              "image5": "src/assets/products/skirts/skirt2/jersey-skirt-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Flared Skirt",
+          "desciption": "Calf-length skirt in viscose twill with a sheen. Concealed, elasticized waistband and a flared hem.",
+          "images": 
+            {
+              "image": "src/assets/products/skirts/skirt3/flared-skirt.jpeg",
+              "image2": "src/assets/products/skirts/skirt3/flared-skirt-2.webp",
+              "image3": "src/assets/products/skirts/skirt3/flared-skirt-3.webp",
+              "image4": "src/assets/products/skirts/skirt3/flared-skirt-4.webp",
+              "image5": "src/assets/products/skirts/skirt3/flared-skirt-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Crêped Skirt",
+          "desciption": "Fitted, calf-length skirt in crêped, woven viscose fabric. High waist, concealed zipper at one side with hook-and-eye fastening, and a high slit at front. Unlined.",
+          "images": 
+            {
+              "image": "src/assets/products/skirts/skirt4/creped-skirt.jpeg",
+              "image2": "src/assets/products/skirts/skirt4/creped-skirt-2.webp",
+              "image3": "src/assets/products/skirts/skirt4/creped-skirt-3.webp",
+              "image4": "src/assets/products/skirts/skirt4/creped-skirt-4.webp",
+              "image5": "src/assets/products/skirts/skirt4/creped-skirt-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Pleated Chiffon Skirt",
+          "desciption": "A-line, calf-length skirt in pleated chiffon. High waist, elasticized waistband, and satin lining.",
+          "images": 
+            {
+              "image": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt.webp",
+              "image2": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-2.jpeg",
+              "image3": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-3.webp",
+              "image4": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-4.webp",
+              "image5": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        }
+      ]
+    },
+    "Accessories": {
+      "products": [
+        {
+          "name": "Straw Bucket Hat",
+          "desciption": "Bucket hat in braided paper straw. Rounded crown, sloped brim, and a grosgrain sweatband. Width of brim 3 1/4 in.",
+          "images": 
+            {
+              "image": "src/assets/products/accessories/accessory1/straw-bucket-hat.jpeg",
+              "image2": "src/assets/products/accessories/accessory1/straw-bucket-hat-2.webp",
+              "image3": "src/assets/products/accessories/accessory1/straw-bucket-hat-3.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Crochet-look Sarong",
+          "desciption": "Short sarong in crochet-look jersey with a perforated pattern. Wide ties at waist and rounded corners. Unlined.",
+          "images": 
+            {
+              "image": "src/assets/products/accessories/accessory2/crochet-look-sarong.jpeg",
+              "image2": "src/assets/products/accessories/accessory2/crochet-look-sarong-2.webp",
+              "image3": "src/assets/products/accessories/accessory2/crochet-look-sarong-3.webp",
+              "image4": "src/assets/products/accessories/accessory2/crochet-look-sarong-4.webp",
+              "image5": "src/assets/products/accessories/accessory2/crochet-look-sarong-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Shoulder Bag with Pouch",
+          "desciption": "Small shoulder bag with matching pouch bag. Shoulder bag with adjustable, detachable shoulder strap with fastening for the pouch bag, handle in metal chain, and zipper at top. Round pouch bag for storage of items such as earphones. Carabiner hook and zipper at top. Height of shoulder bag approx. 6 3/4 in. Width approx. 9 1/2 in. Depth approx. 2 3/4 in. Diameter of pouch bag approx. 3 1/2 in. Depth 3/4 in. Both bags lined in taffeta made from recycled polyester.",
+          "images": 
+            {
+              "image": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch.jpeg",
+              "image2": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-2.webp",
+              "image3": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-3.webp",
+              "image4": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-4.webp",
+              "image5": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Large Straw Shopper",
+          "desciption": "Crochet-look shopper in braided paper straw. Long handles for easy wear over shoulder or as a handbag. One inner compartment. Lined. Depth 5 1/4 in. Height 14 1/4 in. Width 18 in.",
+          "images": 
+            {
+              "image": "src/assets/products/accessories/accessory4/large-straw-shopper.jpeg",
+              "image2": "src/assets/products/accessories/accessory4/large-straw-shopper-2.webp",
+              "image3": "src/assets/products/accessories/accessory4/large-straw-shopper-3.webp",
+              "image4": "src/assets/products/accessories/accessory4/large-straw-shopper-4.webp",
+              "image5": "src/assets/products/accessories/accessory4/large-straw-shopper-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        },
+        {
+          "name": "Jute-blend Mini Shopper",
+          "desciption": "Mini shopper in a jacquard-weave jute blend. Adjustable, detachable shoulder strap, two handles at top, and an inner compartment with zipper. Lined.",
+          "images": 
+            {
+              "image": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper.jpeg",
+              "image2": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-2.webp",
+              "image3": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-3.webp",
+              "image4": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-4.webp",
+              "image5": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-5.webp"
+            }
+          ,
+          "sizes": [
+            {
+              "extra-small": "xs",
+              "small": "sm",
+              "medium": "md",
+              "large": "lg",
+              "extra-large": "xl"
+            }
+          ],
+          "price": "$xx.xx"
+        }
+      ]
+    }
+  ]
+}
