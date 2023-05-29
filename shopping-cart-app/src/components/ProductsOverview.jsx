@@ -35,10 +35,10 @@ function ProductsOverview() {
     let all = newArray.map(product => {
       return (
         <ProductCard 
-        name={product.name}
-        img={product.images.image}
-        key={nanoid()}
-      />
+          name={product.name}
+          img={product.images.image}
+          key={nanoid()}
+        />
       );
     })
 
@@ -56,7 +56,7 @@ function ProductsOverview() {
     let cats = productCategories.map(category => {
       return (
         <Pill 
-        categoryName={category}
+          categoryName={category}
         />
       )
     })

@@ -8,7 +8,7 @@ function Pill(props) {
 
   return (
     <div 
-      className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg"
+      className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg" 
       onClick={handleClick}
     >
       <p>{props.categoryName}</p>
