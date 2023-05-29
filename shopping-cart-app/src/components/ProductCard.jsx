@@ -10,7 +10,7 @@ function ProductCard(props) {
       </div>
       <div className="product-details p-4">
         <p className="product-name font-semibold text-lg">{props.name}</p>
-        <p className="product-price">{ProductData.Tops.products[0].price}</p>
+        <p className="product-price">{props.price}</p>
       </div>
     </div>
   )

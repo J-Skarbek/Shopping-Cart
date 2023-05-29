@@ -37,6 +37,7 @@ function ProductsOverview() {
         <ProductCard 
           name={product.name}
           img={product.images.image}
+          price={product.price}
           key={nanoid()}
         />
       );
