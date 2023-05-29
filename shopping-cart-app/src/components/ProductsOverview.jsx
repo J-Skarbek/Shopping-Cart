@@ -46,8 +46,6 @@ function ProductsOverview() {
     return all;
   }
 
-  // displayAllProducts();
-
   const getProductCategories = () => {
     let productCategories = [];
     for (let property in products) {
@@ -58,6 +56,7 @@ function ProductsOverview() {
       return (
         <Pill 
           categoryName={category}
+          key={nanoid()}
         />
       )
     })
