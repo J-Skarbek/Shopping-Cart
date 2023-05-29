@@ -46,6 +46,28 @@ function ProductsOverview() {
     return all;
   }
 
+  const changeCategory = e => {
+    console.log(e.target.innerText);
+    if (e.target.innerText === 'Tops') {
+      const topsArray = [];
+      Tops.products.forEach(item => {
+        topsArray.push(item);
+      });
+      console.log(topsArray)
+      let topsOnly = topsArray.map(product => {
+        return (
+          <ProductCard 
+            name={product.name}
+            img={product.images.image}
+            price={product.price}
+            key={nanoid()}
+          />
+        );
+      });
+      return topsOnly;
+    }
+  }
+
   const getProductCategories = () => {
     let productCategories = [];
     for (let property in products) {
@@ -56,47 +78,18 @@ function ProductsOverview() {
       return (
         <Pill 
           categoryName={category}
+          handleClick={changeCategory}
           key={nanoid()}
         />
       )
     })
-
     return cats;
   }
-
-  const viewAll = () => {
-    for (let productCategory in products) {
-      console.log(typeof productCategory)
-    //   const getProducts = productCategory.products.map(product => {
-    //     return (
-    //       <ProductCard 
-    //         name={product.name}
-    //         img={product.images.image}
-    //         price={product.price}
-    //         key={nanoid()}
-    //       />
-    //     );
-    //   })
-    // return getProducts;
-    }
-  }
-
-// getProductCategories();
-
-  const productCards = products.Tops.products.map(top => {
-    return (
-      <ProductCard 
-        name={top.name}
-        img={top.images.image}
-        key={nanoid()}
-      />
-    )
-  });
 
   return (
     <div className='products-container'>
       <div className='category-pills flex justify-center gap-2'>
-        <button type='button' onClick={viewAll()}>Get all Products</button>
+        <button type='button'>Get all Products</button>
           { getProductCategories() }
         </div>
       <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>

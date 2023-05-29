@@ -2,10 +2,10 @@ import React from "react";
 
 function Pill(props) {
 
-  const handleClick = () => {
-    console.log('I am clicked');
-    console.table(document.querySelectorAll('.pill').textContent)
-  }
+  // const handleClick = () => {
+  //   console.log('I am clicked');
+  //   console.table(document.querySelectorAll('.pill').textContent)
+  // }
 
   //if pill is clicked, look at the textContent in the pill, then
   //Find the category in productData, then 
@@ -14,7 +14,7 @@ function Pill(props) {
   return (
     <div 
       className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg" 
-      onClick={handleClick}
+      onClick={props.handleClick}
     >
       <p>{props.categoryName}</p>
     </div>
