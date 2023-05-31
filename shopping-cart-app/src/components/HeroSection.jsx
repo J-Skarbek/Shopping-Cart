@@ -1,7 +1,15 @@
 import React from "react";
-import ProductData from '../productData.json'
+import ProductData from '../productData.json';
+import '../App.css';
 
-function HeroSection() {
+function HeroSection(props) {
+
+  // const styles = {
+  //   backgroundImage: {
+  //     url(props.backgroundImage)
+  //   },
+  // }
+
 
   function dataCallClick() {
     console.log(ProductData.Tops.products[0].name)
@@ -10,8 +18,11 @@ function HeroSection() {
     console.log(ProductData.Tops.products[0].desciption)
   }
 
+  // console.log(props.backgroundImage)
+
   return (
     <div className="hero-section">
+    {/* <div className="hero-section" style={styles.backgroundImage}> */}
         <div className="hero-text left-side">
           <h1>Main Page Heading</h1>
           <p>

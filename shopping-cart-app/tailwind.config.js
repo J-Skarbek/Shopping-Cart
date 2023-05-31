@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'homepage-hero': "url('./src/assets/editorialPhotos/homepage-hero.jpg')",
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
