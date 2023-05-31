@@ -5,7 +5,7 @@ import hamburger from '../assets/hamburger.svg';
 function Header() {
 
   return (
-    <div className="header flex">
+    <div className="header flex between align-center">
       <div className="logo">
         <img className="logo-img" src={reactLogo} alt="logo" />
       </div>
