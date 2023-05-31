@@ -9,11 +9,11 @@ function Header() {
       <div className="logo">
         <img className="logo-img" src={reactLogo} alt="logo" />
       </div>
-      <div className="nav-menu flex">
+      <nav className="nav-menu flex justify-around w-[33%] min-w-[33%]">
         <a href="#">Home</a>
         <a href="#">Shop</a>
         <a href="#">Cart</a>
-      </div>
+      </nav>
       <div className="cart-hamburger-icon">
         <img src={hamburger} className="hamburger" alt="View Your Cart" />
       </div>
