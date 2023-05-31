@@ -21,7 +21,7 @@ function HeroSection(props) {
   // console.log(props.backgroundImage)
 
   return (
-    <div className="hero-section">
+    <div className="hero-section h-[75vh] min-h-[75vh] bg-cover bg-no-repeat bg-center">
     {/* <div className="hero-section" style={styles.backgroundImage}> */}
         <div className="hero-text left-side">
           <h1>Main Page Heading</h1>
