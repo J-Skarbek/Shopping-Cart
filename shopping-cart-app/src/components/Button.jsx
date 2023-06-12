@@ -4,7 +4,7 @@ function Button(props) {
 
   return (
     <div className="button">
-      <button type="button"></button>
+      <button type="button" className="capitalize">{props.text}</button>
     </div>
   )
 }

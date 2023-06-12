@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 function HamburgerMenuExpanded(props) {
 
@@ -26,8 +27,14 @@ function HamburgerMenuExpanded(props) {
         </div>
       </div>
       <div className="buttons-container flex flex-col">
+        <Button 
+          text='checkout'
+        />
+        <Button 
+          text='cart' 
+        />
         <button type="button">Checkout</button>
-        <button type="Shopping Cart">Cart</button>
+        <button type="buton">Cart</button>
       </div>
     </div>
   )
