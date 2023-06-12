@@ -1,8 +1,17 @@
 import React from "react";
 import reactLogo from '../assets/react.svg';
 import hamburger from '../assets/hamburger.svg';
+import HamburgerMenuExpanded from "./HamburgerMenuExpanded";
 
 function Header() {
+
+  const [showMenu, setShowMenu] = React.useState(false);
+
+  const updateMenuStatus = () => {
+    return setShowMenu(!showMenu);
+  }
+
+  console.log(showMenu);
 
   return (
     <div className="header flex justify-between items-center px-12">
@@ -16,7 +25,7 @@ function Header() {
         <a href="/menu">Menu Expanded</a>
       </nav>
       <div className="cart-hamburger-icon">
-        <img src={hamburger} className="hamburger" alt="View Your Cart" />
+        <img src={hamburger} className="hamburger" alt="View Your Cart" onClick={updateMenuStatus} />
       </div>
     </div>
   )

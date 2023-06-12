@@ -3,6 +3,14 @@ import Button from "./Button";
 
 function HamburgerMenuExpanded(props) {
 
+  // const [showMenu, setShowMenu] = React.useState(false);
+
+  // const updateMenuStatus = () => {
+  //   return setShowMenu(!showMenu);
+  // }
+
+  // console.log(showMenu);
+
   return (
     <div className="hamburger-open flex flex-col bg-slate-200 w-96 p-4">
       <div className="products-in-cart mb-4">
@@ -27,7 +35,7 @@ function HamburgerMenuExpanded(props) {
         <Button 
           text='cart'
         />
-        <button type="button">Checkout</button>
+        {/* <button type="button" onClick={updateMenuStatus}>Checkout</button> */}
         <button type="buton">Cart</button>
       </div>
     </div>
