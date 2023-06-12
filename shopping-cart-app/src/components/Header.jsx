@@ -10,9 +10,9 @@ function Header() {
         <img className="logo-img" src={reactLogo} alt="logo" />
       </div>
       <nav className="nav-menu flex justify-around w-[33%] min-w-[33%]">
-        <a href="#">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">Cart</a>
+        <a href="/">Home</a>
+        <a href="/shop">Shop</a>
+        <a href="/cart">Cart</a>
       </nav>
       <div className="cart-hamburger-icon">
         <img src={hamburger} className="hamburger" alt="View Your Cart" />

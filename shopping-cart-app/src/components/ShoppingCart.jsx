@@ -6,6 +6,6 @@ function ShoppingCart() {
       <p>This will be the shopping cart page.</p>
     </div>
   )
-}
+};
 
 export default ShoppingCart;

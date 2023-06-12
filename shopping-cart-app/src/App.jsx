@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/Header';
 import Homepage from './components/Homepage';
 import Footer from './components/Footer';
+import RouteSwitch from '../RouteSwitch';
 // import MailingListSignUp from './components/MailingListSignUp';
 
 function App() {
@@ -13,11 +14,12 @@ function App() {
   return (
     <div className="page">
     <Header />
-    <Homepage />
+    <RouteSwitch />
+    {/* <Homepage /> */}
     <Footer />
 
     </div>
   )
 }
 
-export default App
+export default App;
