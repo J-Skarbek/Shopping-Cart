@@ -13,6 +13,7 @@ function Header() {
         <a href="/">Home</a>
         <a href="/shop">Shop</a>
         <a href="/cart">Cart</a>
+        <a href="/menu">Menu Expanded</a>
       </nav>
       <div className="cart-hamburger-icon">
         <img src={hamburger} className="hamburger" alt="View Your Cart" />
