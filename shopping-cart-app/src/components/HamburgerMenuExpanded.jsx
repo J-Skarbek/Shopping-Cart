@@ -9,21 +9,15 @@ function HamburgerMenuExpanded(props) {
         <p>Therre are currently no products in your cart.</p>
       </div>
       <div className="order-details">
-        <div className="order-value flex justify-between">
-          <p>Order Value</p>
-          <p>$99.99(ex)</p>
-        </div>
-        {/* <div className="order-value flex justify-between mb-4">
-          <p>Order Value</p>
-          <p>$99.99(ex)</p>
-        </div> */}
-        <div className="shipping-value flex justify-between mb-4">
-          <p>Shipping</p>
-          <p className="uppercase">FREE</p>
-        </div>
-        <div className="order-total flex justify-between mb-4">
-          <p>Total</p>
-          <p>$99.99</p>
+        <div className="hamburger-inner-container border-y border-t-slate-300 border-b-slate-500 py-4 my-2">
+          <div className="order-value flex justify-between mb-4">
+            <p>Order Value</p>
+            <p>$99.99(ex)</p>
+          </div>
+          <div className="shipping-value flex justify-between">
+            <p>Shipping</p>
+            <p className="uppercase">FREE</p>
+          </div>
         </div>
       </div>
       <div className="buttons-container flex flex-col">
@@ -31,7 +25,7 @@ function HamburgerMenuExpanded(props) {
           text='checkout'
         />
         <Button 
-          text='cart' 
+          text='cart'
         />
         <button type="button">Checkout</button>
         <button type="buton">Cart</button>

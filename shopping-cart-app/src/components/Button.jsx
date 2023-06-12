@@ -4,7 +4,7 @@ function Button(props) {
 
   return (
     <div className="button">
-      <button type="button" className="capitalize">{props.text}</button>
+      <button type="button" className="capitalize" onClick={props.route}>{props.text}</button>
     </div>
   )
 }
