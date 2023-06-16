@@ -1,6 +1,7 @@
 import React from "react";
 import { createPortal } from 'react-dom';
 import reactLogo from '../assets/react.svg';
+import panda from '../assets/panda-logo.svg';
 import hamburger from '../assets/hamburger.svg';
 import HamburgerMenuExpanded from "./HamburgerMenuExpanded";
 
@@ -28,8 +29,8 @@ function Header() {
 
   return (
     <div className="header flex justify-between items-center px-12">
-      <div className="logo">
-        <img className="logo-img" src={reactLogo} alt="logo" />
+      <div className="logo w-1/12">
+        <img className="logo-img w-5/6" src={panda} alt="logo" />
       </div>
       <nav className="nav-menu flex justify-around w-[33%] min-w-[33%]">
         <a href="/">Home</a>
