@@ -4,7 +4,7 @@ import ProductCard from './ProductCard';
 import ProductData from '../productData.json';
 import Pill from './Pill';
 
-function ProductsOverview() {
+function ProductsOverview(props) {
 
   const [products, setProducts] = React.useState(ProductData);
 
@@ -69,7 +69,7 @@ function ProductsOverview() {
   }
 
   const getProductCategories = () => {
-    let productCategories = [];
+    let productCategories = [1,2,3,4,5];
     for (let property in products) {
       // console.log(`${property}`);
       productCategories.push(property);
@@ -85,6 +85,8 @@ function ProductsOverview() {
     })
     return cats;
   }
+
+  // const displayState
 
   return (
     <div className='products-container'>

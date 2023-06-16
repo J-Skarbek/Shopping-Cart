@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from "react";
 import './App.css'
 import Header from './components/Header';
 import Homepage from './components/Homepage';
@@ -9,12 +7,20 @@ import RouteSwitch from '../RouteSwitch';
 // import MailingListSignUp from './components/MailingListSignUp';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = React.useState(0);
+
+  const [cartContents, setCartContents] = React.useState([]);
 
   return (
     <div className="page">
-    <Header />
-    <RouteSwitch />
+    <Header 
+      cartContents = {cartContents}
+      setCartContents = {setCartContents} 
+    />
+    <RouteSwitch 
+      cartContents = {cartContents}
+      setCartContents = {setCartContents} 
+    />
     {/* <Homepage /> */}
     <Footer />
 
