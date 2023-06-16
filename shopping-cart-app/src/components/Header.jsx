@@ -41,7 +41,7 @@ function Header() {
         <img src={hamburger} className="hamburger" alt="View Your Cart" onClick={updateMenuStatus} />
         {showMenu && createPortal(
           <HamburgerMenuExpanded />, document.body
-        )};
+        )}
       </div>
     </div>
   )

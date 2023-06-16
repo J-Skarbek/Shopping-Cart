@@ -12,7 +12,8 @@ function HamburgerMenuExpanded(props) {
   // console.log(showMenu);
 
   return (
-    <div className="hamburger-open flex flex-col bg-slate-200 w-96 p-4">
+    <div className="modal-menu-overlay flex flex-row-reverse fixed w-full h-screen bg-indigo-800/75 ">
+    <div className="hamburger-open flex flex-col bg-slate-200 w-96 h-fit p-4">
       <div className="products-in-cart mb-4">
         <p>Therre are currently no products in your cart.</p>
       </div>
@@ -38,6 +39,7 @@ function HamburgerMenuExpanded(props) {
         {/* <button type="button" onClick={updateMenuStatus}>Checkout</button> */}
         <button type="buton">Cart</button>
       </div>
+    </div>
     </div>
   )
 }

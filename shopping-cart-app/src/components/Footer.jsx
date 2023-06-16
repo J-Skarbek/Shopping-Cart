@@ -1,16 +1,18 @@
 import React from "react";
 import reactLogo from '../assets/react.svg';
+import panda from '../assets/panda-logo.svg';
 import meta from '../assets/meta.svg';
 import tikTok from '../assets/tik-tok.svg';
 import instagram from '../assets/instagram.svg';
 
+
 function Footer() {
 
   return (
-    <div className="footer flex items-center">
+    <div className="footer flex bg-slate-100 items-end py-4 mt-4">
        <div className="left-col px-16">
-        <img className="logo-img" src={reactLogo} alt="logo" />
-        <h2>Company Name</h2>
+        <img className="logo-img w-1/6 my-4" src={panda} alt="logo" />
+        <h2>PANDA</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
           do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -33,7 +35,7 @@ function Footer() {
           <img className="meta-logo w-6 mx-1" src={meta} alt="Our Facebook" />
         </div>
         <div className="copyright">
-          <p>Copyright StoreName 2023</p>
+          <p>Copyright Panda 2023</p>
         </div>
       </div>
     </div>
