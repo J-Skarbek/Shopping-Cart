@@ -36,6 +36,7 @@ function ProductsOverview(props) {
       return (
         <ProductCard 
           name={product.name}
+          description={product.description}
           img={product.images.image}
           price={product.price}
           key={nanoid()}
