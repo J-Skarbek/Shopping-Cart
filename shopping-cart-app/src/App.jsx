@@ -3,7 +3,7 @@ import './App.css'
 import Header from './components/Header';
 import Homepage from './components/Homepage';
 import Footer from './components/Footer';
-import RouteSwitch from '../RouteSwitch';
+import Root from '../RouteSwitch';
 // import MailingListSignUp from './components/MailingListSignUp';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       cartContents = {cartContents}
       setCartContents = {setCartContents} 
     />
-    <RouteSwitch 
+    <Root
       cartContents = {cartContents}
       setCartContents = {setCartContents} 
     />
