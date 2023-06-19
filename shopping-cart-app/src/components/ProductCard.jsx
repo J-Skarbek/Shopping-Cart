@@ -1,5 +1,7 @@
 import React from "react";
-import ProductData from '../productData.json';
+// import ProductData from '../productData.json';
+import ProductsPage from "./ProductsPage";
+import { Routes, Route, useParams } from 'react-router-dom';
 
 function ProductCard(props) {
 
@@ -9,7 +11,7 @@ function ProductCard(props) {
         <img className="rounded-t-2xl" src={props.img} alt={props.name} />
       </div>
       <div className="product-details p-4">
-        <p className="product-name font-semibold text-lg">{props.name}</p>
+        <a href={`/${props.name}`}><p className="product-name font-semibold text-lg">{props.name}</p></a>
         <p className="product-price">{props.price}</p>
       </div>
     </div>

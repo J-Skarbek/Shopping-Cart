@@ -9,7 +9,7 @@ import RouteSwitch from '../RouteSwitch';
 function App() {
   const [count, setCount] = React.useState(0);
 
-  const [cartContents, setCartContents] = React.useState([]);
+  const [cartContents, setCartContents] = React.useState([1,2,3,4,5]);
 
   return (
     <div className="page">

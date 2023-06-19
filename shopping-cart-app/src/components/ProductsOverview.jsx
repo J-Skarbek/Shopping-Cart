@@ -1,5 +1,5 @@
 import React from 'react';
-import { nanoid } from 'nanoid'
+import { nanoid } from 'nanoid';
 import ProductCard from './ProductCard';
 import ProductData from '../productData.json';
 import Pill from './Pill';
@@ -58,6 +58,7 @@ function ProductsOverview(props) {
         return (
           <ProductCard 
             name={product.name}
+            description={product.description}
             img={product.images.image}
             price={product.price}
             key={nanoid()}
@@ -69,7 +70,7 @@ function ProductsOverview(props) {
   }
 
   const getProductCategories = () => {
-    let productCategories = [1,2,3,4,5];
+    let productCategories = [];
     for (let property in products) {
       // console.log(`${property}`);
       productCategories.push(property);
