@@ -4,6 +4,7 @@ import Homepage from './src/components/Homepage';
 import ShoppingCart from "./src/components/ShoppingCart";
 import ProductsOverview from "./src/components/ProductsOverview";
 import HamburgerMenuExpanded from "./src/components/HamburgerMenuExpanded";
+import Product from "./src/components/Product";
 
 const Root = (props) => {
 
@@ -26,6 +27,12 @@ const router = createBrowserRouter([
   {
     path: '/shop',
     Component: ProductsOverview,
+    children: [
+      {
+        path: '/shop/product/',
+        Component: Product,
+      }
+    ],
   },
   {
     path: '/cart',
@@ -35,6 +42,11 @@ const router = createBrowserRouter([
     path: '/menu',
     Component: HamburgerMenuExpanded,
   },
+  // {
+  //   path: '/product/',
+  //   Component: Product,
+  // }
 ]);
 
 export default Root;
+
