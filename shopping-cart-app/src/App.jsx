@@ -7,6 +7,8 @@ import Footer from './components/Footer';
 import ShoppingCart from "./components/ShoppingCart";
 import ProductsOverview from "./components/ProductsOverview";
 import RootLayout from "./components/RootLayout";
+import Product from "./components/Product";
+import ProductCard from "./components/ProductCard";
 // import Root from '../RouteSwitch';
 // import MailingListSignUp from './components/MailingListSignUp';
 
@@ -20,12 +22,25 @@ const router = createBrowserRouter(
       />
       <Route 
         path='shop'
-        element={<ProductsOverview />}
-      />
+        element={<ProductsOverview />}>
+        <Route 
+          path='*' 
+          element={<Product />}>
+        </Route>
+      </Route>
       <Route 
         path='cart'
-        element={<ShoppingCart />}
-      />
+        element={<ShoppingCart />}>
+      </Route>
+      {/* <Route
+        path='product'
+        element={<Product />}
+      /> */}
+      {/* <Route 
+        path='help' 
+        element={<testLayout />}>
+          <Route path='test' />
+      </Route> */}
     </Route>
   )
 )

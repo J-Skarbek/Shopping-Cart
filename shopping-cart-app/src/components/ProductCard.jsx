@@ -11,7 +11,7 @@ function ProductCard(props) {
         <img className="rounded-t-2xl" src={props.img} alt={props.name} />
       </div>
       <div className="product-details p-4">
-          <Link to={props.name}><p className="product-name font-semibold text-lg">{props.name}</p></Link>
+          <Link to='product'><p className="product-name font-semibold text-lg">{props.name}</p></Link>
         <p className="product-price">{props.price}</p>
       </div>
     </div>

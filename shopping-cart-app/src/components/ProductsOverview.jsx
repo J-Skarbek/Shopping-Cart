@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet, Link } from 'react-router-dom';
 import { nanoid } from 'nanoid';
 import ProductCard from './ProductCard';
 import ProductData from '../productData.json';
@@ -94,6 +95,8 @@ function ProductsOverview(props) {
     <div className='products-container'>
       <div className='category-pills flex justify-center gap-2 my-8'>
         <button type='button'>Get all Products</button>
+        <Link to='product'>Product Test</Link>
+        <Outlet />
           { getProductCategories() }
         </div>
       <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>

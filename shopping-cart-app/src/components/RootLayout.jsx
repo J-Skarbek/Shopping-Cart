@@ -10,11 +10,11 @@ function RootLayout() {
       <div>
         <Link to='cart'>Cart</Link>
         <NavLink to='shop'>Shop</NavLink>
+        <NavLink to='product'>Product Test</NavLink>
       </div>
       <main>
         <Outlet />
       </main>
-
       <Footer />
     </div>
   )
