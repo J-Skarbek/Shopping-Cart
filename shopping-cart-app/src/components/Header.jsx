@@ -5,7 +5,7 @@ import panda from '../assets/panda-logo.svg';
 import hamburger from '../assets/hamburger.svg';
 import HamburgerMenuExpanded from "./HamburgerMenuExpanded";
 
-function Header() {
+function Header(props) {
 
   const [showMenu, setShowMenu] = React.useState(false);
 
