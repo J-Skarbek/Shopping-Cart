@@ -1,8 +1,10 @@
 import React from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import './App.css'
 import Header from './components/Header';
 import Homepage from './components/Homepage';
 import Footer from './components/Footer';
+import ShoppingCart from "./components/ShoppingCart";
 // import Root from '../RouteSwitch';
 // import MailingListSignUp from './components/MailingListSignUp';
 
@@ -12,19 +14,38 @@ function App() {
   const [cartContents, setCartContents] = React.useState([1,2,3,4,5]);
 
   return (
-    <div className="page">
-    <Header 
-      cartContents = {cartContents}
-      setCartContents = {setCartContents} 
-    />
-    {/* <Root
-      cartContents = {cartContents}
-      setCartContents = {setCartContents} 
-    /> */}
-    <Homepage />
-    <Footer />
 
-    </div>
+    <BrowserRouter>
+      <main>
+        <Routes>
+          <Route 
+            path='/'
+            element={<Homepage />}
+          />
+          <Route 
+            path='/shop'
+            element={<Shop />}
+          />
+          <Route 
+            path='/cart'
+            element={<ShoppingCart />}
+          />
+        </Routes>
+      </main>
+    </BrowserRouter>
+    // <div className="page">
+    // <Header 
+    //   cartContents = {cartContents}
+    //   setCartContents = {setCartContents} 
+    // />
+    // {/* <Root
+    //   cartContents = {cartContents}
+    //   setCartContents = {setCartContents} 
+    // /> */}
+    // <Homepage />
+    // <Footer />
+
+    // </div>
   )
 }
 
