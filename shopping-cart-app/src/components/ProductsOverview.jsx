@@ -9,7 +9,7 @@ function ProductsOverview(props) {
 
   const [products, setProducts] = React.useState(ProductData);
 
-  const { Tops, Shoes, Dresses, Skirts, Accessories} = products;
+  const { Tops, Shoes, Dresses, Skirts, Accessories } = products;
 
   // console.log(typeof Shoes.products);
   // console.table(Tops.products);
@@ -109,3 +109,7 @@ function ProductsOverview(props) {
 }
 
 export default ProductsOverview;
+
+const productsLoader = async () => {
+  
+}
