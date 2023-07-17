@@ -1,5 +1,6 @@
 import React from "react";
 import { createBrowserRouter, Route, Link, NavLink, createRoutesFromElements, RouterProvider } from "react-router-dom";
+import { topsLoader } from "./components/ProductsOverview";
 import './App.css'
 import Header from './components/Header';
 import Homepage from './components/Homepage';
@@ -22,7 +23,8 @@ const router = createBrowserRouter(
       />
       <Route 
         path='shop'
-        element={<ProductsOverview />}>
+        element={<ProductsOverview />}
+        loader={topsLoader}>
         <Route 
           path=':id' 
           element={<Product />}>

@@ -1,11 +1,13 @@
 import React from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, Link, useLoaderData } from 'react-router-dom';
 import { nanoid } from 'nanoid';
 import ProductCard from './ProductCard';
 import ProductData from '../productData.json';
 import Pill from './Pill';
 
 function ProductsOverview(props) {
+
+  const tops1 = useLoaderData()
 
   const [products, setProducts] = React.useState(ProductData);
 
@@ -89,6 +91,7 @@ function ProductsOverview(props) {
     return cats;
   }
 
+  console.log(tops1.products)
   // const displayState
 
   return (
@@ -100,9 +103,18 @@ function ProductsOverview(props) {
           { getProductCategories() }
         </div>
       <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
-        
         {/* { productCards } */}
         { displayAllProducts() }
+      </div>
+      <div className="product-test">
+        {tops1.products.map(top => {
+          return (
+            <Link to="/" key={nanoid()}>
+            <p>{top.name}</p>
+            <p>{top.description}</p>
+            </Link>
+          )
+        })}
       </div>
     </div>
   )
@@ -110,6 +122,7 @@ function ProductsOverview(props) {
 
 export default ProductsOverview;
 
-const productsLoader = async () => {
-  
+export const topsLoader = async () => {
+  const res = await fetch('http://localhost:4000/Tops')
+  return res.json()
 }
