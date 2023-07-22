@@ -7,7 +7,7 @@ import Pill from './Pill';
 
 function ProductsOverview(props) {
 
-  const tops1 = useLoaderData()
+  const tops = useLoaderData();
 
   const [products, setProducts] = React.useState(ProductData);
 
@@ -91,7 +91,7 @@ function ProductsOverview(props) {
     return cats;
   }
 
-  console.log(tops1.products)
+  console.log(tops.products)
   // const displayState
 
   return (
@@ -107,9 +107,9 @@ function ProductsOverview(props) {
         { displayAllProducts() }
       </div>
       <div className="product-test">
-        {tops1.products.map(top => {
+        {tops.products.map(top => {
           return (
-            <Link to="/" key={nanoid()}>
+            <Link to="product" key={nanoid()}>
             <p>{top.name}</p>
             <p>{top.description}</p>
             </Link>

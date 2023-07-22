@@ -34,15 +34,6 @@ const router = createBrowserRouter(
         path='cart'
         element={<ShoppingCart />}>
       </Route>
-      {/* <Route
-        path='product'
-        element={<Product />}
-      /> */}
-      {/* <Route 
-        path='help' 
-        element={<testLayout />}>
-          <Route path='test' />
-      </Route> */}
     </Route>
   )
 )
