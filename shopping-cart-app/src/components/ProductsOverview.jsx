@@ -1,11 +1,13 @@
 import React from 'react';
-import { Outlet, Link, useLoaderData } from 'react-router-dom';
+import { Outlet, Link, useLoaderData, useParams } from 'react-router-dom';
 import { nanoid } from 'nanoid';
 import ProductCard from './ProductCard';
 import ProductData from '../productData.json';
 import Pill from './Pill';
 
 function ProductsOverview(props) {
+
+  const { id } = useParams();
 
   const tops = useLoaderData();
 
@@ -91,7 +93,7 @@ function ProductsOverview(props) {
     return cats;
   }
 
-  console.log(tops.products)
+  // console.log(tops.products)
   // const displayState
 
   return (
@@ -109,10 +111,13 @@ function ProductsOverview(props) {
       <div className="product-test">
         {tops.products.map(top => {
           return (
-            <Link to="product" key={nanoid()}>
-            <p>{top.name}</p>
-            <p>{top.description}</p>
-            </Link>
+            <div>
+              <Link to={tops.id} key={nanoid()}>
+              <p>{top.name}</p>
+              </Link>
+              <p>{top.desciption}</p>
+              <img src={top.images.image}></img>
+            </div>
           )
         })}
       </div>

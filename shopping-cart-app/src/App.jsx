@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import ShoppingCart from "./components/ShoppingCart";
 import ProductsOverview from "./components/ProductsOverview";
 import RootLayout from "./components/RootLayout";
-import Product from "./components/Product";
+import Product, { productDetailsLoader } from "./components/Product";
 import ProductCard from "./components/ProductCard";
 // import Root from '../RouteSwitch';
 // import MailingListSignUp from './components/MailingListSignUp';
@@ -27,7 +27,8 @@ const router = createBrowserRouter(
         loader={topsLoader}>
         <Route 
           path=':id' 
-          element={<Product />}>
+          element={<Product />}
+          loader={productDetailsLoader}>
         </Route>
       </Route>
       <Route 
