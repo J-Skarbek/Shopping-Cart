@@ -10,7 +10,7 @@ function Homepage() {
       <HeroSection 
         backgroundImage={homepageHero}
       />
-      <ProductsOverview />
+      {/* <ProductsOverview /> */}
     </div>
   )
 }

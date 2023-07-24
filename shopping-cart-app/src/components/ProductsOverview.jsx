@@ -9,6 +9,8 @@ function ProductsOverview(props) {
 
   const { id } = useParams();
 
+  // const prodcutDetails = useLoaderData();
+
   const tops = useLoaderData();
 
   const [products, setProducts] = React.useState(ProductData);
@@ -100,8 +102,6 @@ function ProductsOverview(props) {
     <div className='products-container'>
       <div className='category-pills flex justify-center gap-2 my-8'>
         <button type='button'>Get all Products</button>
-        <Link to='product'>Product Test</Link>
-        <Outlet />
           { getProductCategories() }
         </div>
       <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
@@ -112,7 +112,7 @@ function ProductsOverview(props) {
         {tops.products.map(top => {
           return (
             <div>
-              <Link to={tops.id} key={nanoid()}>
+              <Link to={top.name} key={nanoid()}>
               <p>{top.name}</p>
               </Link>
               <p>{top.desciption}</p>
@@ -121,6 +121,8 @@ function ProductsOverview(props) {
           )
         })}
       </div>
+      <Link to='product'>Product Test</Link>
+      <Outlet />
     </div>
   )
 }
@@ -128,6 +130,12 @@ function ProductsOverview(props) {
 export default ProductsOverview;
 
 export const topsLoader = async () => {
-  const res = await fetch('http://localhost:4000/Tops')
+  const res = await fetch('http://localhost:4000/Tops/')
   return res.json()
 }
+
+// export const productDetailsLoader = async ({params}) => {
+//   const { id } = params;
+//   const res = await fetch('http://localhost:4000/Tops/' + id);
+//   return res.json();
+// }
