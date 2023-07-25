@@ -5,14 +5,15 @@ function Product(props) {
 
   const { id } = useParams();
   const productDetails = useLoaderData();
-  const { products } = productDetails;
+  // const { products } = productDetails;
+
   // console.log(productDetails.products[0]);
   // console.log(id)
   // console.log(productDetails.products)
 
  function getAllProductDetails() {
   let indiviudualDetails;
-  products.map(detail => {
+  productDetails.products.map(detail => {
     if (id === detail.name) {
       console.log(detail.desciption)
       console.log(detail.images.image)
@@ -30,7 +31,8 @@ function Product(props) {
       <div className="more-detail">
         <h2>Product Details22</h2>
         <p>{indiviudualDetails.desciption}</p>
-        <img src={indiviudualDetails.images.image2}></img>
+        <img src={`/${indiviudualDetails.images.image2}`}></img>
+        <img src={`/${indiviudualDetails.images.image}`}></img>
       </div>
     </div>
   )
