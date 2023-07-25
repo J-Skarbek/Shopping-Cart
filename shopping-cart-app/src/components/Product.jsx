@@ -38,28 +38,10 @@ function Product(props) {
   )
 }
 
-// getAllProductDetails();
-
   return (
     <div>
-      {
-      getAllProductDetails()
-      }
+      { getAllProductDetails() }
     </div>
-
-   
-    // <div>
-    //   <div className="details">
-    //     <h2>{ id }</h2>
-    //   </div>
-    //   <p>This is the product page for {productDetails.products[0].name}</p>
-    //   <p>Testing Product page</p>
-    //   <div className="more-detail">
-    //     <h2>Product Details</h2>
-    //     <p>{productDetails.products[1].desciption}</p>
-    //     <img src={productDetails.products[0].images.image2}></img>
-    //   </div>
-    // </div>
   )
 }
 
