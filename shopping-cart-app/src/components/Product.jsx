@@ -29,7 +29,7 @@ function Product(props) {
       <p>This is the product page for {indiviudualDetails.name}</p>
       <p>Testing Product page</p>
       <div className="more-detail">
-        <h2>Product Details22</h2>
+        <h2>Product Details</h2>
         <p>{indiviudualDetails.desciption}</p>
         <img src={`/${indiviudualDetails.images.image2}`}></img>
         <img src={`/${indiviudualDetails.images.image}`}></img>
