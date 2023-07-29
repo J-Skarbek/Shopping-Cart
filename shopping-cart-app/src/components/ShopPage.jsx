@@ -116,12 +116,11 @@ function ProductsOverview(props) {
               <p>{top.name}</p>
               </Link>
               <p>{top.desciption}</p>
-              <img src={top.images.image}></img>
+              <img src={`/${top.images.image}`}></img>
             </div>
           )
         })}
       </div>
-      <Link to='product'>Product Test</Link>
       <Outlet />
     </div>
   )
@@ -130,6 +129,7 @@ function ProductsOverview(props) {
 export default ProductsOverview;
 
 export const topsLoader = async () => {
+  // const { id } = params;
   const res = await fetch('http://localhost:4000/Tops/')
   return res.json()
 }

@@ -27,7 +27,6 @@ function Product(props) {
         <h2>{ id }</h2>
       </div>
       <p>This is the product page for {indiviudualDetails.name}</p>
-      <p>Testing Product page</p>
       <div className="more-detail">
         <h2>Product Details</h2>
         <p>{indiviudualDetails.desciption}</p>
