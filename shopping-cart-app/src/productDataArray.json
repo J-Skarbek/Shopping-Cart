@@ -18,9 +18,9 @@
               "sm": "small",
               "md": "medium",
               "lg": "large",
-              "xl": "extra-large",=
+              "xl": "extra-large"
             },
-          "price": "$xx.xx",
+          "price": "$xx.xx"
         },
         {
           "name": "Ribbed Tank Top",
@@ -112,7 +112,7 @@
         }
       ]
     },
-    "Dresses": {
+    {
       "products": [
         {
           "name": "Draped Dress",
@@ -226,7 +226,7 @@
         }
       ]
     },
-    "Shoes" : {
+    {
       "products": [
         {
           "name": "Wedge-heeled Espadrille Mules",
@@ -345,7 +345,7 @@
         }
       ]
     },
-    "Skirts": {
+    {
       "products": [
         {
           "name": "Mini Skirt",
@@ -464,7 +464,7 @@
         }
       ]
     },
-    "Accessories": {
+    {
       "products": [
         {
           "name": "Straw Bucket Hat",
