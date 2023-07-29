@@ -9,16 +9,11 @@ function ProductsOverview(props) {
 
   const { id } = useParams();
 
-  // const prodcutDetails = useLoaderData();
-
   const tops = useLoaderData();
 
   const [products, setProducts] = React.useState(ProductData);
 
   const { Tops, Shoes, Dresses, Skirts, Accessories } = products;
-
-  // console.log(typeof Shoes.products);
-  // console.table(Tops.products);
 
   const displayAllProducts = () => {
     const newArray = [];

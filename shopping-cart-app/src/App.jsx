@@ -21,15 +21,9 @@ const router = createBrowserRouter(
         index
         element={<Homepage />}
       />
-      <Route 
-        path='shop'
-        element={<ProductsOverview />}
-        loader={topsLoader}>
-        <Route 
-          path=':id' 
-          element={<Product />}
-          loader={productDetailsLoader}>
-        </Route>
+      <Route path='shop'>
+        <Route index element={<ProductsOverview />} loader={topsLoader} />
+        <Route path=':id' element={<Product />} loader={productDetailsLoader} />
       </Route>
       <Route 
         path='cart'
