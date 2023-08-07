@@ -22,7 +22,19 @@ function Product(props) {
     }
   })
   return (
-    <div>
+    <div className="product-body">
+      <div className="general-overview flex">
+        <div className="product-images">
+          <img src={`/${indiviudualDetails.images.image}`}></img>
+          <img src={`/${indiviudualDetails.images.image2}`}></img>
+        </div>
+        <div className="ctas flex flex-column">
+          <h1 className="product-title">{indiviudualDetails.name}</h1>
+          <button type="button"></button>
+          <button type="button"></button>
+        </div>
+
+      </div>
       <div className="details">
         <h2>{ id }</h2>
       </div>

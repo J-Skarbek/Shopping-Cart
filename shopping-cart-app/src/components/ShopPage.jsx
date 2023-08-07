@@ -116,7 +116,7 @@ function ProductsOverview(props) {
           )
         })}
       </div>
-      <Outlet />
+      {/* <Outlet /> */}
     </div>
   )
 }
