@@ -7,10 +7,6 @@ function Product(props) {
   const productDetails = useLoaderData();
   // const { products } = productDetails;
 
-  // console.log(productDetails.products[0]);
-  // console.log(id)
-  // console.log(productDetails.products)
-
  function getAllProductDetails() {
   let indiviudualDetails;
   productDetails.products.map(detail => {
@@ -28,22 +24,13 @@ function Product(props) {
           <img src={`/${indiviudualDetails.images.image}`}></img>
           <img src={`/${indiviudualDetails.images.image2}`}></img>
         </div>
-        <div className="ctas flex flex-column">
+        <div className="ctas flex flex-col p-16">
           <h1 className="product-title">{indiviudualDetails.name}</h1>
+          <p>{indiviudualDetails.price}</p>
+          <p>{indiviudualDetails.desciption}</p>
           <button type="button"></button>
           <button type="button"></button>
         </div>
-
-      </div>
-      <div className="details">
-        <h2>{ id }</h2>
-      </div>
-      <p>This is the product page for {indiviudualDetails.name}</p>
-      <div className="more-detail">
-        <h2>Product Details</h2>
-        <p>{indiviudualDetails.desciption}</p>
-        <img src={`/${indiviudualDetails.images.image2}`}></img>
-        <img src={`/${indiviudualDetails.images.image}`}></img>
       </div>
     </div>
   )
