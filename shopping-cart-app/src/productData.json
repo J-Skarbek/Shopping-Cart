@@ -20,7 +20,7 @@
             "lg": "large",
             "xl": "extra-large"
           },
-        "price": "$xx.xx"
+        "price": "$29.99"
       },
       {
         "name": "Ribbed Tank Top",
@@ -42,7 +42,7 @@
             "extra-large": "xl"
           }
         ],
-        "price": "$xx.xx"
+        "price": "$24.99"
       },
       {
         "name": "Linen T-Shirt",
@@ -64,7 +64,7 @@
             "extra-large": "xl"
           }
         ],
-        "price": "$xx.xx"
+        "price": "$19.99"
       },
       {
         "name": "Fine-knit Corset-style Top",
@@ -86,7 +86,7 @@
             "extra-large": "xl"
           }
         ],
-        "price": "$xx.xx"
+        "price": "$34.99"
       },
       {
         "name": "Ribbed Thong Bodysuit",
@@ -108,7 +108,7 @@
             "extra-large": "xl"
           }
         ],
-        "price": "$xx.xx"
+        "price": "$29.99"
       }
     ]
   },
