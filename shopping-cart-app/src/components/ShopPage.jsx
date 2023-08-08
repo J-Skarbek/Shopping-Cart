@@ -106,13 +106,20 @@ function ProductsOverview(props) {
       <div className="product-test">
         {tops.products.map(top => {
           return (
-            <div>
-              <Link to={top.name} key={nanoid()}>
-              <p>{top.name}</p>
-              </Link>
-              <p>{top.desciption}</p>
-              <img src={`/${top.images.image}`}></img>
-            </div>
+            <ProductCard 
+              name={top.name}
+              description={top.description}
+              img={top.images.image}
+              price={top.price}
+              key={nanoid()}
+          />
+            // <div>
+            //   <Link to={top.name} key={nanoid()}>
+            //   <p>{top.name}</p>
+            //   </Link>
+            //   <p>{top.desciption}</p>
+            //   <img src={`/${top.images.image}`}></img>
+            // </div>
           )
         })}
       </div>
