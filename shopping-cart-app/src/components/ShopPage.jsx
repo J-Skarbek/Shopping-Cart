@@ -92,6 +92,32 @@ function ProductsOverview(props) {
     return cats;
   }
 
+  // function displayProducts() {
+  //   let displayArray = [];
+  //   const allProds = tops.map(category => {
+  //     displayArray.push(category)
+  //   });
+  //   displayArray.map(product => {
+  //     return (
+  //       <ProductCard 
+  //         name={product.name}
+  //         description={product.desciption}
+  //         img={product.images.image}
+  //         price={product.price}
+  //         key={nanoid()}
+  //       />
+  //       )
+  //     }
+  //   )
+  //   // return displayArray;
+  // }
+
+  let displayArray = [];
+  const allProds = tops.map(category => {
+    displayArray.push(category)
+  });
+  console.log(displayArray[1].Dresses.products[1].images.image)
+
   return (
     <div className='products-container'>
       <div className='category-pills flex justify-center gap-2 my-8'>
@@ -103,7 +129,8 @@ function ProductsOverview(props) {
         {/* { displayAllProducts() } */}
       </div>
       <div className="product-test">
-        {tops.map(category => {
+        {/* { displayProducts() } */}
+        {/* {tops.map(category => {
           category.products.map(product => {
             return (
               <ProductCard 
@@ -115,7 +142,21 @@ function ProductsOverview(props) {
             />
             )
           })
-        })}
+        })} */}
+        {
+          displayArray.map(product => {
+            return (
+              <ProductCard 
+                name={product.name}
+                description={product.desciption}
+                // img={product.images.image}
+                price={product.price}
+                key={nanoid()}
+              />
+              )
+            }
+          )
+        }
       </div>
     </div>
   )
