@@ -6,28 +6,31 @@ function Product(props) {
   const { id } = useParams();
   const productDetails = useLoaderData();
   // const { products } = productDetails;
+  console.log(id);
+  console.log(productDetails);
 
   function getAllProductDetails() {
-    let indiviudualDetails;
-    productDetails.products.map(detail => {
-      if (id === detail.name) {
-        console.log(detail.desciption)
-        console.log(detail.images.image)
-        indiviudualDetails = detail;
-        console.log(indiviudualDetails.name);
-      }
+    let details;
+    productDetails.map(category => {
+      const productDeets = category.products.map(detail => {
+        if (id === detail.name) {
+          details = detail;
+        }
+      })
+      return details;
     })
+
     return (
       <div className="product-body">
         <div className="general-overview flex">
           <div className="product-images">
-            <img src={`/${indiviudualDetails.images.image}`}></img>
-            <img src={`/${indiviudualDetails.images.image2}`}></img>
+            <img src={`/${details.images.image}`}></img>
+            <img src={`/${details.images.image2}`}></img>
           </div>
           <div className="ctas flex flex-col p-16">
-            <h1 className="product-title">{indiviudualDetails.name}</h1>
-            <p>{indiviudualDetails.price}</p>
-            <p>{indiviudualDetails.desciption}</p>
+            <h1 className="product-title">{details.name}</h1>
+            <p>{details.price}</p>
+            <p>{details.desciption}</p>
             <button type="button"></button>
             <button type="button"></button>
           </div>
@@ -49,6 +52,6 @@ export default Product;
 
 export const productDetailsLoader = async ({params}) => {
   const { id } = params;
-  const res = await fetch('http://localhost:4000/Tops/');
+  const res = await fetch('http://localhost:4000/allProudcts')
   return res.json();
 }

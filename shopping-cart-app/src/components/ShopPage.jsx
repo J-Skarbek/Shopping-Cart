@@ -109,13 +109,13 @@ function ProductsOverview(props) {
           let products = category.products.map(product => {
             console.log(product.name)
             return (
-                <ProductCard 
-                  name={product.name}
-                  description={product.desciption}
-                  img={product.images.image}
-                  price={product.price}
-                  key={nanoid()}
-                />
+              <ProductCard 
+                name={product.name}
+                description={product.desciption}
+                img={product.images.image}
+                price={product.price}
+                key={nanoid()}
+              />
             )
           })
           return products;
