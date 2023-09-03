@@ -116,7 +116,18 @@ function ProductsOverview(props) {
   const allProds = tops.map(category => {
     displayArray.push(category)
   });
+  console.log(displayArray)
   console.log(displayArray[1].Dresses.products[1].images.image)
+
+  //Testing mapping over a nested array in json file
+
+  // const testMap = () => {
+  //   tops.map(category => {
+  //     return (
+
+  //     )
+  //   })
+  // }
 
   return (
     <div className='products-container'>
@@ -130,8 +141,8 @@ function ProductsOverview(props) {
       </div>
       <div className="product-test">
         {/* { displayProducts() } */}
-        {/* {tops.map(category => {
-          category.products.map(product => {
+        {tops.map(category => {
+          category.products.Tops.map(product => {
             return (
               <ProductCard 
                 name={product.name}
@@ -142,7 +153,7 @@ function ProductsOverview(props) {
             />
             )
           })
-        })} */}
+        })}
         {
           displayArray.map(product => {
             return (
