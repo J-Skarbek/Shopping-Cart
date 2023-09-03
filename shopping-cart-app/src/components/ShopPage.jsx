@@ -92,42 +92,11 @@ function ProductsOverview(props) {
     return cats;
   }
 
-  // function displayProducts() {
-  //   let displayArray = [];
-  //   const allProds = tops.map(category => {
-  //     displayArray.push(category)
-  //   });
-  //   displayArray.map(product => {
-  //     return (
-  //       <ProductCard 
-  //         name={product.name}
-  //         description={product.desciption}
-  //         img={product.images.image}
-  //         price={product.price}
-  //         key={nanoid()}
-  //       />
-  //       )
-  //     }
-  //   )
-  //   // return displayArray;
-  // }
-
   let displayArray = [];
   const allProds = tops.map(category => {
     displayArray.push(category)
   });
   console.log(displayArray)
-  console.log(displayArray[1].Dresses.products[1].images.image)
-
-  //Testing mapping over a nested array in json file
-
-  // const testMap = () => {
-  //   tops.map(category => {
-  //     return (
-
-  //     )
-  //   })
-  // }
 
   return (
     <div className='products-container'>
@@ -136,38 +105,21 @@ function ProductsOverview(props) {
           { getProductCategories() }
         </div>
       <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
-        {/* { productCards } */}
-        {/* { displayAllProducts() } */}
-      </div>
-      <div className="product-test">
-        {/* { displayProducts() } */}
         {tops.map(category => {
-          category.products.Tops.map(product => {
+          let products = category.products.map(product => {
+            console.log(product.name)
             return (
-              <ProductCard 
-                name={product.name}
-                description={product.desciption}
-                img={product.images.image}
-                price={product.price}
-                key={nanoid()}
-            />
+                <ProductCard 
+                  name={product.name}
+                  description={product.desciption}
+                  img={product.images.image}
+                  price={product.price}
+                  key={nanoid()}
+                />
             )
           })
+          return products;
         })}
-        {
-          displayArray.map(product => {
-            return (
-              <ProductCard 
-                name={product.name}
-                description={product.desciption}
-                // img={product.images.image}
-                price={product.price}
-                key={nanoid()}
-              />
-              )
-            }
-          )
-        }
       </div>
     </div>
   )
