@@ -22,13 +22,13 @@ function Product(props) {
     })
 
     return (
-      <div className="product-body max-w-7xl">
+      <div className="product-body max-w-7xl px-8 py-16">
         <div className="general-overview flex justify-center">
           <div className="product-images">
-            <img src={`/${details.images.image}`}></img>
+            <img className="w-9/12" src={`/${details.images.image}`}></img>
             {/* <img src={`/${details.images.image2}`}></img> */}
           </div>
-          <div className="ctas flex flex-col p-16">
+          <div className="ctas flex flex-col px-16">
             <h1 className="product-title">{details.name}</h1>
             <p>{details.price}</p>
             <p>{details.desciption}</p>
