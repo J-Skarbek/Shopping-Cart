@@ -24,10 +24,10 @@ function Product(props) {
     return (
       <div className="product-body max-w-7xl px-8 py-16">
         <div className="general-overview flex justify-center">
-          <div className="product-images">
-            <img className="w-9/12" src={`/${details.images.image}`}></img>
+          {/* <div className="product-images w-full"> */}
+            <img src={`/${details.images.image}`} className="w-6/12"></img>
             {/* <img src={`/${details.images.image2}`}></img> */}
-          </div>
+          {/* </div> */}
           <div className="ctas flex flex-col px-16">
             <h1 className="product-title">{details.name}</h1>
             <p>{details.price}</p>
