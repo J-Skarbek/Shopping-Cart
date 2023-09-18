@@ -6,7 +6,7 @@ import homepageHero from "../assets/editorialPhotos/homepage-hero.jpg"
 function Homepage() {
 
   return (
-    <div className="homepage-body">
+    <div className="homepage-body w-full">
       <HeroSection 
         backgroundImage={homepageHero}
       />

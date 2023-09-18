@@ -11,6 +11,7 @@ function Product(props) {
 
   function getAllProductDetails() {
     let details;
+    let photoArray;
     productDetails.map(category => {
       const productDeets = category.products.map(detail => {
         if (id === detail.name) {
@@ -21,11 +22,11 @@ function Product(props) {
     })
 
     return (
-      <div className="product-body">
-        <div className="general-overview flex">
+      <div className="product-body max-w-7xl">
+        <div className="general-overview flex justify-center">
           <div className="product-images">
             <img src={`/${details.images.image}`}></img>
-            <img src={`/${details.images.image2}`}></img>
+            {/* <img src={`/${details.images.image2}`}></img> */}
           </div>
           <div className="ctas flex flex-col p-16">
             <h1 className="product-title">{details.name}</h1>

@@ -7,7 +7,7 @@ function RootLayout() {
   return (
     <div className="root-layout">
       <Header />
-      <main>
+      <main className="flex justify-center">
         <Outlet />
       </main>
       <Footer />
