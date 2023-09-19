@@ -1,16 +1,13 @@
 import React from "react";
-import { createBrowserRouter, Route, Link, NavLink, createRoutesFromElements, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, Route, Link, NavLink, createRoutesFromElements, RouterProvider, ScrollRestoration } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 import { topsLoader } from "./components/ShopPage";
 import './App.css'
-import Header from './components/Header';
 import Homepage from './components/Homepage';
-import Footer from './components/Footer';
 import ShoppingCart from "./components/ShoppingCart";
 import ProductsOverview from "./components/ShopPage";
 import RootLayout from "./components/RootLayout";
 import Product, { productDetailsLoader } from "./components/Product";
-import ProductCard from "./components/ProductCard";
-// import Root from '../RouteSwitch';
 // import MailingListSignUp from './components/MailingListSignUp';
 
 
@@ -39,9 +36,10 @@ function App() {
   const [cartContents, setCartContents] = React.useState([1,2,3,4,5]);
 
   return (
-    <RouterProvider
-      router={router}
-    />
+    <RouterProvider router={router} >
+      <ScrollRestoration />
+    </RouterProvider>
+
   )
 }
 
