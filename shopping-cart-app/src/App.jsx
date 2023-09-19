@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter, Route, Link, NavLink, createRoutesFromElements, RouterProvider, ScrollRestoration } from "react-router-dom";
+import { createBrowserRouter, Route, Link, NavLink, createRoutesFromElements, RouterProvider } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import { topsLoader } from "./components/ShopPage";
 import './App.css'
@@ -13,6 +13,7 @@ import Product, { productDetailsLoader } from "./components/Product";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
+    <>
     <Route path='/' element={<RootLayout />}>
       <Route 
         index
@@ -27,6 +28,7 @@ const router = createBrowserRouter(
         element={<ShoppingCart />}>
       </Route>
     </Route>
+    </>
   )
 )
 
@@ -36,10 +38,7 @@ function App() {
   const [cartContents, setCartContents] = React.useState([1,2,3,4,5]);
 
   return (
-    <RouterProvider router={router} >
-      <ScrollRestoration />
-    </RouterProvider>
-
+    <RouterProvider router={router} />
   )
 }
 
