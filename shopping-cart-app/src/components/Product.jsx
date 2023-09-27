@@ -19,7 +19,6 @@ function Product(props) {
 
   function getAllProductDetails() {
     let details;
-    let photoArray;
     productDetails.map(category => {
       const productDeets = category.products.map(detail => {
         if (id === detail.name) {
@@ -29,11 +28,32 @@ function Product(props) {
       return details;
     })
 
+    // const featuredImage = details.imageArray[0];
+
+    // const [featuredImage, ...otherImages]= [details.imageArray[0], ...details.imageArray];
+
+    // console.table(otherImages);
+
+    // console.log(`This is the called array item: ${details.imageArray[0]}`)
+    // console.log(details.imageArray)
+    // console.log(featuredImage)
+    // console.log(details.imageArray[0])
+    // const testing = details.imageArray[0];
+    // console.log(testing);
+
+    // details.imageArray.map((image, i) => {
+    //   return (
+    //     <SwiperSlide key={i}>
+    //             <img src={`/${image}`} />
+    //     </SwiperSlide>
+    //   )
+    // })
+
     return (
       <div className="product-body max-w-7xl px-8 py-16">
         <div className="general-overview flex justify-center">
           {/* <div className="product-images w-full"> */}
-            <img src={`/${details.images.image}`} className="w-6/12"></img>
+            {/* <img src={`/${featuredImage}`} className="w-6/12"></img> */}
             {/* <img src={`/${details.images.image2}`}></img> */}
           {/* </div> */}
           <div className="ctas flex flex-col px-16">
@@ -55,8 +75,17 @@ function Product(props) {
               modules={[FreeMode, Navigation, Thumbs]}
               className="mySwiper2"
             >
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              {
+                 details.imageArray.map((image, i) => {
+                  return (
+                    <SwiperSlide key={i}>
+                            <img src={`/${image}`} />
+                    </SwiperSlide>
+                  )
+                })
+              }
+              {/* <SwiperSlide>
+                <img src={`/${featuredImage}`} />
               </SwiperSlide>
               <SwiperSlide>
                 <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
@@ -84,7 +113,7 @@ function Product(props) {
               </SwiperSlide>
               <SwiperSlide>
                 <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
-              </SwiperSlide>
+              </SwiperSlide> */}
             </Swiper>
             <Swiper
               onSwiper={setThumbsSwiper}
@@ -96,7 +125,16 @@ function Product(props) {
               modules={[FreeMode, Navigation, Thumbs]}
               className="mySwiper"
             >
-              <SwiperSlide>
+              {
+                 details.imageArray.map((image, i) => {
+                  return (
+                    <SwiperSlide key={i}>
+                            <img src={`/${image}`} />
+                    </SwiperSlide>
+                  )
+                })
+              }
+              {/* <SwiperSlide>
                 <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
               </SwiperSlide>
               <SwiperSlide>
@@ -125,7 +163,7 @@ function Product(props) {
               </SwiperSlide>
               <SwiperSlide>
                 <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
-              </SwiperSlide>
+              </SwiperSlide> */}
             </Swiper>
           </div>
         </div>
