@@ -1,15 +1,16 @@
 import React from "react";
-import { createBrowserRouter, Route, Link, NavLink, createRoutesFromElements, RouterProvider } from "react-router-dom";
-// import ScrollToTop from "./components/ScrollToTop";
+import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } from "react-router-dom";
 import { topsLoader } from "./components/ShopPage";
-import './App.css'
 import Homepage from './components/Homepage';
 import ShoppingCart from "./components/ShoppingCart";
 import ProductsOverview from "./components/ShopPage";
 import RootLayout from "./components/RootLayout";
 import Product, { productDetailsLoader } from "./components/Product";
+import { register } from 'swiper/element/bundle';
 // import MailingListSignUp from './components/MailingListSignUp';
+import './App.css';
 
+register();
 
 const router = createBrowserRouter(
   createRoutesFromElements(
