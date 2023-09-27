@@ -5,8 +5,8 @@
         {
           "name": "Textured-knit Tube Top",
           "desciption": "Short, textured-knit tube top. Sweetheart neckline at front with a metal wire and silicone trim inside upper edge to keep top in place.",
+          "category": "tops",
           "images":
-
             {
               "image": "src/assets/products/tops/top1/textured-knit-tube-top-1.jpeg",
               "image2": "src/assets/products/tops/top1/textured-knit-tube-top-2.webp",
@@ -14,6 +14,13 @@
               "image4": "src/assets/products/tops/top1/textured-knit-tube-top-4.webp",
               "image5": "src/assets/products/tops/top1/textured-knit-tube-top-5.webp"
             },
+            "imageArray": [
+              "src/assets/products/tops/top1/textured-knit-tube-top-1.jpeg",
+              "src/assets/products/tops/top1/textured-knit-tube-top-2.webp",
+              "src/assets/products/tops/top1/textured-knit-tube-top-3.webp",
+              "src/assets/products/tops/top1/textured-knit-tube-top-4.webp",
+              "src/assets/products/tops/top1/textured-knit-tube-top-5.webp"
+            ],
           "sizes":
             {
               "xs": "extra-small",
@@ -27,6 +34,7 @@
         {
           "name": "Ribbed Tank Top",
           "desciption": "Fitted tank top in soft, ribbed cotton jersey with narrow trim.",
+          "category": "tops",
           "images":
             {
               "image": "src/assets/products/tops/top2/ribbed-tank-top-1.jpeg",
@@ -35,6 +43,13 @@
               "image4": "src/assets/products/tops/top2/ribbed-tank-top-4.webp",
               "image5": "src/assets/products/tops/top2/ribbed-tank-top-5.webp"
             },
+            "imageArray": [
+              "src/assets/products/tops/top2/ribbed-tank-top-1.jpeg",
+              "src/assets/products/tops/top2/ribbed-tank-top-2.webp",
+              "src/assets/products/tops/top2/ribbed-tank-top-3.webp",
+              "src/assets/products/tops/top2/ribbed-tank-top-4.webp",
+              "src/assets/products/tops/top2/ribbed-tank-top-5.webp"
+            ],
           "sizes": [
             {
               "extra-small": "xs",
@@ -49,6 +64,7 @@
         {
           "name": "Linen T-Shirt",
           "desciption": "T-shirt in soft linen jersey with a low-cut, V-shaped neckline.",
+          "category": "tops",
           "images":
             {
               "image": "src/assets/products/tops/top3/linen-tshirt-1.jpeg",
@@ -57,6 +73,13 @@
               "image4": "src/assets/products/tops/top3/linen-tshirt-4.webp",
               "image5": "src/assets/products/tops/top3/linen-tshirt-5.webp"
             },
+            "imageArray": [
+              "src/assets/products/tops/top3/linen-tshirt-1.jpeg",
+              "src/assets/products/tops/top3/linen-tshirt-2.webp",
+              "src/assets/products/tops/top3/linen-tshirt-3.webp",
+              "src/assets/products/tops/top3/linen-tshirt-4.webp",
+              "src/assets/products/tops/top3/linen-tshirt-5.webp"
+            ],
           "sizes": [
             {
               "extra-small": "xs",
@@ -71,6 +94,7 @@
         {
           "name": "Fine-knit Corset-style Top",
           "desciption": "Short, fitted, corset-style top in a soft, fine-knit viscose blend with flat felled seams at front. Wide shoulder straps, square neckline, rounded, slightly longer hem at front, and a straight hem at back.",
+          "category": "tops",
           "images":
             {
               "image": "src/assets/products/tops/top4/fine-knit-corset-style-top.jpeg",
@@ -79,6 +103,13 @@
               "image4": "src/assets/products/tops/top4/fine-knit-corset-style-top-4.webp",
               "image5": "src/assets/products/tops/top4/fine-knit-corset-style-top-5.webp"
             },
+            "imageArray": [
+              "src/assets/products/tops/top4/fine-knit-corset-style-top.jpeg",
+              "src/assets/products/tops/top4/fine-knit-corset-style-top-2.webp",
+              "src/assets/products/tops/top4/fine-knit-corset-style-top-3.webp",
+              "src/assets/products/tops/top4/fine-knit-corset-style-top-4.webp",
+              "src/assets/products/tops/top4/fine-knit-corset-style-top-5.webp"
+            ],
           "sizes": [
             {
               "extra-small": "xs",
@@ -93,6 +124,7 @@
         {
           "name": "Ribbed Thong Bodysuit",
           "desciption":"Fitted, sleeveless thong bodysuit in ribbed jersey with a racer back. Concealed snap fasteners at gusset.",
+          "category": "tops",
           "images":
           {
             "image": "src/assets/products/tops/top5/ribbed-thong-bodysuit.jpeg",
@@ -101,6 +133,13 @@
             "image4": "src/assets/products/tops/top5/ribbed-thong-bodysuit-4.webp",
             "image5": "src/assets/products/tops/top5/ribbed-thong-bodysuit-5.webp"
           },
+          "imageArray": [
+            "src/assets/products/tops/top5/ribbed-thong-bodysuit.jpeg",
+            "src/assets/products/tops/top5/ribbed-thong-bodysuit-2.webp",
+            "src/assets/products/tops/top5/ribbed-thong-bodysuit-3.webp",
+            "src/assets/products/tops/top5/ribbed-thong-bodysuit-4.webp",
+            "src/assets/products/tops/top5/ribbed-thong-bodysuit-5.webp"
+          ],
           "sizes": [
             {
               "extra-small": "xs",
