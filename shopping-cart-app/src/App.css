@@ -46,3 +46,7 @@
   background-image: url('src/assets/editorialPhotos/homepage-hero.jpg'), linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35));
   background-blend-mode: overlay;
 }
+
+.swiper-wrapper {
+  max-width: 500px;
+}
