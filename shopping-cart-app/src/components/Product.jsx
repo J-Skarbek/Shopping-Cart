@@ -35,13 +35,6 @@ function Product(props) {
           <div className="product-images w-full">
             {/* <img src={`/${featuredImage}`} className="w-6/12"></img> */}
             {/* <img src={`/${details.images.image2}`}></img> */}
-          </div>
-          <div className="ctas flex flex-col px-16">
-            <h1 className="product-title">{details.name}</h1>
-            <p>{details.price}</p>
-            <p>{details.desciption}</p>
-            <button type="button"></button>
-            <button type="button"></button>
             <Swiper
               style={{
                 '--swiper-navigation-color': '#fff',
@@ -84,6 +77,13 @@ function Product(props) {
                 })
               }
             </Swiper>
+          </div>
+          <div className="ctas flex flex-col px-16">
+            <h1 className="product-title">{details.name}</h1>
+            <p>{details.price}</p>
+            <p>{details.desciption}</p>
+            <button type="button"></button>
+            <button type="button"></button>
           </div>
         </div>
       </div>
