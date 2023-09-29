@@ -50,3 +50,8 @@
 .swiper-wrapper {
   max-width: 500px;
 }
+
+/*need to see how to address this either with swiper internally or without the use of importnat tag*/
+.swiper-free-mode > .swiper-wrapper {
+  margin: 25px 0 !important;
+}
