@@ -15,7 +15,7 @@ function Pill(props) {
       console.log(category.category, props.categoryName);
     })
     console.table(newProductDisplay);
-    // props.updateDisplayedProducts(newProductDisplay);
+    props.updateDisplayedProducts(newProductDisplay);
   }
 
   return (

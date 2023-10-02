@@ -40,6 +40,13 @@ function ProductsOverview(props) {
     return displayCards;
   })
 
+  //Need to find a way to repurpose the displayProductsGrid to be more dynamic --->
+  //Specfically, need it to, by default, load all products, but also, be able to function with the category selection buttons
+  //in the pill component and re-render the grid if someone wants to filter by product type
+  //It should be almost there, but the problem seems to be that when someone clicks on a category button, it triggers an error
+  //Because the structure of the new array being assigned to the state value is slightly different in structure than the
+  //original JSON file's structure
+
   return (
     <div className='products-container'>
       <div className='category-pills flex justify-center gap-2 my-8'>
