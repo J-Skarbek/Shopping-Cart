@@ -1,6 +1,7 @@
 {
   "allProudcts": [
     {
+      "category": "tops",
       "products": [
         {
           "name": "Textured-knit Tube Top",
@@ -154,6 +155,7 @@
       ]
     },
     {
+      "category": "dresses",
       "products": [
         {
           "name": "Draped Dress",
@@ -308,6 +310,7 @@
       ]
     },
     {
+      "category": "shoes",
       "products": [
         {
           "name": "Wedge-heeled Espadrille Mules",
@@ -462,6 +465,7 @@
       ]
     },
     {
+      "category": "skirts",
       "products": [
         {
           "name": "Mini Skirt",
@@ -616,6 +620,7 @@
       ]
     },
     {
+      "category": "accessories",
       "products": [
         {
           "name": "Straw Bucket Hat",

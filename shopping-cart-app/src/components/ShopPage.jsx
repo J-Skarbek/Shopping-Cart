@@ -102,10 +102,29 @@ function ProductsOverview(props) {
 
   console.log(allProducts);
 
-  // function displayProductCategories() {
-    
+  function displayProductCategories() {
+    let productCategories = [];
+    allProducts.map(category => {
+      category.products.map(product => {
+        productCategories.push(product.category);
+      })
 
-  // }
+    })
+    console.log(productCategories);
+  }
+
+  displayProductCategories();
+
+  // function getAllProductDetails() {
+  //   let details;
+  //   productDetails.map(category => {
+  //     const productDeets = category.products.map(detail => {
+  //       if (id === detail.name) {
+  //         details = detail;
+  //       }
+  //     })
+  //     return details;
+  //   })
 
   return (
     <div className='products-container'>
