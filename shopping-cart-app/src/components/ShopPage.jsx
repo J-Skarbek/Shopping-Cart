@@ -33,16 +33,17 @@ function ProductsOverview(props) {
   //   }
   // }
 
-  const [allProducts, setAllProducts] = React.useState(productArray);
+  const [products, setProducts] = React.useState(productArray);
 
-  console.log(allProducts);
+  console.log(products);
 
-  const displayCategories = allProducts.map(category => {
+  const displayCategories = products.map(category => {
     return (
       <Pill
         categoryName={category.category}
-        // handleClick={changeCategory}
         key={nanoid()}
+        displayedProducts = {products}
+        updateDisplayedProducts = {setProducts}
       />
     )
   })
