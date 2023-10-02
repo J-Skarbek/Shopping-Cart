@@ -9,7 +9,7 @@ function ProductsOverview(props) {
 
   // const { id } = useParams();
 
-  const tops = useLoaderData();
+  const productArray = useLoaderData();
 
   // const [products, setProducts] = React.useState(ProductData);
 
@@ -98,6 +98,17 @@ function ProductsOverview(props) {
   // });
   // console.log(displayArray)
 
+  const {allProducts, setAllProducts} = React.useState(productArray);
+
+  console.log(allProducts);
+  console.table(allProducts);
+  console.log(productArray);
+
+  // function displayProductCategories() {
+    
+
+  // }
+
   return (
     <div className='products-container'>
       <div className='category-pills flex justify-center gap-2 my-8'>
@@ -105,9 +116,9 @@ function ProductsOverview(props) {
           {/* { getProductCategories } */}
         </div>
       <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
-        {tops.map(category => {
+        {productArray.map(category => {
           let products = category.products.map(product => {
-            console.log(product.name)
+            // console.log(product.name)
             return (
               <ProductCard 
                 name={product.name}
@@ -127,7 +138,7 @@ function ProductsOverview(props) {
 
 export default ProductsOverview;
 
-export const topsLoader = async () => {
+export const productsLoader = async () => {
   // const { id } = params;
   const res = await fetch('http://localhost:4000/allProudcts')
   return res.json();

@@ -1,6 +1,6 @@
 import React from "react";
 import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } from "react-router-dom";
-import { topsLoader } from "./components/ShopPage";
+import { productsLoader } from "./components/ShopPage";
 import Homepage from './components/Homepage';
 import ShoppingCart from "./components/ShoppingCart";
 import ProductsOverview from "./components/ShopPage";
@@ -21,7 +21,7 @@ const router = createBrowserRouter(
         element={<Homepage />}
       />
       <Route path='shop'>
-        <Route index element={<ProductsOverview />} loader={topsLoader} />
+        <Route index element={<ProductsOverview />} loader={productsLoader} />
         <Route path=':id' element={<Product />} loader={productDetailsLoader} />
       </Route>
       <Route 
