@@ -10,29 +10,6 @@ function ProductsOverview(props) {
 
   const productArray = useLoaderData();
 
-  // const changeCategory = e => {
-  //   console.log(e.target.innerText);
-  //   if (e.target.innerText === 'Tops') {
-  //     const topsArray = [];
-  //     Tops.products.forEach(item => {
-  //       topsArray.push(item);
-  //     });
-  //     console.log(topsArray)
-  //     let topsOnly = topsArray.map(product => {
-  //       return (
-  //         <ProductCard 
-  //           name={product.name}
-  //           description={product.description}
-  //           img={product.images.image}
-  //           price={product.price}
-  //           key={nanoid()}
-  //         />
-  //       );
-  //     });
-  //     return topsOnly;
-  //   }
-  // }
-
   const [products, setProducts] = React.useState(productArray);
 
   console.log(products);
@@ -80,6 +57,5 @@ export const productsLoader = async () => {
   // const { id } = params;
   const res = await fetch('http://localhost:4000/allProudcts')
   return res.json();
-  // const res = await fetch('http://localhost:4000/Tops/')
 }
 

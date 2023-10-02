@@ -2,13 +2,21 @@ import React from "react";
 
 function Pill(props) {
 
-  const handleClick = () => {
-    console.log('I am clicked');
+  const handleClick = e => {
+    const test = e.currentTarget.textContent;
+    console.log(test);
+    let newProductDisplay = [];
+    props.displayedProducts.map(category => {
+      if (category.category === props.categoryName) {
+        category.products.map(product => {
+          newProductDisplay.push(product)
+        })
+      }
+      console.log(category.category, props.categoryName);
+    })
+    console.table(newProductDisplay)
+    // return props.updateDisplayedProducts(newProductDisplay)
   }
-
-  //if pill is clicked, look at the textContent in the pill, then
-  //Find the category in productData, then 
-  //map over the products in that category
 
   return (
     <>
