@@ -25,6 +25,21 @@ function ProductsOverview(props) {
     )
   })
 
+  const displayProductsGrid = products.map(category => {
+    let displayCards = category.products.map(individualProduct => {
+      return (
+        <ProductCard 
+          name={individualProduct.name}
+          description={individualProduct.desciption}
+          img={individualProduct.imageArray[0]}
+          price={individualProduct.price}
+          key={nanoid()}
+        />
+      )
+    })
+    return displayCards;
+  })
+
   return (
     <div className='products-container'>
       <div className='category-pills flex justify-center gap-2 my-8'>
@@ -32,8 +47,8 @@ function ProductsOverview(props) {
           { displayCategories }
         </div>
       <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
-        {productArray.map(category => {
-          let products = category.products.map(product => {
+        {/* {products.map(category => {
+          let displayProducts = category.products.map(product => {
             return (
               <ProductCard 
                 name={product.name}
@@ -44,8 +59,9 @@ function ProductsOverview(props) {
               />
             )
           })
-          return products;
-        })}
+          return displayProducts;
+        })} */}
+        { displayProductsGrid }
       </div>
     </div>
   )
@@ -58,4 +74,3 @@ export const productsLoader = async () => {
   const res = await fetch('http://localhost:4000/allProudcts')
   return res.json();
 }
-

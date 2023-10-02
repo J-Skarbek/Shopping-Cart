@@ -14,8 +14,8 @@ function Pill(props) {
       }
       console.log(category.category, props.categoryName);
     })
-    console.table(newProductDisplay)
-    // return props.updateDisplayedProducts(newProductDisplay)
+    console.table(newProductDisplay);
+    // props.updateDisplayedProducts(newProductDisplay);
   }
 
   return (
