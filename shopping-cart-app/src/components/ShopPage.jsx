@@ -98,11 +98,9 @@ function ProductsOverview(props) {
   // });
   // console.log(displayArray)
 
-  const {allProducts, setAllProducts} = React.useState(productArray);
+  const [allProducts, setAllProducts] = React.useState(productArray);
 
   console.log(allProducts);
-  console.table(allProducts);
-  console.log(productArray);
 
   // function displayProductCategories() {
     
