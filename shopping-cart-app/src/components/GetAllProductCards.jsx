@@ -1,10 +1,27 @@
 import React from "react";
+import { nanoid } from "nanoid";
+import ProductCard from "./ProductCard";
 
 function GetAllProducts(props) {
 
 
 
   function handleClick() {
+    const displayProductsGrid = props.products.map(category => {
+      let displayCards = category.products.map(individualProduct => {
+        return (
+          <ProductCard 
+            name={individualProduct.name}
+            description={individualProduct.desciption}
+            img={individualProduct.imageArray[0]}
+            price={individualProduct.price}
+            key={nanoid()}
+          />
+        )
+      })
+      return displayCards;
+    })
+  
     console.log('all products clicked!')
   }
 

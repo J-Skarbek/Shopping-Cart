@@ -82,8 +82,8 @@ function Product(props) {
             <h1 className="product-title">{details.name}</h1>
             <p>{details.price}</p>
             <p>{details.desciption}</p>
-            <button type="button"></button>
-            <button type="button"></button>
+            <button type="button">Add To Cart</button>
+            {/* <button type="button"></button> */}
           </div>
         </div>
       </div>
