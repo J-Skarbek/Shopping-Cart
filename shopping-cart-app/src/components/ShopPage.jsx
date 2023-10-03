@@ -41,6 +41,11 @@ function ProductsOverview(props) {
     return displayCards;
   })
 
+  function resetProductGrid() {
+    console.log('clicked!');
+    return displayProductsGrid;
+  }
+
   //Need to find a way to repurpose the displayProductsGrid to be more dynamic --->
   //Specfically, need it to, by default, load all products, but also, be able to function with the category selection buttons
   //in the pill component and re-render the grid if someone wants to filter by product type
@@ -51,12 +56,18 @@ function ProductsOverview(props) {
   return (
     <div className='products-container'>
       <div className='category-pills flex justify-center gap-2 my-8'>
-        {/* <button type='button'>Get all Products</button> */}
-        <GetAllProducts 
-          allProducts={products}
-          updateDisplayedProducts={setProducts}
-        />
-        { displayCategories }
+        <button 
+          type='button' 
+          className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg" 
+          onClick={resetProductGrid}
+        >
+          All Products
+        </button>
+          <GetAllProducts 
+            allProducts={products}
+            updateDisplayedProducts={setProducts}
+          />
+          { displayCategories }
         </div>
       <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
         {/* {products.map(category => {
