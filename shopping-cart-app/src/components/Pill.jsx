@@ -23,7 +23,9 @@ function Pill(props) {
       <button 
         type="button" 
         className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg" 
-        onClick={handleClick}>{props.categoryName}
+        onClick={handleClick}
+      >
+        {props.categoryName}
       </button>
     </>
   )

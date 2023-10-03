@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet, Link, useLoaderData, useParams } from 'react-router-dom';
 import { nanoid } from 'nanoid';
 import ProductCard from './ProductCard';
+import GetAllProducts from './GetAllProductCards';
 import Pill from './Pill';
 
 function ProductsOverview(props) {
@@ -19,8 +20,8 @@ function ProductsOverview(props) {
       <Pill
         categoryName={category.category}
         key={nanoid()}
-        displayedProducts = {products}
-        updateDisplayedProducts = {setProducts}
+        displayedProducts={products}
+        updateDisplayedProducts={setProducts}
       />
     )
   })
@@ -50,8 +51,12 @@ function ProductsOverview(props) {
   return (
     <div className='products-container'>
       <div className='category-pills flex justify-center gap-2 my-8'>
-        <button type='button'>Get all Products</button>
-          { displayCategories }
+        {/* <button type='button'>Get all Products</button> */}
+        <GetAllProducts 
+          allProducts={products}
+          updateDisplayedProducts={setProducts}
+        />
+        { displayCategories }
         </div>
       <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
         {/* {products.map(category => {
