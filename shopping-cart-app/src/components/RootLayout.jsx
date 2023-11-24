@@ -10,9 +10,15 @@ function RootLayout() {
 
   return (
     <div className="root-layout">
-      <Header />
+      <Header 
+        cartContents={cartContents}
+        setCartContents={setCartContents}
+      />
       <main className="flex justify-center">
-        <Outlet />
+        <Outlet 
+          cartContents={cartContents}
+          setCartContents={setCartContents}
+        />
       </main>
       <Footer />
       <ScrollRestoration />

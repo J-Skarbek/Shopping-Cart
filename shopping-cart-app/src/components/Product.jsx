@@ -7,7 +7,13 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 
-function Product(props) {
+export const productDetailsLoader = async ({params}) => {
+  // const { id } = params;
+  const res = await fetch('http://localhost:4000/allProudcts')
+  return res.json();
+}
+
+export default function Product(props) {
 
   const [thumbsSwiper, setThumbsSwiper] = React.useState(null);
 
@@ -29,12 +35,11 @@ function Product(props) {
       return details;
     })
 
+
     return (
       <div className="product-body max-w-7xl px-8 py-16">
         <div className="general-overview flex justify-center">
           <div className="product-images w-full">
-            {/* <img src={`/${featuredImage}`} className="w-6/12"></img> */}
-            {/* <img src={`/${details.images.image2}`}></img> */}
             <Swiper
               style={{
                 '--swiper-navigation-color': '#fff',
@@ -95,14 +100,4 @@ function Product(props) {
       { getAllProductDetails() }
     </div>
   )
-}
-
-export default Product;
-
-// loader function
-
-export const productDetailsLoader = async ({params}) => {
-  const { id } = params;
-  const res = await fetch('http://localhost:4000/allProudcts')
-  return res.json();
 }
