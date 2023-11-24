@@ -15,9 +15,20 @@ export default function ProductsOverview(props) {
 
   const productArray = useLoaderData();
   const [searchParams, setSearchParams] = useSearchParams();
+  const categoryFilter = searchParams.get("category");
   const [products, setProducts] = React.useState(productArray);
   console.log(searchParams.toString())
-  console.log(products);
+  console.log(`category is ${categoryFilter}`)
+  console.log(productArray[0].category);
+
+  const filterProducts = categoryFilter
+    ? productArray.filter(prod => prod.category.toLowerCase() === categoryFilter)
+    : productArray
+  ;
+
+  console.log(filterProducts)
+
+  
 
   const displayCategories = products.map(category => {
     return (
