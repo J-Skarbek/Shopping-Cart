@@ -1,18 +1,22 @@
 import React from 'react';
-import { Outlet, Link, useLoaderData, useParams } from 'react-router-dom';
+import { Outlet, Link, useLoaderData, useParams, useSearchParams } from 'react-router-dom';
 import { nanoid } from 'nanoid';
 import ProductCard from './ProductCard';
 import GetAllProducts from './GetAllProductCards';
 import Pill from './Pill';
 
-function ProductsOverview(props) {
+export const productsLoader = async () => {
+  // const { id } = params;
+  const res = await fetch('http://localhost:4000/allProudcts')
+  return res.json();
+}
 
-  // const { id } = useParams();
+export default function ProductsOverview(props) {
 
   const productArray = useLoaderData();
-
+  const [searchParams, setSearchParams] = useSearchParams();
   const [products, setProducts] = React.useState(productArray);
-
+  console.log(searchParams.toString())
   console.log(products);
 
   const displayCategories = products.map(category => {
@@ -90,10 +94,3 @@ function ProductsOverview(props) {
   )
 }
 
-export default ProductsOverview;
-
-export const productsLoader = async () => {
-  // const { id } = params;
-  const res = await fetch('http://localhost:4000/allProudcts')
-  return res.json();
-}

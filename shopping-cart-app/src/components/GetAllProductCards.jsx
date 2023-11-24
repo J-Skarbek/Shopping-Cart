@@ -4,8 +4,6 @@ import ProductCard from "./ProductCard";
 
 function GetAllProducts(props) {
 
-
-
   function handleClick() {
     const displayProductsGrid = props.products.map(category => {
       let displayCards = category.products.map(individualProduct => {

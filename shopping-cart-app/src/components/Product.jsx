@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { useLoaderData, useParams, useLocation } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import 'swiper/css';
@@ -19,6 +19,10 @@ export default function Product(props) {
 
   const { id } = useParams();
   const productDetails = useLoaderData();
+  const location = useLocation();
+
+  console.log(location)
+  console.log(productDetails)
 
   // ***** Do we need to place this data in state???
   // ***** const [testState, setTestState] = React.useState(useLoaderData());
@@ -34,7 +38,6 @@ export default function Product(props) {
       })
       return details;
     })
-
 
     return (
       <div className="product-body max-w-7xl px-8 py-16">
