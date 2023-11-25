@@ -8,7 +8,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 
 export const productDetailsLoader = async ({params}) => {
-  // const { id } = params;
   const res = await fetch('http://localhost:4000/allProudcts')
   return res.json();
 }
@@ -20,14 +19,7 @@ export default function Product(props) {
   const { id } = useParams();
   const productDetails = useLoaderData();
   const location = useLocation();
-
-  console.log(location)
-  console.log(productDetails)
-  console.log(`linkstate: ${props.state}`)
-
-  // ***** Do we need to place this data in state???
-  // ***** const [testState, setTestState] = React.useState(useLoaderData());
-  // const { products } = productDetails;
+  const search = location.state?.search || '';
 
   function getAllProductDetails() {
     let details;
@@ -42,14 +34,14 @@ export default function Product(props) {
 
     return (
       <div className="product-body max-w-7xl px-8 py-16">
-        <div className="general-overview flex flex-col justify-center">
+        <div className="general-overview flex justify-center">
+          <div className="product-images w-full">
           <Link 
-            to=".."
+            to={`..${search}`}
             className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg"
           >
             Back to Browsing
           </Link>
-          <div className="product-images w-full">
             <Swiper
               style={{
                 '--swiper-navigation-color': '#fff',
@@ -63,10 +55,10 @@ export default function Product(props) {
               className="mySwiper2"
             >
               {
-                 details.imageArray.map((image, i) => {
+                details.imageArray.map((image, i) => {
                   return (
                     <SwiperSlide key={i}>
-                            <img src={`/${image}`} />
+                      <img src={`/${image}`} />
                     </SwiperSlide>
                   )
                 })
@@ -83,10 +75,10 @@ export default function Product(props) {
               className="mySwiper"
             >
               {
-                 details.imageArray.map((image, i) => {
+                details.imageArray.map((image, i) => {
                   return (
                     <SwiperSlide key={i}>
-                            <img src={`/${image}`} />
+                      <img src={`/${image}`} />
                     </SwiperSlide>
                   )
                 })

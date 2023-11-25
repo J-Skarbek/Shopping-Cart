@@ -13,7 +13,7 @@ function ProductCard(props) {
       <div className="product-details p-4">
           <Link 
             to={props.name}
-            state={{ search: props.searchParams.toString() }}
+            state={{ search: `?${props.searchParams.toString()}` }}
           >
             <p className="product-name font-semibold text-lg">{props.name}</p>
           </Link>
