@@ -28,19 +28,33 @@ export default function ProductsOverview(props) {
     return allProducts;
   }
 
+  function getNewSearchParamString(key, value) {
+    const sp = new URLSearchParams(searchParams);
+    if ( value === null) {
+      sp.delete(key)
+    } else {
+      sp.set(key, value)
+    }
+    console.log(sp.toString())
+    return `?${sp.toString()}`
+  }
+
   const dipslayCategoryFilters = productArray.map(category => {
     return (
-      // <Link 
-      //   to={`?category=${category.category}`}
-      //   key={nanoid()}
-      // >{`${category.category}`}
-      // </Link>
-      <button
-        key={nanoid()}
-        onClick={() => setSearchParams({category: `${category.category}`})}
-        className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg" 
-        >{category.category}
-      </button>
+      <>
+        <Link 
+          to={getNewSearchParamString("category", `${category.category}`)}
+          key={nanoid()}
+        >
+          {`${category.category}`}
+        </Link>
+        <button
+          key={nanoid()}
+          onClick={() => setSearchParams({category: `${category.category}`})}
+          className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg" 
+          >{category.category}
+        </button>
+        </>
     )
   })
 
@@ -62,9 +76,10 @@ export default function ProductsOverview(props) {
     <div className='products-container'>
       <div className='category-pills flex justify-center gap-2 my-8'>
         <button
-           onClick={() => setSearchParams({})}
-           className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg" 
-           >All Products
+          onClick={() => setSearchParams({})}
+          className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg" 
+        >
+          All Products
         </button>
         { dipslayCategoryFilters }
       </div>
