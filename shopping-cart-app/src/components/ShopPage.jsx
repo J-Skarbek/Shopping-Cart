@@ -19,13 +19,12 @@ export default function ProductsOverview(props) {
 
   function getAllProducts() {
     const allProducts = [];
-    const allCategories = productArray.map(category => {
-      const products = category.products.map(product => {
+     productArray.map(category => {
+      category.products.map(product => {
         allProducts.push(product);
       });
     });
-    console.log(allProducts)
-    return allProducts
+    return allProducts;
   }
 
   const filterProducts = categoryFilter
