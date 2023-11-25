@@ -72,6 +72,7 @@ export default function ProductsOverview() {
       img={product.imageArray[0]}
       price={product.price}
       key={nanoid()}
+      searchParams={searchParams}
     />
   ))
 
