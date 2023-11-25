@@ -10,13 +10,11 @@ export const productsLoader = async () => {
   return res.json();
 }
 
-export default function ProductsOverview(props) {
+export default function ProductsOverview() {
 
   const productArray = useLoaderData();
   const [searchParams, setSearchParams] = useSearchParams();
   const categoryFilter = searchParams.get("category");
-  // const [products, setProducts] = React.useState(productArray);
-  // console.log(productArray)
 
   function getAllProducts() {
     const allProducts = [];
@@ -28,33 +26,38 @@ export default function ProductsOverview(props) {
     return allProducts;
   }
 
-  function getNewSearchParamString(key, value) {
-    const sp = new URLSearchParams(searchParams);
-    if ( value === null) {
-      sp.delete(key)
-    } else {
-      sp.set(key, value)
-    }
-    console.log(sp.toString())
-    return `?${sp.toString()}`
+  //This works similar to the handleFilterChange -- will delete later
+  //
+  // function getNewSearchParamString(key, value) {
+  //   const sp = new URLSearchParams(searchParams);
+  //   if ( value === null) {
+  //     sp.delete(key)
+  //   } else {
+  //     sp.set(key, value)
+  //   }
+  //   console.log(sp.toString())
+  //   return `?${sp.toString()}`
+  // }
+
+  function handleFilterChange(key, value) {
+    setSearchParams(prevParams => {
+      if (value === null) {
+        prevParams.delete(key)
+      } else {
+        prevParams.set(key, value)
+      }
+      return prevParams
+    })
   }
 
   const dipslayCategoryFilters = productArray.map(category => {
     return (
-      <>
-        <Link 
-          to={getNewSearchParamString("category", `${category.category}`)}
-          key={nanoid()}
-        >
-          {`${category.category}`}
-        </Link>
-        <button
-          key={nanoid()}
-          onClick={() => setSearchParams({category: `${category.category}`})}
-          className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg" 
-          >{category.category}
-        </button>
-        </>
+      <button
+        key={nanoid()}
+        onClick={() => handleFilterChange("category", `${category.category}`)}
+        className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg" 
+        >{category.category}
+      </button>
     )
   })
 
@@ -89,4 +92,3 @@ export default function ProductsOverview(props) {
     </div>
   )
 }
-
