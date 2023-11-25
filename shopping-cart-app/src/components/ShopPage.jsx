@@ -15,8 +15,8 @@ export default function ProductsOverview(props) {
   const productArray = useLoaderData();
   const [searchParams, setSearchParams] = useSearchParams();
   const categoryFilter = searchParams.get("category");
-  const [products, setProducts] = React.useState(productArray);
-  console.log(productArray)
+  // const [products, setProducts] = React.useState(productArray);
+  // console.log(productArray)
 
   function getAllProducts() {
     const allProducts = [];
@@ -30,11 +30,17 @@ export default function ProductsOverview(props) {
 
   const dipslayCategoryFilters = productArray.map(category => {
     return (
-      <Link 
-        to={`?category=${category.category}`}
+      // <Link 
+      //   to={`?category=${category.category}`}
+      //   key={nanoid()}
+      // >{`${category.category}`}
+      // </Link>
+      <button
         key={nanoid()}
-      >{`${category.category}`}
-      </Link>
+        onClick={() => setSearchParams({category: `${category.category}`})}
+        className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg" 
+        >{category.category}
+      </button>
     )
   })
 
@@ -55,15 +61,13 @@ export default function ProductsOverview(props) {
   return (
     <div className='products-container'>
       <div className='category-pills flex justify-center gap-2 my-8'>
-        <button 
-          type='button' 
-          className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg" 
-          // onClick={resetProductGrid}
-        >
-          All Products
+        <button
+           onClick={() => setSearchParams({})}
+           className="pill bg-fuchsia-100 py-1 px-6 rounded-3xl drop-shadow-lg" 
+           >All Products
         </button>
-          { dipslayCategoryFilters }
-        </div>
+        { dipslayCategoryFilters }
+      </div>
       <div className='card-grid my-0 mx-auto w-4/5 flex flex-wrap justify-around items-center'>
         { displayProducts }
       </div>
