@@ -20,12 +20,16 @@ export default function Product(props) {
   const productDetails = useLoaderData();
   const location = useLocation();
   const search = location.state?.search || '';
-  console.log(productName)
+  // console.log(productName)
+  // console.log(productDetails)
 
-  function getAllProductDetails() {
+  //While this function works, I may end up refactoring this once the data is placed
+  //into a firestore db. Leaving it now (11/26/23) as I want to get other functionality
+  //working correctly
+  function getDetails() {
     let details;
     productDetails.map(category => {
-      const productDeets = category.products.map(detail => {
+      category.products.map(detail => {
         if (productName === detail.name) {
           details = detail;
         }
@@ -103,7 +107,7 @@ export default function Product(props) {
 
   return (
     <div>
-      { getAllProductDetails() }
+      { getDetails() }
     </div>
   )
 }
