@@ -28,12 +28,13 @@ const router = createBrowserRouter(
         />
         <Route 
           path='shop'
+          //Duplicate errorElement here because eventually I'll need to update the stucture of routes
+          //if I want to just use one error element as a catchall
           errorElement={<Error />}
         >
           <Route 
             index 
             element={<ProductsOverview />} 
-            // errorElement={<Error />}
             loader={productsLoader} 
           />
           <Route 
