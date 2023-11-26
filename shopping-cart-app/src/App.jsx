@@ -8,6 +8,7 @@ import RootLayout from "./components/RootLayout";
 import Product, { productDetailsLoader } from "./components/Product";
 import { register } from 'swiper/element/bundle';
 import NotFound from "./components/NotFound";
+import Error from "./components/Error";
 // import MailingListSignUp from './components/MailingListSignUp';
 import './App.css';
 
@@ -16,14 +17,30 @@ register();
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path='/' element={<RootLayout />}>
+      <Route 
+        path='/' 
+        element={<RootLayout />}
+      >
         <Route 
           index
           element={<Homepage />}
+          errorElement={<Error />}
         />
-        <Route path='shop'>
-          <Route index element={<ProductsOverview />} loader={productsLoader} />
-          <Route path=':id' element={<Product />} loader={productDetailsLoader} />
+        <Route 
+          path='shop'
+          errorElement={<Error />}
+        >
+          <Route 
+            index 
+            element={<ProductsOverview />} 
+            // errorElement={<Error />}
+            loader={productsLoader} 
+          />
+          <Route 
+            path=':id' 
+            element={<Product />} 
+            loader={productDetailsLoader} 
+          />
         </Route>
         <Route 
           path='cart'
