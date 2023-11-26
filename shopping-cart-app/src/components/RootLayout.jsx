@@ -6,7 +6,7 @@ import Footer from "./Footer";
 function RootLayout() {
 
   const [cartContents, setCartContents] = React.useState([1,2,3,4,5]);
-  console.log(cartContents);
+  // console.log(cartContents);
 
   return (
     <div className="root-layout">

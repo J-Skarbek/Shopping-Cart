@@ -25,7 +25,7 @@ function Header(props) {
 
   displayMenu();
 
-  console.log(showMenu);
+  // console.log(showMenu);
 
   return (
     <div className="header flex justify-between items-center px-12">

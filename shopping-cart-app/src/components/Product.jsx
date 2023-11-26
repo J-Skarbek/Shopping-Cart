@@ -20,6 +20,7 @@ export default function Product(props) {
   const productDetails = useLoaderData();
   const location = useLocation();
   const search = location.state?.search || '';
+  console.log(useParams)
 
   function getAllProductDetails() {
     let details;
@@ -89,8 +90,11 @@ export default function Product(props) {
             <h1 className="product-title">{details.name}</h1>
             <p>{details.price}</p>
             <p>{details.desciption}</p>
-            <button type="button">Add To Cart</button>
-            {/* <button type="button"></button> */}
+            <button 
+              type="button"
+            >
+              Add To Cart
+            </button>
           </div>
         </div>
       </div>
