@@ -16,17 +16,17 @@ export default function Product(props) {
 
   const [thumbsSwiper, setThumbsSwiper] = React.useState(null);
 
-  const { id } = useParams();
+  const { productName } = useParams();
   const productDetails = useLoaderData();
   const location = useLocation();
   const search = location.state?.search || '';
-  console.log(useParams)
+  console.log(productName)
 
   function getAllProductDetails() {
     let details;
     productDetails.map(category => {
       const productDeets = category.products.map(detail => {
-        if (id === detail.name) {
+        if (productName === detail.name) {
           details = detail;
         }
       })
