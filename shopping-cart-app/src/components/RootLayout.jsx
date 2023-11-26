@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 function RootLayout() {
 
-  const [cartContents, setCartContents] = React.useState([1,2,3,4,5]);
+  const [cartContents, setCartContents] = React.useState([{}, {}, 3, 4, 5, 6, {}]);
   // console.log(cartContents);
 
   return (

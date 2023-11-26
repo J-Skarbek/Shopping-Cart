@@ -5,7 +5,18 @@ import panda from '../assets/panda-logo.svg';
 import hamburger from '../assets/hamburger.svg';
 import HamburgerMenuExpanded from "./HamburgerMenuExpanded";
 
-function Header(props) {
+function Header({ cartContents, setCartContents}) {
+
+  console.log(cartContents);
+
+  function handleCartClick() {
+    setCartContents("empty cart")
+    // console.log(`new cart contents: ${cartContents}`)
+  }
+
+  function logCartOnClick() {
+    console.log(`Heres the cart contents: ${cartContents}`)
+  }
 
   const [showMenu, setShowMenu] = React.useState(false);
 
@@ -36,6 +47,8 @@ function Header(props) {
         <NavLink to='cart'>Cart</NavLink>
         <NavLink to='shop'>Shop</NavLink>
         <NavLink to='product'>Product Test</NavLink>
+        <button onClick={handleCartClick}>Empty the Cart Testing BTN</button>
+        <button onClick={logCartOnClick}>See the current cart status</button>
       </nav>
       <div className="cart-hamburger-icon">
         <img src={hamburger} className="hamburger" alt="View Your Cart" onClick={updateMenuStatus} />

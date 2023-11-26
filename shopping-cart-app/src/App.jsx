@@ -9,7 +9,6 @@ import Product, { productDetailsLoader } from "./components/Product";
 import { register } from 'swiper/element/bundle';
 import NotFound from "./components/NotFound";
 import Error from "./components/Error";
-// import MailingListSignUp from './components/MailingListSignUp';
 import './App.css';
 
 register();
@@ -53,14 +52,8 @@ const router = createBrowserRouter(
   )
 )
 
-function App() {
-
-  const [cartContents, setCartContents] = React.useState([1,2,3,4,5]);
-  // console.log(cartContents);
-
+export default function App() {
   return (
     <RouterProvider router={router} />
   )
 }
-
-export default App;
