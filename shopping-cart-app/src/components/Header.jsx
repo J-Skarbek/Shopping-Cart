@@ -1,28 +1,31 @@
-import React from "react";
+import React, { useContext } from "react";
 import { createPortal } from 'react-dom';
 import { Link, NavLink } from "react-router-dom";
 import panda from '../assets/panda-logo.svg';
 import hamburger from '../assets/hamburger.svg';
 import HamburgerMenuExpanded from "./HamburgerMenuExpanded";
+import { ShopContext } from "./RootLayout";
 
-function Header({ cartContents, setCartContents}) {
+function Header() {
 
-  console.log(cartContents);
+  // console.log(cartContents);
 
-  function handleCartClick() {
-    setCartContents("empty cart")
-    // console.log(`new cart contents: ${cartContents}`)
-  }
+  // function handleCartClick() {
+  //   setCartContents("empty cart")
+  //   // console.log(`new cart contents: ${cartContents}`)
+  // }
 
-  function logCartOnClick() {
-    console.log(`Heres the cart contents: ${cartContents}`)
-  }
+  // function logCartOnClick() {
+  //   console.log(`Heres the cart contents: ${cartContents}`)
+  // }
 
   const [showMenu, setShowMenu] = React.useState(false);
 
   const updateMenuStatus = () => {
     return setShowMenu(!showMenu);
   }
+
+  const { cartItems, addToCart, logCartItems, emptyTheCart } = useContext(ShopContext);
 
   function displayMenu() {
     if (showMenu === true) {
@@ -47,8 +50,8 @@ function Header({ cartContents, setCartContents}) {
         <NavLink to='cart'>Cart</NavLink>
         <NavLink to='shop'>Shop</NavLink>
         <NavLink to='product'>Product Test</NavLink>
-        <button onClick={handleCartClick}>Empty the Cart Testing BTN</button>
-        <button onClick={logCartOnClick}>See the current cart status</button>
+        <button onClick={emptyTheCart}>Empty the Cart Testing BTN</button>
+        <button onClick={logCartItems}>See the current cart status</button>
       </nav>
       <div className="cart-hamburger-icon">
         <img src={hamburger} className="hamburger" alt="View Your Cart" onClick={updateMenuStatus} />

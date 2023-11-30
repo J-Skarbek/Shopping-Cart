@@ -28,8 +28,13 @@ function RootLayout() {
     console.log(`updated cart contains: ${console.table(cartContents)}`);
   }
 
+  const logCartItems = () => console.table(cartItems)
+
+  const emptyTheCart = () => setCartContents("empty cart");
+  
+
   return (
-    <ShopContext.Provider value={{ cartItems, addToCart }}>
+    <ShopContext.Provider value={{ cartItems, addToCart, logCartItems, emptyTheCart }}>
       <div className="root-layout">
         <Header 
           cartContents={cartContents}
