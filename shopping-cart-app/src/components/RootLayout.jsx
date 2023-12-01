@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 export const ShopContext = createContext({
   products: [],
-  cartItems: [],
+  cartContents: [],
   addToCart: () => {},
   logCartItems: () => {},
   emptyTheCart: () => {}
@@ -13,35 +13,30 @@ export const ShopContext = createContext({
 
 function RootLayout() {
 
-  const [cartContents, setCartContents] = React.useState([{}, {}, 3, 4, 5, 6, {}]);
-  // console.log(cartContents);
-
-  const cartItems = cartContents;
-
+  const [cartContents, setCartContents] = React.useState([]);
+ 
   function addToCart(newItem) {
     setCartContents(prevCartContents => {
-      return ({
+      return ([
       ...prevCartContents,
       newItem
-      })
+      ])
     })
-    console.log(`updated cart contains: ${console.table(cartContents)}`);
+    console.log(`updated cart contains: ${newItem}`);
   }
 
-  const logCartItems = () => console.table(cartItems);
+  // Will eventually need to add removeFromCart function, possibly only need 
+  // on the actualy cart page
 
-  const emptyTheCart = () => setCartContents("empty cart");
+  const logCartItems = () => cartContents.length > 0 ? console.table(cartContents) : console.log('The cart is empty');
+  const emptyTheCart = () => setCartContents([]);
   
-
   return (
-    <ShopContext.Provider value={{ cartItems, addToCart, logCartItems, emptyTheCart }}>
+    <ShopContext.Provider value={{ cartContents, addToCart, logCartItems, emptyTheCart }}>
       <div className="root-layout">
         <Header />
         <main className="flex justify-center">
-          <Outlet 
-            cartContents={cartContents}
-            setCartContents={setCartContents}
-          />
+          <Outlet />
         </main>
         <Footer />
         <ScrollRestoration />

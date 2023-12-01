@@ -25,7 +25,7 @@ function Header() {
     return setShowMenu(!showMenu);
   }
 
-  const { cartItems, addToCart, logCartItems, emptyTheCart } = useContext(ShopContext);
+  const { logCartItems, emptyTheCart } = useContext(ShopContext);
 
   function displayMenu() {
     if (showMenu === true) {

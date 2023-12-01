@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useLoaderData, useParams, useLocation, Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
@@ -6,22 +6,22 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
+import { ShopContext } from './RootLayout';
 
 export const productDetailsLoader = async ({params}) => {
   const res = await fetch('http://localhost:4000/allProudcts')
   return res.json();
 }
 
-export default function Product(props) {
+export default function Product() {
 
   const [thumbsSwiper, setThumbsSwiper] = React.useState(null);
-
   const { productName } = useParams();
   const productDetails = useLoaderData();
   const location = useLocation();
   const search = location.state?.search || '';
-  // console.log(productName)
-  // console.log(productDetails)
+
+  const { addToCart } = useContext(ShopContext);
 
   //While this function works, I may end up refactoring this once the data is placed
   //into a firestore db. Leaving it now (11/26/23) as I want to get other functionality
@@ -96,6 +96,7 @@ export default function Product(props) {
             <p>{details.desciption}</p>
             <button 
               type="button"
+              onClick={() => addToCart(details)}
             >
               Add To Cart
             </button>
