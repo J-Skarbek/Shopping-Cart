@@ -2,18 +2,26 @@ import React, { createContext } from "react";
 import { Outlet, ScrollRestoration } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
+import useLocalStorage from "../utils";
 
 export const ShopContext = createContext({
   products: [],
   cartContents: [],
   addToCart: () => {},
   logCartItems: () => {},
-  emptyTheCart: () => {}
+  emptyTheCart: () => {},
+  testLocal: () => {}
 })
 
 function RootLayout() {
 
   const [cartContents, setCartContents] = React.useState([]);
+  // const [name, setName] = useLocalStorage('cartContents', cartContents);
+
+  const [item, setItem] = useLocalStorage('item', 'world');
+
+ const testLocal = () => setItem(cartContents);
+  
  
   function addToCart(newItem) {
     setCartContents(prevCartContents => {
@@ -32,7 +40,7 @@ function RootLayout() {
   const emptyTheCart = () => setCartContents([]);
   
   return (
-    <ShopContext.Provider value={{ cartContents, addToCart, logCartItems, emptyTheCart }}>
+    <ShopContext.Provider value={{ cartContents, addToCart, logCartItems, emptyTheCart, testLocal }}>
       <div className="root-layout">
         <Header />
         <main className="flex justify-center">
