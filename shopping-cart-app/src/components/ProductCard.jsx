@@ -1,6 +1,4 @@
 import React from "react";
-// import ProductsPage from "./ProductsPage";
-// import Root from "../../RouteSwitch";
 import { Link } from 'react-router-dom';
 
 function ProductCard(props) {

@@ -1,9 +1,8 @@
 import React from 'react';
-import { Outlet, Link, useLoaderData, useParams, useSearchParams } from 'react-router-dom';
+import { useLoaderData, useSearchParams } from 'react-router-dom';
 import { nanoid } from 'nanoid';
 import ProductCard from './ProductCard';
-import GetAllProducts from './GetAllProductCards';
-import Pill from './Pill';
+
 
 export const productsLoader = async () => {
   const res = await fetch('http://localhost:4000/allProudcts')

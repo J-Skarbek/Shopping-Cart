@@ -8,17 +8,6 @@ import { ShopContext } from "./RootLayout";
 
 function Header() {
 
-  // console.log(cartContents);
-
-  // function handleCartClick() {
-  //   setCartContents("empty cart")
-  //   // console.log(`new cart contents: ${cartContents}`)
-  // }
-
-  // function logCartOnClick() {
-  //   console.log(`Heres the cart contents: ${cartContents}`)
-  // }
-
   const [showMenu, setShowMenu] = React.useState(false);
 
   const updateMenuStatus = () => {
@@ -38,8 +27,6 @@ function Header() {
   }
 
   displayMenu();
-
-  // console.log(showMenu);
 
   return (
     <div className="header flex justify-between items-center px-12">
