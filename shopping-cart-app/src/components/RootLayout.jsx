@@ -10,18 +10,16 @@ export const ShopContext = createContext({
   addToCart: () => {},
   logCartItems: () => {},
   emptyTheCart: () => {},
-  testLocal: () => {}
 })
 
 function RootLayout() {
 
-  const [cartContents, setCartContents] = React.useState([]);
-  // const [name, setName] = useLocalStorage('cartContents', cartContents);
+  const [cartContents, setCartContents] = React.useState(JSON.parse(localStorage.getItem('items')) || []);
 
-  const [item, setItem] = useLocalStorage('item', 'world');
-
- const testLocal = () => setItem(cartContents);
-  
+  React.useEffect(() => {
+    localStorage.setItem("items", JSON.stringify(cartContents))
+  }, [cartContents])
+    
  
   function addToCart(newItem) {
     setCartContents(prevCartContents => {
@@ -40,7 +38,7 @@ function RootLayout() {
   const emptyTheCart = () => setCartContents([]);
   
   return (
-    <ShopContext.Provider value={{ cartContents, addToCart, logCartItems, emptyTheCart, testLocal }}>
+    <ShopContext.Provider value={{ cartContents, addToCart, logCartItems, emptyTheCart }}>
       <div className="root-layout">
         <Header />
         <main className="flex justify-center">

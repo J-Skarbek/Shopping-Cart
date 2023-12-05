@@ -14,7 +14,7 @@ function Header() {
     return setShowMenu(!showMenu);
   }
 
-  const { logCartItems, emptyTheCart, testLocal } = useContext(ShopContext);
+  const { logCartItems, emptyTheCart } = useContext(ShopContext);
 
   function displayMenu() {
     if (showMenu === true) {
@@ -37,7 +37,6 @@ function Header() {
         <NavLink to='cart'>Cart</NavLink>
         <NavLink to='shop'>Shop</NavLink>
         <NavLink to='product'>Product Test</NavLink>
-        <button onClick={testLocal}>Test local storage</button>
         <button onClick={emptyTheCart}>Empty the Cart Testing BTN</button>
         <button onClick={logCartItems}>See the current cart status</button>
       </nav>
