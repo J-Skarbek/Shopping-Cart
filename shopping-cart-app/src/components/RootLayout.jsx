@@ -30,11 +30,16 @@ function RootLayout() {
     })
     console.log(`updated cart contains: ${newItem}`);
   }
-
+  
   // Will eventually need to add removeFromCart function, possibly only need 
   // on the actualy cart page
 
-  const logCartItems = () => cartContents.length > 0 ? console.table(cartContents) : console.log('The cart is empty');
+  // const logCartItems = () => cartContents.length > 0 ? console.table(cartContents) : console.log('The cart is empty');
+  const logCartItems = () => {
+    console.log('Cart itmes in state:');
+    console.table(cartContents);
+    console.log(`localStorage count of items ${JSON.parse(localStorage.items).length}`)
+  }
   const emptyTheCart = () => setCartContents([]);
   
   return (
