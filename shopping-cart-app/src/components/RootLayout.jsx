@@ -5,7 +5,6 @@ import Footer from "./Footer";
 import useLocalStorage from "../utils";
 
 export const ShopContext = createContext({
-  products: [],
   cartContents: [],
   addToCart: () => {},
   logCartItems: () => {},
@@ -40,6 +39,7 @@ function RootLayout() {
     console.table(cartContents);
     console.log(`localStorage count of items ${JSON.parse(localStorage.items).length}`)
   }
+  
   const emptyTheCart = () => setCartContents([]);
   
   return (
