@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ShopContext } from "./RootLayout";
-import { nanoid } from 'nanoid';
+import ShoppingCartCard from "./ShoppingCartCard";
 
 function ShoppingCart() {
 
@@ -8,12 +8,12 @@ function ShoppingCart() {
 
   const displayCartContents = cartContents.map(item => {
     return (
-      <>
-        <img src={item.imageArray[0]}></img>
-        <p>{item.name}</p>
-        <p>{item.description}</p>
-        <p>{item.price}</p>
-      </>
+      <ShoppingCartCard 
+        key={item.id}
+        image={item.imageArray[0]}
+        productName={item.name}
+        price={item.price}
+      />
     )
   })
 
