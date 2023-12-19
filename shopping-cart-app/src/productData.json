@@ -31,7 +31,9 @@
               "xl": "extra-large"
             },
           "price": "$29.99",
-          "id": "0001"
+          "id": "0001",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Ribbed Tank Top",
@@ -61,8 +63,10 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$24.99",
-          "id": "0002"
+          "price": 24.99,
+          "id": "0002",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Linen T-Shirt",
@@ -93,7 +97,9 @@
             }
           ],
           "price": "$19.99",
-          "id": "0003"
+          "id": "0003",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Fine-knit Corset-style Top",
@@ -124,7 +130,9 @@
             }
           ],
           "price": "$34.99",
-          "id": "0004"
+          "id": "0004",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Ribbed Thong Bodysuit",
@@ -155,7 +163,9 @@
             }
           ],
           "price": "$29.99",
-          "id": "0005"
+          "id": "0005",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         }
       ]
     },
@@ -192,7 +202,9 @@
           ],
           "price": "$59.99"
           ,
-          "id": "0006"
+          "id": "0006",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Open-backed Chiffon Dress",
@@ -223,7 +235,9 @@
             }
           ],
           "price": "$49.99",
-          "id": "0007"
+          "id": "0007",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Cotton Bodycon Dress",
@@ -254,7 +268,9 @@
             }
           ],
           "price": "$59.99",
-          "id": "0008"
+          "id": "0008",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Denim Bodycon Dress",
@@ -285,7 +301,9 @@
             }
           ],
           "price": "$79.99",
-          "id": "0009"
+          "id": "0009",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Ruffle-trimmed Crêped Dress",
@@ -316,7 +334,9 @@
             }
           ],
           "price": "$64.99",
-          "id": "0010"
+          "id": "0010",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         }
       ]
     },
@@ -352,7 +372,9 @@
             }
           ],
           "price": "$89.99",
-          "id": "0011"
+          "id": "0011",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Heeled Sandals",
@@ -383,7 +405,9 @@
             }
           ],
           "price": "$109.99",
-          "id": "0012"
+          "id": "0012",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
           
         },
         {
@@ -415,7 +439,9 @@
             }
           ],
           "price": "$99.99",
-          "id": "0013"
+          "id": "0013",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Knot-detail Platform Sandals",
@@ -446,7 +472,9 @@
             }
           ],
           "price": "$129.99",
-          "id": "0014"
+          "id": "0014",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Chunky Sneakers",
@@ -477,7 +505,9 @@
             }
           ],
           "price": "$89.99",
-          "id": "0015"
+          "id": "0015",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         }
       ]
     },
@@ -513,7 +543,9 @@
             }
           ],
           "price": "$39.99",
-          "id": "0016"
+          "id": "0016",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Jersey Skirt",
@@ -544,7 +576,9 @@
             }
           ],
           "price": "$29.99",
-          "id": "0017"
+          "id": "0017",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Flared Skirt",
@@ -575,7 +609,9 @@
             }
           ],
           "price": "$29.99",
-          "id": "0018"
+          "id": "0018",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Crêped Skirt",
@@ -606,7 +642,9 @@
             }
           ],
           "price": "$34.99",
-          "id": "0019"
+          "id": "0019",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Pleated Chiffon Skirt",
@@ -637,7 +675,9 @@
             }
           ],
           "price": "$39.99",
-          "id": "0020"
+          "id": "0020",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         }
       ]
     },
@@ -669,7 +709,9 @@
             }
           ],
           "price": "$19.99",
-          "id": "0021"
+          "id": "0021",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Crochet-look Sarong",
@@ -700,7 +742,9 @@
             }
           ],
           "price": "$24.99",
-          "id": "0022"
+          "id": "0022",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Shoulder Bag with Pouch",
@@ -731,7 +775,9 @@
             }
           ],
           "price": "$29.99",
-          "id": "0023"
+          "id": "0023",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Large Straw Shopper",
@@ -762,7 +808,9 @@
             }
           ],
           "price": "$39.99",
-          "id": "0024"
+          "id": "0024",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         },
         {
           "name": "Jute-blend Mini Shopper",
@@ -793,7 +841,9 @@
             }
           ],
           "price": "$39.99",
-          "id": "0025"
+          "id": "0025",
+          "quantityInCart": 0,
+          "quantityInInventory": 1000
         }
       ]
     }

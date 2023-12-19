@@ -13,6 +13,8 @@ function ShoppingCart() {
         image={item.imageArray[0]}
         productName={item.name}
         price={item.price}
+        quantity={item.quantityInCart}
+        available={item.quantityInInventory}
       />
     )
   })
