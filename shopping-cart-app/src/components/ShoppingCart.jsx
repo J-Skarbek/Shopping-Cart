@@ -19,8 +19,7 @@ function ShoppingCart() {
 
   return (
     <div className="shopping-cart-main">
-      <div className="flex flex-col m-4 p-2">
-        <p>This will be the shopping cart page.</p>
+      <div className="flex flex-col max-w-7xl px-8 py-16">
         {displayCartContents}
       </div>
     </div>
