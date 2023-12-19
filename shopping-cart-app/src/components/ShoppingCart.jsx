@@ -20,7 +20,8 @@ function ShoppingCart() {
   return (
     <div className="shopping-cart-main">
       <div className="flex flex-col max-w-7xl px-8 py-16">
-        {displayCartContents}
+        { displayCartContents.length === 0 ? <button>Shop Now</button> : displayCartContents}
+        {/* {displayCartContents} */}
       </div>
     </div>
   )
