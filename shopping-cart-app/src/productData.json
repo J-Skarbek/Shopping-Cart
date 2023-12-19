@@ -30,7 +30,8 @@
               "lg": "large",
               "xl": "extra-large"
             },
-          "price": "$29.99"
+          "price": "$29.99",
+          "id": "0001"
         },
         {
           "name": "Ribbed Tank Top",
@@ -60,7 +61,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$24.99"
+          "price": "$24.99",
+          "id": "0002"
         },
         {
           "name": "Linen T-Shirt",
@@ -90,7 +92,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$19.99"
+          "price": "$19.99",
+          "id": "0003"
         },
         {
           "name": "Fine-knit Corset-style Top",
@@ -120,7 +123,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$34.99"
+          "price": "$34.99",
+          "id": "0004"
         },
         {
           "name": "Ribbed Thong Bodysuit",
@@ -150,7 +154,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$29.99"
+          "price": "$29.99",
+          "id": "0005"
         }
       ]
     },
@@ -185,7 +190,9 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$59.99"
+          ,
+          "id": "0006"
         },
         {
           "name": "Open-backed Chiffon Dress",
@@ -215,7 +222,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$49.99",
+          "id": "0007"
         },
         {
           "name": "Cotton Bodycon Dress",
@@ -245,7 +253,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$59.99",
+          "id": "0008"
         },
         {
           "name": "Denim Bodycon Dress",
@@ -275,7 +284,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$79.99",
+          "id": "0009"
         },
         {
           "name": "Ruffle-trimmed Crêped Dress",
@@ -305,7 +315,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$64.99",
+          "id": "0010"
         }
       ]
     },
@@ -340,7 +351,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$89.99",
+          "id": "0011"
         },
         {
           "name": "Heeled Sandals",
@@ -370,7 +382,9 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$109.99",
+          "id": "0012"
+          
         },
         {
           "name": "Leather Sandals",
@@ -400,7 +414,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$99.99",
+          "id": "0013"
         },
         {
           "name": "Knot-detail Platform Sandals",
@@ -430,7 +445,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$129.99",
+          "id": "0014"
         },
         {
           "name": "Chunky Sneakers",
@@ -460,7 +476,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$89.99",
+          "id": "0015"
         }
       ]
     },
@@ -495,7 +512,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$39.99",
+          "id": "0016"
         },
         {
           "name": "Jersey Skirt",
@@ -525,7 +543,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$29.99",
+          "id": "0017"
         },
         {
           "name": "Flared Skirt",
@@ -555,7 +574,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$29.99",
+          "id": "0018"
         },
         {
           "name": "Crêped Skirt",
@@ -585,7 +605,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$34.99",
+          "id": "0019"
         },
         {
           "name": "Pleated Chiffon Skirt",
@@ -615,7 +636,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$39.99",
+          "id": "0020"
         }
       ]
     },
@@ -646,7 +668,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$19.99",
+          "id": "0021"
         },
         {
           "name": "Crochet-look Sarong",
@@ -676,7 +699,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$24.99",
+          "id": "0022"
         },
         {
           "name": "Shoulder Bag with Pouch",
@@ -706,7 +730,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$29.99",
+          "id": "0023"
         },
         {
           "name": "Large Straw Shopper",
@@ -736,7 +761,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$39.99",
+          "id": "0024"
         },
         {
           "name": "Jute-blend Mini Shopper",
@@ -766,7 +792,8 @@
               "extra-large": "xl"
             }
           ],
-          "price": "$xx.xx"
+          "price": "$39.99",
+          "id": "0025"
         }
       ]
     }
