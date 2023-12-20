@@ -8,8 +8,8 @@ export default function ShoppingCartCard({image, productName, price, size, quant
         <div className="prod-overview flex flex-col px-4">
           <p>Product: {productName}</p>
           <p>Price: {price}</p>
-          <p>Quantity:{quantity}</p>
-          <p>Available:{available}</p>
+          <p>Quantity: {quantity}</p>
+          <p>Available: {available}</p>
         </div>
     </div>
   )
