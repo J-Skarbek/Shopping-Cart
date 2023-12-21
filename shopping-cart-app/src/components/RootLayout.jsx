@@ -9,6 +9,7 @@ export const ShopContext = createContext({
   addToCart: () => {},
   logCartItems: () => {},
   emptyTheCart: () => {},
+  testCartAdd: () => {}
 })
 
 function RootLayout() {
@@ -18,8 +19,33 @@ function RootLayout() {
   React.useEffect(() => {
     localStorage.setItem("items", JSON.stringify(cartContents))
   }, [cartContents])
+
+  // function addToCart(newItem) {
+  //   const test = cartContents.map(item => {
+  //     if (item.id == newItem.id) {
+  //       item.quantityInCart += 1;
+  //       console.log(item.quantityInCart, newItem.quantityInCart)
+  //     } else {
+  //       setCartContents(prevCartContents => {
+  //         return ([
+  //         ...prevCartContents,
+  //         newItem
+  //         ])
+  //       })
+  //       console.log(`updated cart contains: ${newItem}`);
+  //     } 
+  //   })
+  //   return test;
+  // }
+
+  function testCartAdd(newItem) {
+    console.log(newItem.id);
+    cartContents.map(item => {
+      item.id == newItem.id ? console.log(`Matched product ID:${newItem.id} with ${newItem.name}`) : console.log('could not match product IDs')
+    })
+
+  } 
     
- 
   function addToCart(newItem) {
     setCartContents(prevCartContents => {
       return ([
@@ -43,7 +69,7 @@ function RootLayout() {
   const emptyTheCart = () => setCartContents([]);
   
   return (
-    <ShopContext.Provider value={{ cartContents, addToCart, logCartItems, emptyTheCart }}>
+    <ShopContext.Provider value={{ cartContents, addToCart, logCartItems, emptyTheCart, testCartAdd }}>
       <div className="root-layout">
         <Header />
         <main className="flex justify-center">

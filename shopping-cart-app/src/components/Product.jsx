@@ -21,7 +21,7 @@ export default function Product() {
   const location = useLocation();
   const search = location.state?.search || '';
 
-  const { addToCart } = useContext(ShopContext);
+  const { addToCart, testCartAdd } = useContext(ShopContext);
 
   //While this function works, I may end up refactoring this once the data is placed
   //into a firestore db. Leaving it now (11/26/23) as I want to get other functionality
@@ -100,6 +100,8 @@ export default function Product() {
             >
               Add To Cart
             </button>
+            <button onClick={() => testCartAdd(details)}>Testing the new add to cart btn</button>
+
           </div>
         </div>
       </div>
