@@ -41,9 +41,18 @@ function RootLayout() {
   function testCartAdd(newItem) {
     console.log(newItem.id);
     cartContents.map(item => {
-      item.id == newItem.id ? console.log(`Matched product ID:${newItem.id} with ${newItem.name}`) : console.log('could not match product IDs')
+      // item.id == newItem.id ? console.log(`Matched product ID:${newItem.id} with ${newItem.name}`) : console.log('could not match product IDs');
+      if (item.id === newItem.id) {
+        item.quantityInCart += 1;
+      } else {
+        setCartContents(prevCartContents => {
+          return ([
+            ...prevCartContents,
+            newItem
+          ])
+        })
+      }
     })
-
   } 
     
   function addToCart(newItem) {
