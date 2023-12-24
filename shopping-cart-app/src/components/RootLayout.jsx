@@ -20,22 +20,58 @@ function RootLayout() {
     localStorage.setItem("items", JSON.stringify(cartContents))
   }, [cartContents])
 
-
-   //actual fn name is addItemToCart()
   function testCartAdd(newItem) {
+    let updatedArray = [];
     if (cartContents.length === 0) {
       console.log('adding to empty cart')
       setCartContents([newItem])
     } else {
-    console.log('else statement successfully triggered')
-    setCartContents(prevCartContents => {
-      return ([
-      ...prevCartContents,
-      newItem
-      ])
-    });
+      console.log('else statement successfully triggered');
+      // updatedArray = cartContents.map(item => {
+      //   console.log(item)
+      //   item.id == newItem.id 
+      //   ? { ...item, quantityInCart: item.quantityInCart += 1 }
+      //   : item;
+      // });
+      setCartContents(prevCartContents => {
+        return ([
+        ...prevCartContents,
+        newItem
+        ])
+      });
+    }
+    console.log('updated Array')
+    console.table(updatedArray)
+    return updatedArray;
   }
-  }
+  
+  
+
+  //actual fn name is addItemToCart()
+  // function testCartAdd(newItem) {
+  //   console.log(`Adding new item: ${newItem}`);
+  //   if (cartContents.length === 0) {
+  //     setCartContents([newItem]);
+  //     console.log(cartContents)
+  //   } else {
+  //     console.log('else triggered')
+      // const updatedProducts = cartContents.map(item => {
+      //   if (item.id == newItem.id) {
+      //     return item.quantityInCart += 1;
+      //   }
+      // })
+      // setCartContents([
+      //     ...updatedProducts,
+      //     newItem
+      //   ]);
+    //   }
+    // }
+  
+  
+  // function filterAndAddProduct(newItem) {
+  //   console.log(newItem.id);
+  //   cartContents.filter((item => newItem.id == item.id))
+  // }
     
   function addToCart(newItem) {
     setCartContents(prevCartContents => {
