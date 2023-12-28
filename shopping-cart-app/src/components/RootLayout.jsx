@@ -81,7 +81,16 @@ function RootLayout() {
     console.log(`localStorage count of items ${JSON.parse(localStorage.items).length}`)
   }
   
-  const emptyTheCart = () => setCartContents([]);
+  // const emptyTheCart = () => setCartContents([]);
+
+  function emptyTheCart() {
+    //Need to get the objects in state to reset the quantity count to zero when deleted
+    cartContents.map(item => {
+      item.quantityInCart = 0;
+    })
+    localStorage.removeItem('items');
+    setCartContents([]);
+  }
   
   return (
     <ShopContext.Provider value={{ cartContents, addToCart, logCartItems, emptyTheCart, testCartAdd }}>
