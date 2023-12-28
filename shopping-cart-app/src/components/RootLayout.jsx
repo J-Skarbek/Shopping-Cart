@@ -20,67 +20,75 @@ function RootLayout() {
     localStorage.setItem("items", JSON.stringify(cartContents))
   }, [cartContents])
 
-  function testCartAdd(newItem) {
+  function testCartAddNiner(newItem) {
     let updatedArray = [];
     if (cartContents.length === 0) {
       console.log('adding to empty cart')
-      setCartContents([newItem])
+      setCartContents([{...newItem, quantityInCart: newItem.quantityInCart += 1 }])
     } else {
       console.log('else statement successfully triggered');
       updatedArray = cartContents.map(item => {
-        console.log('new item added to upDatedArray');
-
+        console.log('new item added to updatedArray');
         if (newItem.id == item.id) {
           return { ...item, quantityInCart: item.quantityInCart += 1 }
         } else {
+          console.log(`new Item: ${newItem.name}`)
           return newItem;
         }
-
-        // return item;
-        // item.id == newItem.id 
-        // ? { ...item, quantityInCart: item.quantityInCart += 1 }
-        // : item;
       });
-      setCartContents(prevCartContents => {
-        return ([
-        ...prevCartContents,
-        updatedArray
-        ])
-      });
+      console.table(updatedArray)
+      setCartContents([...updatedArray]);
     }
+    // setCartContents(prevCartContents => {
+    //   return ([
+    //   ...prevCartContents,
+    //   ...updatedArray
+    //   ])
+    // });
     console.log('updated Array')
     console.table(updatedArray)
     return updatedArray;
   }
-  
-  
 
-  //actual fn name is addItemToCart()
-  // function testCartAdd(newItem) {
-  //   console.log(`Adding new item: ${newItem}`);
-  //   if (cartContents.length === 0) {
-  //     setCartContents([newItem]);
-  //     console.log(cartContents)
-  //   } else {
-  //     console.log('else triggered')
-      // const updatedProducts = cartContents.map(item => {
-      //   if (item.id == newItem.id) {
-      //     return item.quantityInCart += 1;
-      //   }
-      // })
-      // setCartContents([
-      //     ...updatedProducts,
-      //     newItem
-      //   ]);
-    //   }
-    // }
+  //another testing function for dealing with quantity -- name can be whatever
+  function testCartAdd(newItem) {
+    // let updatedArray = [];
+    const checkItems = cartContents.some(item => {
+      item.id == newItem.id;
+    })
+
+    const existingProductInCart = cartContents.filter(item => newItem.id == item.id);
+    console.log(`exisingProductInCart: ${checkItems}`)
+    console.table(existingProductInCart)
+
+    if (checkItems === false) {
+      // console.log('adding to empty cart');
+      setCartContents(prevCartContents => {
+        return (
+          [
+            ... prevCartContents,
+            { ...newItem, 
+              quantityInCart: newItem.quantityInCart += 1 
+            }
+          ]
+        )
+        });
+    } else {
+      setCartContents(prevCartContents => {
+        return (
+          [
+            ...prevCartContents,
+            {
+              ...existingProductInCart, 
+              quantityInCart: existingProductInCart.quantityInCart += 1
+            }
+          ]
+        )
+      });
+    }
+  }
   
-  
-  // function filterAndAddProduct(newItem) {
-  //   console.log(newItem.id);
-  //   cartContents.filter((item => newItem.id == item.id))
-  // }
-    
+ // OG add to cart with no regard to quantity values of each item in the array
   function addToCart(newItem) {
     setCartContents(prevCartContents => {
       return ([
