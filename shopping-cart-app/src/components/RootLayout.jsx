@@ -20,71 +20,35 @@ function RootLayout() {
     localStorage.setItem("items", JSON.stringify(cartContents))
   }, [cartContents])
 
-  function testCartAddNiner(newItem) {
-    let updatedArray = [];
-    if (cartContents.length === 0) {
-      console.log('adding to empty cart')
-      setCartContents([{...newItem, quantityInCart: newItem.quantityInCart += 1 }])
-    } else {
-      console.log('else statement successfully triggered');
-      updatedArray = cartContents.map(item => {
-        console.log('new item added to updatedArray');
-        if (newItem.id == item.id) {
-          return { ...item, quantityInCart: item.quantityInCart += 1 }
-        } else {
-          console.log(`new Item: ${newItem.name}`)
-          return newItem;
-        }
-      });
-      console.table(updatedArray)
-      setCartContents([...updatedArray]);
-    }
-    // setCartContents(prevCartContents => {
-    //   return ([
-    //   ...prevCartContents,
-    //   ...updatedArray
-    //   ])
-    // });
-    console.log('updated Array')
-    console.table(updatedArray)
-    return updatedArray;
-  }
-
-  //another testing function for dealing with quantity -- name can be whatever
   function testCartAdd(newItem) {
-    // let updatedArray = [];
-    const checkItems = cartContents.some(item => {
-      item.id == newItem.id;
-    })
+    let updatedCartArray = [];
 
+    // heck to see if the newItem being added already exists in the user's cart
     const existingProductInCart = cartContents.filter(item => newItem.id == item.id);
-    console.log(`exisingProductInCart: ${checkItems}`)
-    console.table(existingProductInCart)
 
-    if (checkItems === false) {
-      // console.log('adding to empty cart');
+    if (existingProductInCart.length == 0) {
+      // If there isn't an existing match, spread in old cart items as well as new ojbect and increment the cart quantity
       setCartContents(prevCartContents => {
-        return (
-          [
-            ... prevCartContents,
-            { ...newItem, 
-              quantityInCart: newItem.quantityInCart += 1 
-            }
-          ]
-        )
-        });
-    } else {
-      setCartContents(prevCartContents => {
-        return (
-          [
-            ...prevCartContents,
-            {
-              ...existingProductInCart, 
-              quantityInCart: existingProductInCart.quantityInCart += 1
-            }
-          ]
-        )
+        return ([
+          ...prevCartContents,
+          { ...newItem, 
+            quantityInCart: newItem.quantityInCart += 1 
+          }
+        ])
       });
+    } else {
+      // If there is a match, loop through the cart, find the product, and increment the quantity
+      // whilst returning non-matching products w/o altering them
+      updatedCartArray = cartContents.map(item => {
+        if (item.id == newItem.id) {
+          return { ...item, quantityInCart: item.quantityInCart += 1};
+        } else {
+          return item;
+        }
+      })
+      // Since updatedCartArray captures and duplicates the prior state, we don't
+      // need the callback function when resetting state
+      setCartContents(updatedCartArray);
     }
   }
   
