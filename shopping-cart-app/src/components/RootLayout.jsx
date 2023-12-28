@@ -27,16 +27,24 @@ function RootLayout() {
       setCartContents([newItem])
     } else {
       console.log('else statement successfully triggered');
-      // updatedArray = cartContents.map(item => {
-      //   console.log(item)
-      //   item.id == newItem.id 
-      //   ? { ...item, quantityInCart: item.quantityInCart += 1 }
-      //   : item;
-      // });
+      updatedArray = cartContents.map(item => {
+        console.log('new item added to upDatedArray');
+
+        if (newItem.id == item.id) {
+          return { ...item, quantityInCart: item.quantityInCart += 1 }
+        } else {
+          return newItem;
+        }
+
+        // return item;
+        // item.id == newItem.id 
+        // ? { ...item, quantityInCart: item.quantityInCart += 1 }
+        // : item;
+      });
       setCartContents(prevCartContents => {
         return ([
         ...prevCartContents,
-        newItem
+        updatedArray
         ])
       });
     }
