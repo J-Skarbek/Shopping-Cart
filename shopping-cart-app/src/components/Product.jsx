@@ -111,7 +111,7 @@ export default function Product() {
                       // Normally wouln't use the value returned from array as the key
                       // but the size values options on each won't be changing, so it should be fine
                       // in this use case
-                      <option value={sizeValue} key={sizeValue}>{sizeValue.toUpperCase()}</option>
+                      <option value={sizeValue} key={sizeValue} className="text-sm">{sizeValue.toUpperCase()}</option>
                     )
                   })}
                 </select>
