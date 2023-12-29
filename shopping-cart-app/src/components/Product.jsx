@@ -102,6 +102,21 @@ export default function Product() {
             </button>
             <button onClick={() => testCartAdd(details)}>Testing the new add to cart btn</button>
 
+            <div className="form-container">
+              <form>
+                <input type="number" min="0" name="quantity" id="quantity" className="form-input" />
+                <select name="size-select" id="size-select">
+                  <option value="xs">XS</option>
+                  <option value="s">SM</option>
+                  <option value="m">M</option>
+                  <option value="l">L</option>
+                  <option value="xl">XL</option>
+                </select>
+                <button type="button">Add to Cart</button>
+              </form>
+
+            </div>
+
           </div>
         </div>
       </div>
