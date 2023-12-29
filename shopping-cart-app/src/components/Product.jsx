@@ -112,9 +112,8 @@ export default function Product() {
                   <option value="l">L</option>
                   <option value="xl">XL</option>
                 </select>
-                <button type="button">Add to Cart</button>
+                <button type="button" onClick={() => testCartAdd(details)}>Add to Cart</button>
               </form>
-
             </div>
 
           </div>

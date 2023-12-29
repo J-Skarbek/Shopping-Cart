@@ -22,7 +22,7 @@
             "src/assets/products/tops/top1/textured-knit-tube-top-4.webp",
             "src/assets/products/tops/top1/textured-knit-tube-top-5.webp"
           ],
-          "sizes":
+          "sizes-old":
             {
               "xs": "extra-small",
               "sm": "small",
@@ -30,6 +30,13 @@
               "lg": "large",
               "xl": "extra-large"
             },
+            "sizes": [
+              "extra-small",
+              "small",
+              "medium",
+              "large",
+              "extra-large"
+            ],
           "price": "$29.99",
           "id": "0001",
           "quantityInCart": 0,
@@ -54,14 +61,20 @@
             "src/assets/products/tops/top2/ribbed-tank-top-4.webp",
             "src/assets/products/tops/top2/ribbed-tank-top-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": 24.99,
           "id": "0002",
@@ -87,14 +100,20 @@
             "src/assets/products/tops/top3/linen-tshirt-4.webp",
             "src/assets/products/tops/top3/linen-tshirt-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$19.99",
           "id": "0003",
@@ -120,14 +139,20 @@
             "src/assets/products/tops/top4/fine-knit-corset-style-top-4.webp",
             "src/assets/products/tops/top4/fine-knit-corset-style-top-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$34.99",
           "id": "0004",
@@ -153,15 +178,21 @@
             "src/assets/products/tops/top5/ribbed-thong-bodysuit-4.webp",
             "src/assets/products/tops/top5/ribbed-thong-bodysuit-5.webp"
           ],
-          "sizes": [
+          "sizes-old":
             {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
+              "xs": "extra-small",
+              "sm": "small",
+              "md": "medium",
+              "lg": "large",
+              "xl": "extra-large"
+            },
+            "sizes": [
+              "extra-small",
+              "small",
+              "medium",
+              "large",
+              "extra-large"
+            ],
           "price": "$29.99",
           "id": "0005",
           "quantityInCart": 0,
@@ -191,14 +222,20 @@
             "src/assets/products/dresses/dress1/draped-dress-4.webp",
             "src/assets/products/dresses/dress1/draped-dress-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$59.99"
           ,
@@ -225,14 +262,20 @@
             "src/assets/products/dresses/dress2/open-backed-chiffon-dress-4.webp",
             "src/assets/products/dresses/dress2/open-backed-chiffon-dress-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$49.99",
           "id": "0007",
@@ -258,15 +301,21 @@
             "src/assets/products/dresses/dress3/cotton-bodycon-dress-4.webp",
             "src/assets/products/dresses/dress3/cotton-bodycon-dress-5.webp"
           ],
-          "sizes": [
+          "sizes-old":
             {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
+              "xs": "extra-small",
+              "sm": "small",
+              "md": "medium",
+              "lg": "large",
+              "xl": "extra-large"
+            },
+            "sizes": [
+              "extra-small",
+              "small",
+              "medium",
+              "large",
+              "extra-large"
+            ],
           "price": "$59.99",
           "id": "0008",
           "quantityInCart": 0,
@@ -291,15 +340,21 @@
             "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
             "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
           ],
-          "sizes": [
+          "sizes-old":
             {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
+              "xs": "extra-small",
+              "sm": "small",
+              "md": "medium",
+              "lg": "large",
+              "xl": "extra-large"
+            },
+            "sizes": [
+              "extra-small",
+              "small",
+              "medium",
+              "large",
+              "extra-large"
+            ],
           "price": "$79.99",
           "id": "0009",
           "quantityInCart": 0,
@@ -324,14 +379,20 @@
             "src/assets/products/dresses/dress5/ruffle-trimmed-dress-4.webp",
             "src/assets/products/dresses/dress5/ruffle-trimmed-dress-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$64.99",
           "id": "0010",
@@ -362,14 +423,20 @@
             "src/assets/products/shoes/shoes1/wedge-heeled-mules-4.webp",
             "src/assets/products/shoes/shoes1/wedge-heeled-mules-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$89.99",
           "id": "0011",
@@ -395,15 +462,21 @@
             "src/assets/products/shoes/shoes2/heeled-sandals-4.webp",
             "src/assets/products/shoes/shoes2/heeled-sandals-5.webp"
           ],
-          "sizes": [
+          "sizes-old":
             {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
+              "xs": "extra-small",
+              "sm": "small",
+              "md": "medium",
+              "lg": "large",
+              "xl": "extra-large"
+            },
+            "sizes": [
+              "extra-small",
+              "small",
+              "medium",
+              "large",
+              "extra-large"
+            ],
           "price": "$109.99",
           "id": "0012",
           "quantityInCart": 0,
@@ -429,14 +502,20 @@
             "src/assets/products/shoes/shoes3/leather-sandals-4.webp",
             "src/assets/products/shoes/shoes3/leather-sandals-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$99.99",
           "id": "0013",
@@ -462,14 +541,20 @@
             "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-4.webp",
             "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$129.99",
           "id": "0014",
@@ -495,15 +580,21 @@
             "src/assets/products/shoes/shoes5/chunky-sneakers-4.webp",
             "src/assets/products/shoes/shoes5/chunky-sneakers-5.webp"
           ],
-          "sizes": [
+          "sizes-old":
             {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
-          ],
+              "xs": "extra-small",
+              "sm": "small",
+              "md": "medium",
+              "lg": "large",
+              "xl": "extra-large"
+            },
+            "sizes": [
+              "extra-small",
+              "small",
+              "medium",
+              "large",
+              "extra-large"
+            ],
           "price": "$89.99",
           "id": "0015",
           "quantityInCart": 0,
@@ -533,14 +624,20 @@
             "src/assets/products/skirts/skirt1/mini-skirt-4.webp",
             "src/assets/products/skirts/skirt1/mini-skirt-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$39.99",
           "id": "0016",
@@ -566,14 +663,20 @@
             "src/assets/products/skirts/skirt2/jersey-skirt-4.webp",
             "src/assets/products/skirts/skirt2/jersey-skirt-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$29.99",
           "id": "0017",
@@ -599,14 +702,20 @@
             "src/assets/products/skirts/skirt3/flared-skirt-4.webp",
             "src/assets/products/skirts/skirt3/flared-skirt-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$29.99",
           "id": "0018",
@@ -632,14 +741,20 @@
             "src/assets/products/skirts/skirt4/creped-skirt-4.webp",
             "src/assets/products/skirts/skirt4/creped-skirt-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$34.99",
           "id": "0019",
@@ -665,14 +780,20 @@
             "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-4.webp",
             "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$39.99",
           "id": "0020",
@@ -699,14 +820,20 @@
             "src/assets/products/accessories/accessory1/straw-bucket-hat-2.webp",
             "src/assets/products/accessories/accessory1/straw-bucket-hat-3.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$19.99",
           "id": "0021",
@@ -732,14 +859,20 @@
             "src/assets/products/accessories/accessory2/crochet-look-sarong-4.webp",
             "src/assets/products/accessories/accessory2/crochet-look-sarong-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$24.99",
           "id": "0022",
@@ -765,14 +898,20 @@
             "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-4.webp",
             "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$29.99",
           "id": "0023",
@@ -798,14 +937,20 @@
             "src/assets/products/accessories/accessory4/large-straw-shopper-4.webp",
             "src/assets/products/accessories/accessory4/large-straw-shopper-5.webp"
           ],  
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$39.99",
           "id": "0024",
@@ -831,14 +976,20 @@
             "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-4.webp",
             "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-5.webp"
           ],
+          "sizes-old":
+          {
+            "xs": "extra-small",
+            "sm": "small",
+            "md": "medium",
+            "lg": "large",
+            "xl": "extra-large"
+          },
           "sizes": [
-            {
-              "extra-small": "xs",
-              "small": "sm",
-              "medium": "md",
-              "large": "lg",
-              "extra-large": "xl"
-            }
+            "extra-small",
+            "small",
+            "medium",
+            "large",
+            "extra-large"
           ],
           "price": "$39.99",
           "id": "0025",
