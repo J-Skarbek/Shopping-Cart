@@ -37,6 +37,16 @@ export default function Product() {
       return details;
     })
 
+    // const swiperSlideArray = () => {
+    //   return details.imageArray.map((image, i) => {
+    //     return (
+    //       <SwiperSlide key={i}>
+    //         <img src={`/${image}`} />
+    //       </SwiperSlide>
+    //     )
+    //   })
+    // }
+
     return (
       <div className="product-body max-w-7xl px-8 py-16">
         <div className="general-overview flex justify-center">
