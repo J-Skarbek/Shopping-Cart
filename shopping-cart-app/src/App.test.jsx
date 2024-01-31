@@ -34,6 +34,6 @@ describe('Footer Changes', () => {
 
     await user.click(button);
 
-    expect(screen.getByRole('heading', { name: 'Magnificent Monkeys' }).textContent).toMatch(/radical rhinos/i);
+    expect(screen.getByRole('heading', { name: 'Radical Rhinos' }).textContent).toMatch(/radical rhinos/i);
   });
 })
