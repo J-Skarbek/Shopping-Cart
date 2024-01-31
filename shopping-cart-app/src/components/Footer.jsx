@@ -7,11 +7,19 @@ import instagram from '../assets/instagram.svg';
 
 function Footer() {
 
+  const [testValue, setTestValue] = React.useState('Magnificent Monkeys');
+
+  const footerClickHandler = () => {
+    setTestValue('Radical Rhinos');
+  };
+
   return (
     <div className="footer flex bg-slate-100 items-end py-4 mt-4">
        <div className="left-col px-16">
         <img className="logo-img w-1/6 my-4" src={panda} alt="logo" />
-        {/* <h2>PANDA</h2> */}
+        <h2>PANDA</h2>
+        <h3>{testValue}</h3>
+        <button type="button" onClick={footerClickHandler}>Testing click Events</button>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
           do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

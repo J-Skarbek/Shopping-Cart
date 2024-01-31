@@ -1,0 +1,174 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer Changes > renders magnificent monkeys 1`] = `
+<div>
+  <div
+    class="root-layout"
+  >
+    <div
+      class="header flex justify-between items-center px-12"
+    >
+      <div
+        class="logo w-1/12"
+      >
+        <a
+          href="/"
+        >
+          <img
+            alt="logo"
+            class="logo-img w-5/6"
+            src="/src/assets/panda-logo.svg"
+          />
+        </a>
+      </div>
+      <nav
+        class="nav-menu flex justify-around w-[33%] min-w-[33%]"
+      >
+        <a
+          class=""
+          href="/cart"
+        >
+          Cart
+        </a>
+        <a
+          class=""
+          href="/shop"
+        >
+          Shop
+        </a>
+        <a
+          class=""
+          href="/product"
+        >
+          Product Test
+        </a>
+        <button>
+          Empty the Cart Testing BTN
+        </button>
+        <button>
+          See the current cart status
+        </button>
+      </nav>
+      <div
+        class="cart-hamburger-icon"
+      >
+        <img
+          alt="View Your Cart"
+          class="hamburger"
+          src="/src/assets/hamburger.svg"
+        />
+      </div>
+    </div>
+    <main
+      class="flex justify-center"
+    >
+      <div
+        class="homepage-body w-full"
+      >
+        <div
+          class="hero-section h-[75vh] min-h-[90vh] max-2xl:min-h-[75vh] bg-[url('../src/assets/editorialPhotos/homepage-hero.jpg')] bg-cover bg-no-repeat bg-top bg-blend-overlay text-white p-12"
+        >
+          <div
+            class="hero-text left-side flex flex-col justify-center h-full"
+          >
+            <h1
+              class="font-bold pb-8"
+            >
+              Main Page Heading
+            </h1>
+            <p
+              class="pr-[50%] pb-72"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div
+              class="buttons"
+            >
+              <button
+                type="button"
+              >
+                Shop Now
+              </button>
+              <button
+                type="button"
+              >
+                Join Our Mailing List
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div
+      class="footer flex bg-slate-100 items-end py-4 mt-4"
+    >
+      <div
+        class="left-col px-16"
+      >
+        <img
+          alt="logo"
+          class="logo-img w-1/6 my-4"
+          src="/src/assets/panda-logo.svg"
+        />
+        <h2>
+          PANDA
+        </h2>
+        <h3>
+          Magnificent Monkeys
+        </h3>
+        <button
+          type="button"
+        >
+          Testing click Events
+        </button>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div
+        class="middle-col px-16"
+      >
+        <p>
+          This site was created as a personal project, and all images were pulled from very talented photographers found on 
+          <a
+            href="#"
+          >
+            FashionEditorals.com
+          </a>
+          . I claim no ownership of any images nor is this site used in any commercial purpose.
+        </p>
+      </div>
+      <div
+        class="right-col px-16"
+      >
+        <div
+          class="social-media-links flex"
+        >
+          <img
+            alt="Our Instagram"
+            class="ig-logo w-6 mx-1"
+            src="/src/assets/instagram.svg"
+          />
+          <img
+            alt="Our Tik Tok"
+            class="tiktok-logo w-6 mx-1"
+            src="/src/assets/tik-tok.svg"
+          />
+          <img
+            alt="Our Facebook"
+            class="meta-logo w-6 mx-1"
+            src="/src/assets/meta.svg"
+          />
+        </div>
+        <div
+          class="copyright"
+        >
+          <p>
+            Copyright Panda 2023
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
