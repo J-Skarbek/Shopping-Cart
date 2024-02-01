@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, it, expect } from 'vitest';
-import App from './App';
+import App from '../src/App';
 
 describe('something truthy and falsy', () => {
   it('true to be true', () => {
@@ -23,10 +23,11 @@ describe("App component", () => {
 describe('Footer Changes', () => {
   it('renders magnificent monkeys', () => {
     const { container } = render(<App />);
+    // expect(container).getByRole('heading', { name: 'Magnificent Monkeys' }).textContent.toMatch(/magnificent monkeys/i);
     expect(container).toMatchSnapshot();
   });
 
-  it('renders radical rhions after button clicked', async () => {
+  it('renders radical rhinos after button clicked', async () => {
     const user = userEvent.setup();
 
     render(<App />);
