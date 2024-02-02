@@ -114,7 +114,9 @@ export default function Product() {
 
             <div className="form-container">
               <form>
+              <label htmlFor='quantity'></label>
                 <input type="number" min="0" name="quantity" id="quantity" className="form-input" />
+                <label htmlFor='size-select'></label>
                 <select name="size-select" id="size-select">
                   { details.sizes.map(sizeValue => {
                     return (
@@ -125,7 +127,7 @@ export default function Product() {
                     )
                   })}
                 </select>
-                <button type="button" onClick={() => testCartAdd(details)}>Add to Cart</button>
+                <button type="submit" onClick={() => testCartAdd({...details})}>Add to Cart</button>
               </form>
             </div>
 
