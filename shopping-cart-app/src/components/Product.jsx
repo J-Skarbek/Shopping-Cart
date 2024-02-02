@@ -13,8 +13,15 @@ export const productDetailsLoader = async ({params}) => {
   return res.json();
 }
 
-export async function action() {
-  
+export async function action({ request }) {
+  console.log("I'm the action function!");
+  const formData = await request.formData();
+  const sizeSelected = formData.get('size-select');
+  const quantitySelected = formData.get('quantity');
+  console.log(request);
+  console.log(formData);
+  console.log(`Size: ${sizeSelected} and Quantity: ${quantitySelected}`);
+  return null;
 }
 
 export default function Product() {
@@ -129,7 +136,7 @@ export default function Product() {
             <button onClick={() => testCartAdd(details)}>Testing the new add to cart btn</button>
 
             <div className="form-container">
-              <Form>
+              <Form method='post'>
                 <label htmlFor='quantity'></label>
                 <input type="number" min="0" name="quantity" id="quantity" className="form-input" />
                 <label htmlFor='size-select'></label>
