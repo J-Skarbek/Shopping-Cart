@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useLoaderData, useParams, useLocation, Link } from 'react-router-dom';
+import { useLoaderData, useParams, useLocation, Link, Form } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import 'swiper/css';
@@ -13,6 +13,10 @@ export const productDetailsLoader = async ({params}) => {
   return res.json();
 }
 
+export async function action() {
+  
+}
+
 export default function Product() {
 
   const [thumbsSwiper, setThumbsSwiper] = React.useState(null);
@@ -22,6 +26,18 @@ export default function Product() {
   const search = location.state?.search || '';
 
   const { addToCart, testCartAdd } = useContext(ShopContext);
+
+  // function handleSubmissions(e) {
+  //   e.preventDefault();
+
+  //   const form = e.target;
+  //   const formData = new FormData(form);
+
+  //   for (const [key, value] of formData) {
+  //     console.log(`${key}: ${value}\n`)
+  //   };
+
+  // }
 
   //While this function works, I may end up refactoring this once the data is placed
   //into a firestore db. Leaving it now (11/26/23) as I want to get other functionality
@@ -113,7 +129,25 @@ export default function Product() {
             <button onClick={() => testCartAdd(details)}>Testing the new add to cart btn</button>
 
             <div className="form-container">
-              <form>
+              <Form>
+                <label htmlFor='quantity'></label>
+                <input type="number" min="0" name="quantity" id="quantity" className="form-input" />
+                <label htmlFor='size-select'></label>
+                <select name="size-select" id="size-select">
+                  { details.sizes.map(sizeValue => {
+                    return (
+                      // Normally wouln't use the value returned from array as the key
+                      // but the size values options on each won't be changing, so it should be fine
+                      // in this use case
+                      <option value={sizeValue} key={sizeValue} className="text-sm">{sizeValue.toUpperCase()}</option>
+                    )
+                  })}
+                </select>
+                <button type="submit">Add to Cart</button>
+              </Form>
+
+
+              {/* <form>
               <label htmlFor='quantity'></label>
                 <input type="number" min="0" name="quantity" id="quantity" className="form-input" />
                 <label htmlFor='size-select'></label>
@@ -128,7 +162,7 @@ export default function Product() {
                   })}
                 </select>
                 <button type="submit" onClick={() => testCartAdd({...details})}>Add to Cart</button>
-              </form>
+              </form> */}
             </div>
 
           </div>

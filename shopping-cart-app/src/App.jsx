@@ -5,7 +5,7 @@ import Homepage from './components/Homepage';
 import ShoppingCart from "./components/ShoppingCart";
 import ProductsOverview from "./components/ShopPage";
 import RootLayout from "./components/RootLayout";
-import Product, { productDetailsLoader } from "./components/Product";
+import Product, { productDetailsLoader, action as addToCart } from "./components/Product";
 import { register } from 'swiper/element/bundle';
 import NotFound from "./components/NotFound";
 import Error from "./components/Error";
@@ -40,6 +40,7 @@ const router = createBrowserRouter(
             path=':productName' 
             element={<Product />} 
             loader={productDetailsLoader} 
+            action={addToCart}
           />
         </Route>
         <Route 
