@@ -25,7 +25,7 @@ function RootLayout() {
   function addProduct(productObject) {
     let updatedCartArray = [];
 
-    // heck to see if the newItem being added already exists in the user's cart
+    // check to see if the newItem being added already exists in the user's cart
     const existingProductInCart = cartContents.filter(item => productObject.id == item.id);
 
     if (existingProductInCart.length == 0) {
@@ -34,7 +34,7 @@ function RootLayout() {
       setCartContents(prevCartContents => {
         return ([
           ...prevCartContents,
-          { ...productObject }
+          productObject
         ])
       });
     } else {
