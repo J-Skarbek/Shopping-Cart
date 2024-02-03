@@ -9,13 +9,15 @@ export const ShopContext = createContext({
   addToCart: () => {},
   logCartItems: () => {},
   emptyTheCart: () => {},
-  testCartAdd: () => {}
+  testCartAdd: () => {},
+  addProduct: () => {}
 })
 
 function RootLayout() {
 
   const [cartContents, setCartContents] = React.useState(JSON.parse(localStorage.getItem('items')) || []);
 
+  // Sync localStorgae to cart contents in state
   React.useEffect(() => {
     localStorage.setItem("items", JSON.stringify(cartContents))
   }, [cartContents])

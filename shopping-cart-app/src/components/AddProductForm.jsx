@@ -3,7 +3,7 @@ import { ShopContext } from './RootLayout';
 
 export default function AddProductForm({details}) {
 
-  const { addToCart, testCartAdd } = useContext(ShopContext);
+  const { addToCart, testCartAdd, addProduct } = useContext(ShopContext);
 
   return (
     <div className="form-container">
