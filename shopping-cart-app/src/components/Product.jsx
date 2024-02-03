@@ -7,6 +7,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { ShopContext } from './RootLayout';
+import AddProductForm from './AddProductForm';
 
 export const productDetailsLoader = async ({params}) => {
   const res = await fetch('http://localhost:4000/allProudcts')
@@ -66,16 +67,6 @@ export default function Product() {
       })
       return details;
     })
-
-    // const swiperSlideArray = () => {
-    //   return details.imageArray.map((image, i) => {
-    //     return (
-    //       <SwiperSlide key={i}>
-    //         <img src={`/${image}`} />
-    //       </SwiperSlide>
-    //     )
-    //   })
-    // }
 
     return (
       <div className="product-body max-w-7xl px-8 py-16">
@@ -142,44 +133,9 @@ export default function Product() {
             </button>
             <button onClick={() => testCartAdd(details)}>Testing the new add to cart btn</button>
 
-            <div className="form-container">
-              {/* <Form method='post'>
-                <label htmlFor='quantity'></label>
-                <input type="number" min="0" name="quantity" id="quantity" className="form-input" />
-                <label htmlFor='size-select'></label>
-                <select name="size-select" id="size-select">
-                  { details.sizes.map(sizeValue => {
-                    return (
-                      // Normally wouln't use the value returned from array as the key
-                      // but the size values options on each won't be changing, so it should be fine
-                      // in this use case
-                      <option value={sizeValue} key={sizeValue} className="text-sm">{sizeValue.toUpperCase()}</option>
-                    )
-                  })}
-                </select>
-                <button type="submit">Add to Cart</button>
-              </Form> */}
-
-
-              <form>
-              <label htmlFor='quantity'></label>
-                <input type="number" min="0" name="quantity" id="quantity" className="form-input" />
-                <label htmlFor='size-select'></label>
-                <select name="size-select" id="size-select">
-                  { details.sizes.map(sizeValue => {
-                    // console.log(details)
-                    return (
-                      // Normally wouln't use the value returned from array as the key
-                      // but the size values options on each won't be changing, so it should be fine
-                      // in this use case
-                      <option value={sizeValue} key={sizeValue} className="text-sm">{sizeValue.toUpperCase()}</option>
-                    )
-                  })}
-                </select>
-                <button type="submit" onClick={() => testCartAdd(details)}>Add to Cart</button>
-              </form>
-            </div>
-
+            <AddProductForm 
+              details={details} 
+            />
           </div>
         </div>
       </div>
