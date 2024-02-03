@@ -42,6 +42,14 @@ function RootLayout() {
       // whilst returning non-matching products w/o altering them
       updatedCartArray = cartContents.map(item => {
         if (item.id == productObject.id) {
+          // if (item.sizeSelected !== productObject.sizeSelected) {
+          //   return ([
+          //     ...cartContents,
+          //     productObject
+          //   ])
+          // } else {
+          //   return productObject;
+          // }
           return productObject;
         } else {
           return item;
