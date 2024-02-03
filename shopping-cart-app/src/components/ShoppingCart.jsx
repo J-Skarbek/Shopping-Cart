@@ -15,6 +15,7 @@ function ShoppingCart() {
         price={item.price}
         quantity={item.quantityInCart}
         available={item.quantityInInventory}
+        size={item.sizeSelected}
       />
     )
   })

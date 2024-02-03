@@ -55,7 +55,7 @@ export default function AddProductForm({details}) {
             )
           })}
         </select>
-        <button type="submit" onClick={() => testCartAdd(details)}>Add to Cart</button>
+        <button type="submit" onClick={() => addProduct(productValues)}>Add to Cart</button>
       </form>
       {/* <button type="button" onClick={(() => console.log(productValues))}>Test current product values</button> */}
     </div>

@@ -20,7 +20,38 @@ function RootLayout() {
   // Sync localStorgae to cart contents in state
   React.useEffect(() => {
     localStorage.setItem("items", JSON.stringify(cartContents))
-  }, [cartContents])
+  }, [cartContents]);
+
+  function addProduct(productObject) {
+    let updatedCartArray = [];
+
+    // heck to see if the newItem being added already exists in the user's cart
+    const existingProductInCart = cartContents.filter(item => productObject.id == item.id);
+
+    if (existingProductInCart.length == 0) {
+      // If there isn't an existing match, spread in old cart items as well as new ojbect and 
+      // increment the quantity in the cart to 1
+      setCartContents(prevCartContents => {
+        return ([
+          ...prevCartContents,
+          { ...productObject }
+        ])
+      });
+    } else {
+      // If there is a match, loop through the cart, find the product, and update the size and quantity
+      // whilst returning non-matching products w/o altering them
+      updatedCartArray = cartContents.map(item => {
+        if (item.id == productObject.id) {
+          return productObject;
+        } else {
+          return item;
+        }
+      })
+      // Since updatedCartArray captures and duplicates the prior state, we don't
+      // need the callback function when resetting state
+      setCartContents(updatedCartArray);
+    }
+  }
 
   function testCartAdd(newItem) {
     let updatedCartArray = [];
@@ -87,7 +118,7 @@ function RootLayout() {
   const emptyTheCart = () => setCartContents([]);
 
   return (
-    <ShopContext.Provider value={{ cartContents, addToCart, logCartItems, emptyTheCart, testCartAdd }}>
+    <ShopContext.Provider value={{ cartContents, addToCart, logCartItems, emptyTheCart, testCartAdd, addProduct }}>
       <div className="root-layout">
         <Header />
         <main className="flex justify-center">

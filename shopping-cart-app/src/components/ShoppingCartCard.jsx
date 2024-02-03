@@ -10,6 +10,7 @@ export default function ShoppingCartCard({image, productName, price, size, quant
           <p>Price: {price}</p>
           <p>Quantity: {quantity}</p>
           <p>Available: {available}</p>
+          <p>Size: {size}</p>
         </div>
     </div>
   )
