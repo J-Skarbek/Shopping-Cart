@@ -42,7 +42,7 @@ function RootLayout() {
       // whilst returning non-matching products w/o altering them
       updatedCartArray = cartContents.map(item => {
         if (item.id == newItem.id) {
-          return { ...item, quantityInCart: item.quantityInCart += 1};
+          return { ...item, quantityInCart: item.quantityInCart += 1 };
         } else {
           return item;
         }

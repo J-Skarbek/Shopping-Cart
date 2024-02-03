@@ -13,16 +13,18 @@ export const productDetailsLoader = async ({params}) => {
   return res.json();
 }
 
-export async function action({ request }) {
-  console.log("I'm the action function!");
-  const formData = await request.formData();
-  const sizeSelected = formData.get('size-select');
-  const quantitySelected = formData.get('quantity');
-  console.log(request);
-  console.log(formData);
-  console.log(`Size: ${sizeSelected} and Quantity: ${quantitySelected}`);
-  return null;
-}
+// export async function action({ request }) {
+
+//   console.log("I'm the action function!");
+//   const formData = await request.formData();
+//   const sizeSelected = formData.get('size-select');
+//   const quantitySelected = formData.get('quantity');
+//   console.log(request);
+//   console.log(formData);
+//   console.log(`Size: ${sizeSelected} and Quantity: ${quantitySelected}`);
+
+//   return null;
+// }
 
 export default function Product() {
 
@@ -34,17 +36,22 @@ export default function Product() {
 
   const { addToCart, testCartAdd } = useContext(ShopContext);
 
-  // function handleSubmissions(e) {
-  //   e.preventDefault();
+  const [testLocalState, setTestLocalState] = React.useState(null);
 
-  //   const form = e.target;
-  //   const formData = new FormData(form);
-
-  //   for (const [key, value] of formData) {
-  //     console.log(`${key}: ${value}\n`)
-  //   };
-
-  // }
+  function handleSubmissions(details, e) {
+    e.preventDefault();
+    const form = e.target.parentNode;
+    const formData = new FormData(form);
+    const sizeSelected = formData.get('size-select');
+    const quantitySelected = formData.get('quantity');
+    // console.log(`details: ${details.name}`);
+    console.log(`Size: ${sizeSelected} and Quantity: ${quantitySelected}`);
+    const insertItem = { ...details, quantityInCart: quantitySelected, sizeSelected: sizeSelected };
+    console.log(details);
+    console.log(`insert this item: ${insertItem.quantityInCart}`);
+    testCartAdd(insertItem);
+    console.log(testLocalState);
+  }
 
   //While this function works, I may end up refactoring this once the data is placed
   //into a firestore db. Leaving it now (11/26/23) as I want to get other functionality
@@ -136,7 +143,7 @@ export default function Product() {
             <button onClick={() => testCartAdd(details)}>Testing the new add to cart btn</button>
 
             <div className="form-container">
-              <Form method='post'>
+              {/* <Form method='post'>
                 <label htmlFor='quantity'></label>
                 <input type="number" min="0" name="quantity" id="quantity" className="form-input" />
                 <label htmlFor='size-select'></label>
@@ -151,15 +158,16 @@ export default function Product() {
                   })}
                 </select>
                 <button type="submit">Add to Cart</button>
-              </Form>
+              </Form> */}
 
 
-              {/* <form>
+              <form>
               <label htmlFor='quantity'></label>
                 <input type="number" min="0" name="quantity" id="quantity" className="form-input" />
                 <label htmlFor='size-select'></label>
                 <select name="size-select" id="size-select">
                   { details.sizes.map(sizeValue => {
+                    // console.log(details)
                     return (
                       // Normally wouln't use the value returned from array as the key
                       // but the size values options on each won't be changing, so it should be fine
@@ -168,8 +176,8 @@ export default function Product() {
                     )
                   })}
                 </select>
-                <button type="submit" onClick={() => testCartAdd({...details})}>Add to Cart</button>
-              </form> */}
+                <button type="submit" onClick={() => testCartAdd(details)}>Add to Cart</button>
+              </form>
             </div>
 
           </div>
