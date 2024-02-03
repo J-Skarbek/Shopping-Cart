@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { ShopContext } from './RootLayout';
+import PropTypes from 'prop-types';
 
 export default function AddProductForm({details}) {
 
@@ -26,4 +27,8 @@ export default function AddProductForm({details}) {
       </form>
     </div>
   )
+}
+
+AddProductForm.propTypes = {
+  details: PropTypes.object.isRequired
 }
