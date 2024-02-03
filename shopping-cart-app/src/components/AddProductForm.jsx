@@ -11,11 +11,16 @@ export default function AddProductForm({details}) {
   function updateQuantity(e) {
     console.log(e.target.value);
     console.log(`Quanitiy Change`);
+    console.log(details);
+    const updateQuantiyValues = { ...details, quantityInCart: e.target.value };
+    console.log( updateQuantiyValues );
   }
 
   function updateSize(e) {
     console.log(e.target.value);
     console.log(`Size Change`);
+    const updateSizeValue = { ...details, sizeSelected: e.target.value };
+    console.log( updateSizeValue );
   }
 
   return (
