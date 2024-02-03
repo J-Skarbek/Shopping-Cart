@@ -5,22 +5,22 @@ import PropTypes from 'prop-types';
 export default function AddProductForm({details}) {
 
   const { addToCart, testCartAdd, addProduct } = useContext(ShopContext);
-  const [size, setSize] = React.useState('');
-  const [quantity, setQuantity] = React.useState('');
+  const [productValues, setProductValues] = React.useState(
+    {
+    ...details,
+    sizeSelected: '',
+    quantityInCart: ''
+    }
+  );
 
-  function updateQuantity(e) {
-    console.log(e.target.value);
-    console.log(`Quanitiy Change`);
-    console.log(details);
-    const updateQuantiyValues = { ...details, quantityInCart: e.target.value };
-    console.log( updateQuantiyValues );
-  }
-
-  function updateSize(e) {
-    console.log(e.target.value);
-    console.log(`Size Change`);
-    const updateSizeValue = { ...details, sizeSelected: e.target.value };
-    console.log( updateSizeValue );
+  function handleFormUpdates(e) {
+    setProductValues((prevData) => {
+      return {
+        ...prevData,
+        [e.target.name]: e.target.value,
+        [e.target.name]: e.target.value
+      }
+    })
   }
 
   return (
@@ -30,16 +30,16 @@ export default function AddProductForm({details}) {
         <input 
           type="number" 
           min="0" 
-          name="quantity" 
+          name="quantityInCart" 
           id="quantity" 
           className="form-input"
-          onChange={updateQuantity} 
+          onChange={handleFormUpdates} 
         />
-        <label htmlFor='size-select'></label>
+        <label htmlFor='size-selected'></label>
         <select 
-          onChange={updateSize}
-          name="size-select" 
-          id="size-select">
+          onChange={handleFormUpdates}
+          name="sizeSelected" 
+          id="size-selected">
           { details.sizes.map(sizeValue => {
             // console.log(details)
             return (
@@ -57,6 +57,7 @@ export default function AddProductForm({details}) {
         </select>
         <button type="submit" onClick={() => testCartAdd(details)}>Add to Cart</button>
       </form>
+      {/* <button type="button" onClick={(() => console.log(productValues))}>Test current product values</button> */}
     </div>
   )
 }
