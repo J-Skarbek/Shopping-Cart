@@ -22,10 +22,14 @@ function RootLayout() {
     localStorage.setItem("items", JSON.stringify(cartContents))
   }, [cartContents]);
 
-  function addProduct(productObject) {
+  function addProduct(e, productObject) {
+    e.preventDefault();
     let updatedCartArray = [];
 
-    // check to see if the newItem being added already exists in the user's cart
+    // check to see if the newItem being added already exists in the user's cart -- !! WILL PROBABLY
+    // WANT TO ADD THE '&& SIZE == SIZE FILTERING/COMPARISION IN THIS FUNCTION TO DETERMINE
+    // IF WE'LL OVERWRITE AN EXISTING PRODUCT A IT'S CURRENT SIZE, OR IF THE SIZE IS DIFERENT,
+    // CREATE A NEW PRODUCT IN THE ARRAY
     const existingProductInCart = cartContents.filter(item => productObject.id == item.id);
 
     if (existingProductInCart.length == 0) {
@@ -40,21 +44,38 @@ function RootLayout() {
     } else {
       // If there is a match, loop through the cart, find the product, and update the size and quantity
       // whilst returning non-matching products w/o altering them
+
+      // updatedCartArray = cartContents.map(item => {
+      //   if (item.id == productObject.id && item.sizeSelected == productObject.sizeSelected) {
+      //     return productObject;
+      //   } else if (item.id == productObject.id && item.sizeSelected !== productObject.sizeSelected) {
+      //     return {
+      //       ...productObject,
+      //       sizeSelected: productObject.sizeSelected
+      //     }
+      //   } else {
+      //     return item;
+      //   }
+      // })
+
+
       updatedCartArray = cartContents.map(item => {
-        if (item.id == productObject.id) {
-          // if (item.sizeSelected !== productObject.sizeSelected) {
-          //   return ([
-          //     ...cartContents,
-          //     productObject
-          //   ])
-          // } else {
-          //   return productObject;
-          // }
+        if (item.id == productObject.id && item.sizeSelected == productObject.sizeSelected) {
+          // console.log(`Match  size: ${item.sizeSelected} sizeNewObject: ${productObject.sizeSelected}`);
+          console.log('update exisitng item in cart.')
+          return {
+            ...item, quantityInCart: productObject.quantityInCart
+          };
+        } else if (item.id == productObject.id && item.sizeSelected !== productObject.sizeSelected) {
+          // console.log(`No Match  size: ${item.sizeSelected} sizeNewObject: ${productObject.sizeSelected}`);
+          console.log('return new item')
           return productObject;
         } else {
+          console.log('return existing item as-is')
           return item;
         }
       })
+
       // Since updatedCartArray captures and duplicates the prior state, we don't
       // need the callback function when resetting state
       setCartContents(updatedCartArray);
