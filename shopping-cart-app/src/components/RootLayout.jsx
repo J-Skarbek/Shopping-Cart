@@ -30,7 +30,7 @@ function RootLayout() {
     // WANT TO ADD THE '&& SIZE == SIZE FILTERING/COMPARISION IN THIS FUNCTION TO DETERMINE
     // IF WE'LL OVERWRITE AN EXISTING PRODUCT A IT'S CURRENT SIZE, OR IF THE SIZE IS DIFERENT,
     // CREATE A NEW PRODUCT IN THE ARRAY
-    const existingProductInCart = cartContents.filter(item => productObject.id == item.id);
+    const existingProductInCart = cartContents.filter(item => productObject.id == item.id && productObject.sizeSelected == item.sizeSelected);
 
     if (existingProductInCart.length == 0) {
       // If there isn't an existing match, spread in old cart items as well as new ojbect and 
@@ -61,15 +61,18 @@ function RootLayout() {
 
       updatedCartArray = cartContents.map(item => {
         if (item.id == productObject.id && item.sizeSelected == productObject.sizeSelected) {
+          console.log({...productObject})
           // console.log(`Match  size: ${item.sizeSelected} sizeNewObject: ${productObject.sizeSelected}`);
           console.log('update exisitng item in cart.')
           return {
             ...item, quantityInCart: productObject.quantityInCart
           };
-        } else if (item.id == productObject.id && item.sizeSelected !== productObject.sizeSelected) {
+        } else if (item.id == productObject.id) {
           // console.log(`No Match  size: ${item.sizeSelected} sizeNewObject: ${productObject.sizeSelected}`);
-          console.log('return new item')
-          return productObject;
+          console.log(`return new item ${productObject.sizeSelected, productObject.name, {...productObject}} 1`)
+          return {
+            ...productObject
+          };
         } else {
           console.log('return existing item as-is')
           return item;
