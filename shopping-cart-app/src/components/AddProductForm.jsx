@@ -1,6 +1,12 @@
 import React, { useContext } from "react";
 import { ShopContext } from './RootLayout';
 import PropTypes from 'prop-types';
+// Although nanoID isn't meant for this, I'm importing it here because the if I want to add
+// two garmets of different sizes to the cart, I need to be able to overwrite the ID that comes w/
+// each product by default. This is a quick hack to avoid rendering issues/keys in array issues
+// That I may update later. To keep the IDs from recreating themselves on render, the function is called
+// in the object created and saved in state as product values
+import { nanoid } from 'nanoid'
 
 export default function AddProductForm({details}) {
 
@@ -8,7 +14,7 @@ export default function AddProductForm({details}) {
   const [productValues, setProductValues] = React.useState(
     {
     ...details,
-
+    id: nanoid()
     }
   );
 

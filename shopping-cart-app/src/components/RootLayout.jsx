@@ -3,6 +3,7 @@ import { Outlet, ScrollRestoration } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import useLocalStorage from "../utils";
+import { nanoid } from "nanoid";
 
 export const ShopContext = createContext({
   cartContents: [],
@@ -45,36 +46,21 @@ function RootLayout() {
       // If there is a match, loop through the cart, find the product, and update the size and quantity
       // whilst returning non-matching products w/o altering them
 
-      // updatedCartArray = cartContents.map(item => {
-      //   if (item.id == productObject.id && item.sizeSelected == productObject.sizeSelected) {
-      //     return productObject;
-      //   } else if (item.id == productObject.id && item.sizeSelected !== productObject.sizeSelected) {
-      //     return {
-      //       ...productObject,
-      //       sizeSelected: productObject.sizeSelected
-      //     }
-      //   } else {
-      //     return item;
-      //   }
-      // })
-
-
       updatedCartArray = cartContents.map(item => {
         if (item.id == productObject.id && item.sizeSelected == productObject.sizeSelected) {
           console.log({...productObject})
-          // console.log(`Match  size: ${item.sizeSelected} sizeNewObject: ${productObject.sizeSelected}`);
           console.log('update exisitng item in cart.')
           return {
             ...item, quantityInCart: productObject.quantityInCart
           };
-        } else if (item.id == productObject.id) {
-          // console.log(`No Match  size: ${item.sizeSelected} sizeNewObject: ${productObject.sizeSelected}`);
-          console.log(`return new item ${productObject.sizeSelected, productObject.name, {...productObject}} 1`)
+        } else if (item.id == productObject.id && item.sizeSelected !== productObject.sizeSelected) {
+          console.log({...productObject})
           return {
             ...productObject
           };
         } else {
           console.log('return existing item as-is')
+          console.log({...item})
           return item;
         }
       })

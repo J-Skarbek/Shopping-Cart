@@ -16,6 +16,7 @@ function ShoppingCart() {
         quantity={item.quantityInCart}
         available={item.quantityInInventory}
         size={item.sizeSelected}
+        id={item.id}
       />
     )
   })
