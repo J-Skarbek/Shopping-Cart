@@ -25,14 +25,17 @@ function RootLayout() {
 
   function addProduct(e, productObject) {
     e.preventDefault();
+    console.log(`incoming size value selected: ${productObject.sizeSelected}`);
     let updatedCartArray = [];
 
     // check to see if the newItem being added already exists in the user's cart
     const existingProductInCart = cartContents.filter(item => productObject.id == item.id && item.sizeSelected == productObject.sizeSelected);
 
     if (existingProductInCart.length == 0) {
+      console.log(`existing products ${existingProductInCart.length}`)
       // If there isn't an existing match, spread in old cart items as well as new ojbect and 
       // increment the quantity in the cart to 1
+
       setCartContents(prevCartContents => {
         return ([
           ...prevCartContents,
@@ -43,17 +46,15 @@ function RootLayout() {
       // If there is a match, loop through the cart, find the product, and update the size and quantity
       // whilst returning non-matching products w/o altering them
       updatedCartArray = cartContents.map(item => {
-        if (item.cartLoopKey == productObject.cartLoopKey && item.sizeSelected == productObject.sizeSelected) {
-          console.log({...productObject})
-          console.log('update exisitng item in cart.')
-          return {
-            ...item, quantityInCart: productObject.quantityInCart
-          };
-        } else if (item.cartLoopKey == productObject.cartLoopKey) {
-          console.log({...productObject})
-          return {
-            ...productObject
-          };
+        if (item.id == productObject.id && item.sizeSelected == productObject.sizeSelected) {
+          if (item.sizeSelected == productObject.sizeSelected) {
+            return {
+              ...item, 
+              quantityInCart: productObject.quantityInCart
+            };
+            } else {
+              return productObject; 
+            }
         } else {
           console.log('return existing item as-is')
           console.log({...item})
