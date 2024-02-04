@@ -9,14 +9,14 @@ function ShoppingCart() {
   const displayCartContents = cartContents.map(item => {
     return (
       <ShoppingCartCard 
-        key={item.id}
+        key={item.cartLoopKey}
         image={item.imageArray[0]}
         productName={item.name}
         price={item.price}
         quantity={item.quantityInCart}
         available={item.quantityInInventory}
         size={item.sizeSelected}
-        id={item.id}
+        cartLoopKey={item.cartLoopKey}
       />
     )
   })

@@ -27,11 +27,8 @@ function RootLayout() {
     e.preventDefault();
     let updatedCartArray = [];
 
-    // check to see if the newItem being added already exists in the user's cart -- !! WILL PROBABLY
-    // WANT TO ADD THE '&& SIZE == SIZE FILTERING/COMPARISION IN THIS FUNCTION TO DETERMINE
-    // IF WE'LL OVERWRITE AN EXISTING PRODUCT A IT'S CURRENT SIZE, OR IF THE SIZE IS DIFERENT,
-    // CREATE A NEW PRODUCT IN THE ARRAY
-    const existingProductInCart = cartContents.filter(item => productObject.id == item.id && productObject.sizeSelected == item.sizeSelected);
+    // check to see if the newItem being added already exists in the user's cart
+    const existingProductInCart = cartContents.filter(item => productObject.id == item.id && item.sizeSelected == productObject.sizeSelected);
 
     if (existingProductInCart.length == 0) {
       // If there isn't an existing match, spread in old cart items as well as new ojbect and 
@@ -45,15 +42,14 @@ function RootLayout() {
     } else {
       // If there is a match, loop through the cart, find the product, and update the size and quantity
       // whilst returning non-matching products w/o altering them
-
       updatedCartArray = cartContents.map(item => {
-        if (item.id == productObject.id && item.sizeSelected == productObject.sizeSelected) {
+        if (item.cartLoopKey == productObject.cartLoopKey && item.sizeSelected == productObject.sizeSelected) {
           console.log({...productObject})
           console.log('update exisitng item in cart.')
           return {
             ...item, quantityInCart: productObject.quantityInCart
           };
-        } else if (item.id == productObject.id && item.sizeSelected !== productObject.sizeSelected) {
+        } else if (item.cartLoopKey == productObject.cartLoopKey) {
           console.log({...productObject})
           return {
             ...productObject

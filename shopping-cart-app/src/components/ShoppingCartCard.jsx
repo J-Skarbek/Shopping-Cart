@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ShoppingCartCard({image, productName, price, size, quantity, available, id}) {
+export default function ShoppingCartCard({image, productName, price, size, quantity, available, cartLoopKey}) {
 
   return (
     <div className="flex">
@@ -11,7 +11,8 @@ export default function ShoppingCartCard({image, productName, price, size, quant
           <p>Quantity: {quantity}</p>
           <p>Available: {available}</p>
           <p>Size: {size}</p>
-          <p>ID: {id}</p>
+
+          <p>Loop Key: {cartLoopKey}</p>
         </div>
     </div>
   )

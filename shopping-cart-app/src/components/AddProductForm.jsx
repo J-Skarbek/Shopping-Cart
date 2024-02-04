@@ -14,7 +14,6 @@ export default function AddProductForm({details}) {
   const [productValues, setProductValues] = React.useState(
     {
     ...details,
-    id: nanoid()
     }
   );
 
@@ -26,7 +25,8 @@ export default function AddProductForm({details}) {
       return {
         ...prevData,
         [e.target.name]: e.target.value,
-        [e.target.name]: e.target.value
+        [e.target.name]: e.target.value,
+        cartLoopKey: nanoid()
       }
     })
   }
