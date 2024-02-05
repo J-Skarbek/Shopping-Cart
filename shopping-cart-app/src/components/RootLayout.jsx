@@ -70,11 +70,17 @@ function RootLayout() {
   }
 
   function removeProduct(e) {
-    console.log('Removing the product from the user\'s cart');
-    console.log(e.target);
-    console.log(e);
-    const getUniqueCartId = e.target.parentNode.dataset.domKey;
-    console.log(`fetched ID: ${getUniqueCartId}`);
+    e.preventDefault();
+    let updatedCart = [];
+
+    const getUniqueCartId = e.target.parentNode.parentNode.dataset.domKey;
+    cartContents.map(item => {
+      if (item.cartLoopKey !== getUniqueCartId) {
+        updatedCart.push(item);
+      }
+    });
+
+    setCartContents(updatedCart);
   }
 
   // function increaseQuntity() {

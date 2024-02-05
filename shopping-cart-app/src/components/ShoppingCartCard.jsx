@@ -16,9 +16,9 @@ export default function ShoppingCartCard({image, productName, price, size, quant
         <p>Size: {size}</p>
         <p>Loop Key: {cartLoopKey}</p>
       </div>
-
-      <button type="button" onClick={(e) => removeProduct(e)}>Remove</button>
-
+      <div>
+        <button type="button" onClick={(e) => removeProduct(e)}>Remove</button>
+      </div>
     </div>
   )
 }
