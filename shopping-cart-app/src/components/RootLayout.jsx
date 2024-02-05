@@ -69,8 +69,12 @@ function RootLayout() {
     }
   }
 
-  function removeProduct() {
+  function removeProduct(e) {
     console.log('Removing the product from the user\'s cart');
+    console.log(e.target);
+    console.log(e);
+    const getUniqueCartId = e.target.parentNode.dataset.domKey;
+    console.log(`fetched ID: ${getUniqueCartId}`);
   }
 
   // function increaseQuntity() {
