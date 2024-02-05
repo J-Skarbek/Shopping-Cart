@@ -11,7 +11,8 @@ export const ShopContext = createContext({
   logCartItems: () => {},
   emptyTheCart: () => {},
   testCartAdd: () => {},
-  addProduct: () => {}
+  addProduct: () => {},
+  removeProduct: () => {}
 })
 
 function RootLayout() {
@@ -68,48 +69,8 @@ function RootLayout() {
     }
   }
 
-  function testCartAdd(newItem) {
-    let updatedCartArray = [];
-
-    // heck to see if the newItem being added already exists in the user's cart
-    const existingProductInCart = cartContents.filter(item => newItem.id == item.id);
-
-    if (existingProductInCart.length == 0) {
-      // If there isn't an existing match, spread in old cart items as well as new ojbect and 
-      // increment the quantity in the cart to 1
-      setCartContents(prevCartContents => {
-        return ([
-          ...prevCartContents,
-          { ...newItem, 
-            quantityInCart: newItem.quantityInCart = 1 
-          }
-        ])
-      });
-    } else {
-      // If there is a match, loop through the cart, find the product, and increment the quantity
-      // whilst returning non-matching products w/o altering them
-      updatedCartArray = cartContents.map(item => {
-        if (item.id == newItem.id) {
-          return { ...item, quantityInCart: item.quantityInCart += 1 };
-        } else {
-          return item;
-        }
-      })
-      // Since updatedCartArray captures and duplicates the prior state, we don't
-      // need the callback function when resetting state
-      setCartContents(updatedCartArray);
-    }
-  }
-  
- // OG add to cart with no regard to quantity values of each item in the array
-  function addToCart(newItem) {
-    setCartContents(prevCartContents => {
-      return ([
-      ...prevCartContents,
-      newItem
-      ])
-    })
-    console.log(`updated cart contains: ${newItem}`);
+  function removeProduct() {
+    console.log('Removing the product from the user\'s cart');
   }
 
   // function increaseQuntity() {
@@ -133,7 +94,7 @@ function RootLayout() {
   const emptyTheCart = () => setCartContents([]);
 
   return (
-    <ShopContext.Provider value={{ cartContents, addToCart, logCartItems, emptyTheCart, testCartAdd, addProduct }}>
+    <ShopContext.Provider value={{ cartContents, logCartItems, emptyTheCart, addProduct, removeProduct }}>
       <div className="root-layout">
         <Header />
         <main className="flex justify-center">

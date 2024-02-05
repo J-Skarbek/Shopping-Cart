@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ShopContext } from "./RootLayout";
+
+
 
 export default function ShoppingCartCard({image, productName, price, size, quantity, available, cartLoopKey}) {
+
+  const { removeProduct } = useContext(ShopContext);
 
   return (
     <div className="flex">
@@ -11,8 +16,10 @@ export default function ShoppingCartCard({image, productName, price, size, quant
           <p>Quantity: {quantity}</p>
           <p>Available: {available}</p>
           <p>Size: {size}</p>
-
           <p>Loop Key: {cartLoopKey}</p>
+        </div>
+        <div>
+          <button type="button" onClick={removeProduct}>Remove</button>
         </div>
     </div>
   )
