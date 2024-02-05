@@ -1,9 +1,11 @@
 import React, { useContext } from "react";
 import { ShopContext } from "./RootLayout";
+import PropTypes from 'prop-types';
 
 export default function ShoppingCartCard({image, productName, price, size, quantity, available, cartLoopKey}) {
 
-  const { cartContents, removeProduct } = useContext(ShopContext);
+  const { removeProduct } = useContext(ShopContext);
+  console.log(typeof price)
 
   return (
     <div className="flex" data-dom-key={cartLoopKey}>
@@ -21,4 +23,14 @@ export default function ShoppingCartCard({image, productName, price, size, quant
       </div>
     </div>
   )
+}
+
+ShoppingCartCard.propTypes = {
+  image: PropTypes.string.isRequired,
+  productName: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
+  size: PropTypes.string.isRequired,
+  quantity: PropTypes.string.isRequired,
+  available: PropTypes.number.isRequired,
+  cartLoopKey: PropTypes.string.isRequired,
 }

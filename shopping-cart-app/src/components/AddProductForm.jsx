@@ -15,7 +15,7 @@ export default function AddProductForm({details}) {
     {
     ...details,
     }
-  );
+  )
 
   function handleFormUpdates(e) {
     console.log(e);
