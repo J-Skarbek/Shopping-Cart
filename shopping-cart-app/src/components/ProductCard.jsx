@@ -27,6 +27,6 @@ export default ProductCard;
 ProductCard.propTypes = {
   img: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  searchParams: PropTypes.string.isRequired,
+  searchParams: PropTypes.object.isRequired,
   price: PropTypes.string.isRequired,
 }
