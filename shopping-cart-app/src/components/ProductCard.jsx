@@ -16,7 +16,7 @@ function ProductCard({img, name, searchParams, price}) {
           >
             <p className="product-name font-semibold text-lg">{name}</p>
           </Link>
-        <p className="product-price">{price}</p>
+        <p className="product-price">${price}</p>
       </div>
     </div>
   )

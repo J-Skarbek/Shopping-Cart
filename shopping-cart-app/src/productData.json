@@ -61,7 +61,7 @@
             "l",
             "xl"
           ],
-          "price": 24.99,
+          "price": "24.99",
           "id": "0002",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -93,7 +93,7 @@
             "l",
             "xl"
           ],
-          "price": "$19.99",
+          "price": "19.99",
           "id": "0003",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -125,7 +125,7 @@
             "l",
             "xl"
           ],
-          "price": "$34.99",
+          "price": "34.99",
           "id": "0004",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -157,7 +157,7 @@
             "l",
             "xl"
           ],
-          "price": "$29.99",
+          "price": "29.99",
           "id": "0005",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -194,7 +194,7 @@
             "l",
             "xl"
           ],
-          "price": "$59.99"
+          "price": "59.99"
           ,
           "id": "0006",
           "quantityInCart": 0,
@@ -227,7 +227,7 @@
             "l",
             "xl"
           ],
-          "price": "$49.99",
+          "price": "49.99",
           "id": "0007",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -259,7 +259,7 @@
             "l",
             "xl"
           ],
-          "price": "$59.99",
+          "price": "59.99",
           "id": "0008",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -292,7 +292,7 @@
             "l",
             "xl"
           ],
-          "price": "$79.99",
+          "price": "79.99",
           "id": "0009",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -324,7 +324,7 @@
             "l",
             "xl"
           ],
-          "price": "$64.99",
+          "price": "64.99",
           "id": "0010",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -361,7 +361,7 @@
             "l",
             "xl"
           ],
-          "price": "$89.99",
+          "price": "89.99",
           "id": "0011",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -393,7 +393,7 @@
             "l",
             "xl"
           ],
-          "price": "$109.99",
+          "price": "109.99",
           "id": "0012",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -425,7 +425,7 @@
             "l",
             "xl"
           ],
-          "price": "$99.99",
+          "price": "99.99",
           "id": "0013",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -457,7 +457,7 @@
             "l",
             "xl"
           ],
-          "price": "$129.99",
+          "price": "129.99",
           "id": "0014",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -489,7 +489,7 @@
             "l",
             "xl"
           ],
-          "price": "$89.99",
+          "price": "89.99",
           "id": "0015",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -526,7 +526,7 @@
             "l",
             "xl"
           ],
-          "price": "$39.99",
+          "price": "39.99",
           "id": "0016",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -558,7 +558,7 @@
             "l",
             "xl"
           ],
-          "price": "$29.99",
+          "price": "29.99",
           "id": "0017",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -590,7 +590,7 @@
             "l",
             "xl"
           ],
-          "price": "$29.99",
+          "price": "29.99",
           "id": "0018",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -622,7 +622,7 @@
             "l",
             "xl"
           ],
-          "price": "$34.99",
+          "price": "34.99",
           "id": "0019",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -654,7 +654,7 @@
             "l",
             "xl"
           ],
-          "price": "$39.99",
+          "price": "39.99",
           "id": "0020",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -687,7 +687,7 @@
             "l",
             "xl"
           ],
-          "price": "$19.99",
+          "price": "19.99",
           "id": "0021",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -719,7 +719,7 @@
             "l",
             "xl"
           ],
-          "price": "$24.99",
+          "price": "24.99",
           "id": "0022",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -751,7 +751,7 @@
             "l",
             "xl"
           ],
-          "price": "$29.99",
+          "price": "29.99",
           "id": "0023",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -783,7 +783,7 @@
             "l",
             "xl"
           ],
-          "price": "$39.99",
+          "price": "39.99",
           "id": "0024",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
@@ -815,7 +815,7 @@
             "l",
             "xl"
           ],
-          "price": "$39.99",
+          "price": "39.99",
           "id": "0025",
           "quantityInCart": 0,
           "quantityInInventory": 1000,
