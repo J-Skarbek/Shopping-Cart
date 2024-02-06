@@ -14,7 +14,7 @@ function Header() {
     return setShowMenu(!showMenu);
   }
 
-  const { logCartItems, emptyTheCart } = useContext(ShopContext);
+  const { logCartItems, emptyTheCart, cartContents } = useContext(ShopContext);
 
   function displayMenu() {
     if (showMenu === true) {
@@ -40,6 +40,11 @@ function Header() {
         <button onClick={emptyTheCart}>Empty the Cart Testing BTN</button>
         <button onClick={logCartItems}>See the current cart status</button>
       </nav>
+      <div className="items-in-cart">
+        <p>
+          {cartContents.length}
+        </p>
+      </div>
       <div className="cart-hamburger-icon">
         <img src={hamburger} className="hamburger" alt="View Your Cart" onClick={updateMenuStatus} />
         {showMenu && createPortal(

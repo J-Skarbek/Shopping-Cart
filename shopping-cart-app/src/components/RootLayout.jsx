@@ -3,7 +3,6 @@ import { Outlet, ScrollRestoration } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import useLocalStorage from "../utils";
-import { nanoid } from "nanoid";
 
 export const ShopContext = createContext({
   cartContents: [],
@@ -12,12 +11,14 @@ export const ShopContext = createContext({
   emptyTheCart: () => {},
   testCartAdd: () => {},
   addProduct: () => {},
-  removeProduct: () => {}
+  removeProduct: () => {},
+
 })
 
 function RootLayout() {
 
   const [cartContents, setCartContents] = React.useState(JSON.parse(localStorage.getItem('items')) || []);
+
 
   // Sync localStorgae to cart contents in state
   React.useEffect(() => {
@@ -82,6 +83,7 @@ function RootLayout() {
 
     setCartContents(updatedCart);
   }
+
 
   // function increaseQuntity() {
   //   //item.id -= 1;
