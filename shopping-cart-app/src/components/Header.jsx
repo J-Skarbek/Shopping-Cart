@@ -36,7 +36,7 @@ function Header() {
       <nav className="nav-menu flex justify-around w-[33%] min-w-[33%]">
         <NavLink to='cart'>Cart</NavLink>
         <NavLink to='shop'>Shop</NavLink>
-        <NavLink to='product'>Product Test</NavLink>
+        <NavLink to='checkout'>Checkout</NavLink>
         <button type="button" onClick={emptyTheCart}>Empty the Cart Testing BTN</button>
         <button type="button" onClick={logCartItems}>See the current cart status</button>
         <button type="button" onClick={countCartItems}>Test count all products + quantity</button>
