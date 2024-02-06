@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 function ProductCard({img, name, searchParams, price}) {
 
@@ -22,3 +23,10 @@ function ProductCard({img, name, searchParams, price}) {
 }
 
 export default ProductCard;
+
+ProductCard.propTypes = {
+  img: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  searchParams: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
+}

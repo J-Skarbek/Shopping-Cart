@@ -2,7 +2,7 @@ import React, { createContext } from "react";
 import { Outlet, ScrollRestoration } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
-import useLocalStorage from "../utils";
+// import useLocalStorage from "../utils";
 
 export const ShopContext = createContext({
   cartContents: [],
@@ -19,7 +19,6 @@ export const ShopContext = createContext({
 function RootLayout() {
 
   const [cartContents, setCartContents] = React.useState(JSON.parse(localStorage.getItem('items')) || []);
-
 
   // Sync localStorgae to cart contents in state
   React.useEffect(() => {
