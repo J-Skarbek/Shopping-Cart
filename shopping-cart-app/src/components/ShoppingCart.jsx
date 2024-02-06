@@ -11,28 +11,41 @@ function ShoppingCart() {
   function sendToCheckout(e) {
     e.preventDefault();
     console.log(`Default Prevented == ${e.defaultPrevented}`);
-    let preTaxSubTotal;
-    // let purchaseTotal;
-
-    // if cartContents == empty : return $0.00
-    // if cartContents.length === 1 : purchaseTotal = Number(item.price)
-    // else for each item --> purchase total + Number(item.price)
-
-    // const purchaseOrder = cartContents.map(item => {
-    //   if (cartContents.length === 1) {
-    //     purchaseTotal = Number(item.price);
-    //   } else {
-
-    //   }
-    // })
+    // let preTaxSubTotal;
+    // let totalingArray = [];
+ 
+    // if Array.length === 0 -- do nothing
+    // if arrry.length === 1 -- multiply price by quantity in cart
+    // array.length > 1 -- go through it, multiplying the price by quantity, and saving
+    //   updating the subtotal price as we go along (or, create a new temp array to hold the subtotal
+    //   values)
 
     const roundCents = cartValue => Number.parseFloat(cartValue).toFixed(2);
+    const applyTax = cartValue => cartValue * 0.6125;
+
+    // const calculateSubTotal = ({ item }) => {
+    //   const quant  = Number(item.quantityInCart);
+    //   const price = Number(item.quantityInCart);
+    //   const subTotal = quant * price;
+    //   return roundCents(subTotal);
+    // }
+
+
+
 
     const getSubTotal = () => {
+      let preTaxSubTotal;
       if (cartContents.length === 0) {
-        preTaxSubTotal = Number(0.00)
-        console.log(`pretax subtotal: ${preTaxSubTotal}`)        
-      }
+        preTaxSubTotal = Number(0.00);
+        console.log(`pretax subtotal: ${preTaxSubTotal}`);   
+      } else if (cartContents.length === 1) {     
+          const quant = Number(cartContents[0].quantityInCart);
+          const price = Number(cartContents[0].price);
+          console.log(`Price: ${price} || quant: ${quant}`);
+          const cartItemsValue = price * quant;
+          preTaxSubTotal = roundCents(cartItemsValue);
+          console.log(`pretaxSubtotal value: ${preTaxSubTotal}`)
+      } else {
       cartContents.map(item => {
         console.log(item);
         const quant = Number(item.quantityInCart);
@@ -43,12 +56,13 @@ function ShoppingCart() {
         console.log(`calculate: ${subTotal}`);
         return preTaxSubTotal = preTaxSubTotal * subTotal;
       })
-      console.log(preTaxSubTotal)
-      return preTaxSubTotal;
+      // console.log('test ' + preTaxSubTotal)
+      // return preTaxSubTotal;
+     }
+     console.log('test ' + preTaxSubTotal)
+     return preTaxSubTotal;
     }
-
-  console.log(getSubTotal());
-  return getSubTotal();
+    return getSubTotal();
   }
 
   const displayCartContents = cartContents.map(item => {
