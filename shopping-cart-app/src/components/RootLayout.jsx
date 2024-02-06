@@ -91,6 +91,8 @@ function RootLayout() {
       if ( i === 0 ) return totalProductCount = Number(item.quantityInCart);
       totalProductCount = totalProductCount + Number(item.quantityInCart);
     })
+    console.log(totalProductCount);
+    console.log(typeof totalProductCount);
     return totalProductCount;
   }
 
@@ -103,10 +105,6 @@ function RootLayout() {
   //   //item.id += 1;
   // }
   
-  // Will eventually need to add removeFromCart function, possibly only need 
-  // on the actualy cart page
-
-  // const logCartItems = () => cartContents.length > 0 ? console.table(cartContents) : console.log('The cart is empty');
   const logCartItems = () => {
     console.log(cartContents)
     console.table(cartContents);
