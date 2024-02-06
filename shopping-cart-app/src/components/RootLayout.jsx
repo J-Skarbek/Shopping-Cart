@@ -12,6 +12,7 @@ export const ShopContext = createContext({
   testCartAdd: () => {},
   addProduct: () => {},
   removeProduct: () => {},
+  countCartItems: () => {}
 
 })
 
@@ -84,6 +85,15 @@ function RootLayout() {
     setCartContents(updatedCart);
   }
 
+  function countCartItems() {
+    let totalProductCount ;
+    cartContents.map((item, i)=> {
+      if ( i === 0 ) return totalProductCount = Number(item.quantityInCart);
+      totalProductCount = totalProductCount + Number(item.quantityInCart);
+    })
+    return totalProductCount;
+  }
+
 
   // function increaseQuntity() {
   //   //item.id -= 1;
@@ -106,7 +116,7 @@ function RootLayout() {
   const emptyTheCart = () => setCartContents([]);
 
   return (
-    <ShopContext.Provider value={{ cartContents, logCartItems, emptyTheCart, addProduct, removeProduct }}>
+    <ShopContext.Provider value={{ cartContents, logCartItems, emptyTheCart, addProduct, removeProduct, countCartItems }}>
       <div className="root-layout">
         <Header />
         <main className="flex justify-center">
