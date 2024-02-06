@@ -14,7 +14,7 @@ function Header() {
     return setShowMenu(!showMenu);
   }
 
-  const { logCartItems, emptyTheCart, cartContents, countCartItems } = useContext(ShopContext);
+  const { logCartItems, emptyTheCart, countCartItems } = useContext(ShopContext);
 
   function displayMenu() {
     if (showMenu === true) {
@@ -43,7 +43,7 @@ function Header() {
       </nav>
       <div className="items-in-cart">
         <p>
-          {cartContents.length}
+          {countCartItems()}
         </p>
       </div>
       <div className="cart-hamburger-icon">

@@ -86,7 +86,7 @@ function RootLayout() {
   }
 
   function countCartItems() {
-    let totalProductCount ;
+    let totalProductCount = 0;
     cartContents.map((item, i)=> {
       if ( i === 0 ) return totalProductCount = Number(item.quantityInCart);
       totalProductCount = totalProductCount + Number(item.quantityInCart);
