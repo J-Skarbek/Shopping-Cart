@@ -25,6 +25,9 @@ function ShoppingCart() {
 
     //   }
     // })
+
+    const roundCents = cartValue => Number.parseFloat(cartValue).toFixed(2);
+
     const getSubTotal = () => {
       if (cartContents.length === 0) {
         preTaxSubTotal = Number(0.00)
@@ -35,10 +38,12 @@ function ShoppingCart() {
         const quant = Number(item.quantityInCart);
         const price = Number(item.price);
         console.log(`Price: ${price} || quant: ${quant}`)
-        const calculate = price * quant;
-        console.log(`calculate: ${calculate}`);
-        return preTaxSubTotal = preTaxSubTotal * calculate;
+        const cartItemsValue = price * quant;
+        const subTotal = roundCents(cartItemsValue);
+        console.log(`calculate: ${subTotal}`);
+        return preTaxSubTotal = preTaxSubTotal * subTotal;
       })
+      console.log(preTaxSubTotal)
       return preTaxSubTotal;
     }
 
