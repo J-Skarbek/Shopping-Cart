@@ -46,19 +46,17 @@ function ShoppingCart() {
           preTaxSubTotal = roundCents(cartItemsValue);
           console.log(`pretaxSubtotal value: ${preTaxSubTotal}`)
       } else {
-      cartContents.map(item => {
-        console.log(item);
-        const quant = Number(item.quantityInCart);
-        const price = Number(item.price);
-        console.log(`Price: ${price} || quant: ${quant}`)
-        const cartItemsValue = price * quant;
-        const subTotal = roundCents(cartItemsValue);
-        console.log(`calculate: ${subTotal}`);
-        return preTaxSubTotal = preTaxSubTotal * subTotal;
-      })
+        cartContents.map(item => {
+          console.log(item);
+          const quant = Number(item.quantityInCart);
+          const price = Number(item.price);
+          console.log(`Price: ${price} || quant: ${quant}`)
+          const cartItemsValue = price * quant;
+          preTaxSubTotal = roundCents(cartItemsValue);
+        })
       // console.log('test ' + preTaxSubTotal)
       // return preTaxSubTotal;
-     }
+      }  
      console.log('test ' + preTaxSubTotal)
      return preTaxSubTotal;
     }
