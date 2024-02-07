@@ -31,32 +31,41 @@ function ShoppingCart() {
     // }
 
 
-
-
     const getSubTotal = () => {
       let preTaxSubTotal;
+      let additionArray = [];
       if (cartContents.length === 0) {
         preTaxSubTotal = Number(0.00);
         console.log(`pretax subtotal: ${preTaxSubTotal}`);   
-      } else if (cartContents.length === 1) {     
+      } else {     
           const quant = Number(cartContents[0].quantityInCart);
           const price = Number(cartContents[0].price);
           console.log(`Price: ${price} || quant: ${quant}`);
           const cartItemsValue = price * quant;
           preTaxSubTotal = roundCents(cartItemsValue);
           console.log(`pretaxSubtotal value: ${preTaxSubTotal}`)
-      } else {
-        cartContents.map(item => {
-          console.log(item);
-          const quant = Number(item.quantityInCart);
-          const price = Number(item.price);
-          console.log(`Price: ${price} || quant: ${quant}`)
-          const cartItemsValue = price * quant;
-          preTaxSubTotal = roundCents(cartItemsValue);
-        })
+      }
+      // } else {
+      //   cartContents.map(item => {
+      //     console.log(item);
+      //     const quant = Number(item.quantityInCart);
+      //     const price = Number(item.price);
+      //     console.log(`Price: ${price} || quant: ${quant}`)
+      //     const multiply = price * quant;
+      //     // roundCents(multiply);
+      //     preTaxSubTotal = roundCents(multiply);
+      //     console.log(multiply)
+        
+          // additionArray.push(roundCents(cartItemsValue));
+          // console.table(additionArray);
+          // console.log(`Running-total`)
+          // let runningTotal = roundCents(cartItemsValue);
+          // preTaxSubTotal += runningTotal;
+        // })
+        
       // console.log('test ' + preTaxSubTotal)
       // return preTaxSubTotal;
-      }  
+      // }  
      console.log('test ' + preTaxSubTotal)
      return preTaxSubTotal;
     }
