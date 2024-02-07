@@ -27,27 +27,44 @@ function ShoppingCart() {
       return cartValue * 1.01875;
     }
     
-
-  
-
-
     const getSubTotal = () => {
       let preTaxSubTotal;
       let additionArray = [];
       if (cartContents.length === 0) {
         preTaxSubTotal = Number(0.00);
         console.log(`pretax subtotal: ${preTaxSubTotal}`);   
-      } else {     
-          const quant = Number(cartContents[0].quantityInCart);
-          const price = Number(cartContents[0].price);
-          console.log(`Price: ${price} || quant: ${quant}`);
+      } else {
+        cartContents.map(item => {
+          const quant = Number(item.quantityInCart);
+          const price = Number(item.price);
+          console.log(`Price: ${price}: type: ${typeof price} || quant: ${quant} : type: ${typeof price}`);
           const cartItemsValue = price * quant;
-          preTaxSubTotal = roundCents(cartItemsValue);
+          console.log(`calculated value: ${cartItemsValue} : type: ${typeof cartItemsValue}`)
+          additionArray.push(Number(roundCents(cartItemsValue)));
+          preTaxSubTotal = preTaxSubTotal + roundCents(cartItemsValue);
           console.log(`pretaxSubtotal value: ${preTaxSubTotal}`)
+          console.table(additionArray);
+        })
       }
+    
+    function reducer(accumulator, currentValue) {
+      const returns = accumulator + currentValue;
+      return returns;
+    }
 
-     console.log('test ' + preTaxSubTotal)
-     return preTaxSubTotal;
+    // const subTotalAll = additionArray.reduce(reducer);
+
+    const subTotalAll = () => {
+      if (additionArray.length === 0) {
+        console.log('There are no products in the cart.');
+        return;
+      }
+      const subTotaledValue = additionArray.reduce(reducer);
+      return subTotaledValue;
+    }
+    console.log(`Array Reduced: ${subTotalAll()}`);
+    console.log('test ' + preTaxSubTotal)
+    return preTaxSubTotal;
     }
     return getSubTotal();
   }
