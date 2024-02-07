@@ -12,12 +12,6 @@ function ShoppingCart() {
     e.preventDefault();
     console.log(`Default Prevented == ${e.defaultPrevented}`);
  
-    // if Array.length === 0 -- do nothing
-    // if arrry.length === 1 -- multiply price by quantity in cart
-    // array.length > 1 -- go through it, multiplying the price by quantity, and saving
-    //   updating the subtotal price as we go along (or, create a new temp array to hold the subtotal
-    //   values)
-
     const roundCents = cartValue => Number.parseFloat(cartValue).toFixed(2);
     const applyTax = cartValue => cartValue * 1.06125;
     const calcShipping = (cartValue, shippingOption) => {
@@ -27,7 +21,7 @@ function ShoppingCart() {
       return cartValue * 1.01875;
     }
     
-    const getSubTotal = () => {
+    const getSubtotal = () => {
       let preTaxSubTotal;
       let additionArray = [];
       if (cartContents.length === 0) {
@@ -37,36 +31,29 @@ function ShoppingCart() {
         cartContents.map(item => {
           const quant = Number(item.quantityInCart);
           const price = Number(item.price);
-          console.log(`Price: ${price}: type: ${typeof price} || quant: ${quant} : type: ${typeof price}`);
-          const cartItemsValue = price * quant;
-          console.log(`calculated value: ${cartItemsValue} : type: ${typeof cartItemsValue}`)
-          additionArray.push(Number(roundCents(cartItemsValue)));
-          preTaxSubTotal = preTaxSubTotal + roundCents(cartItemsValue);
-          console.log(`pretaxSubtotal value: ${preTaxSubTotal}`)
-          console.table(additionArray);
+          const multiply = price * quant;
+          additionArray.push(Number(roundCents(multiply)));
         })
       }
     
-    function reducer(accumulator, currentValue) {
-      const returns = accumulator + currentValue;
-      return returns;
-    }
-
-    // const subTotalAll = additionArray.reduce(reducer);
-
-    const subTotalAll = () => {
-      if (additionArray.length === 0) {
-        console.log('There are no products in the cart.');
-        return;
+      function reducer(accumulator, currentValue) {
+        const returns = accumulator + currentValue;
+        return returns;
       }
-      const subTotaledValue = additionArray.reduce(reducer);
-      return subTotaledValue;
+
+      const subTotalAll = () => {
+        if (additionArray.length === 0) {
+          console.log('There are no products in the cart.');
+          return;
+        }
+        const subTotaledValue = additionArray.reduce(reducer);
+        return subTotaledValue;
+      }
+
+      return subTotalAll();
     }
-    console.log(`Array Reduced: ${subTotalAll()}`);
-    console.log('test ' + preTaxSubTotal)
-    return preTaxSubTotal;
-    }
-    return getSubTotal();
+    console.log(`processed subtotal: ${getSubtotal()}`)
+    return getSubtotal();
   }
 
   const displayCartContents = cartContents.map(item => {
