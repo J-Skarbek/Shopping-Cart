@@ -11,8 +11,6 @@ function ShoppingCart() {
   function sendToCheckout(e) {
     e.preventDefault();
     console.log(`Default Prevented == ${e.defaultPrevented}`);
-    // let preTaxSubTotal;
-    // let totalingArray = [];
  
     // if Array.length === 0 -- do nothing
     // if arrry.length === 1 -- multiply price by quantity in cart
@@ -21,14 +19,16 @@ function ShoppingCart() {
     //   values)
 
     const roundCents = cartValue => Number.parseFloat(cartValue).toFixed(2);
-    const applyTax = cartValue => cartValue * 0.6125;
+    const applyTax = cartValue => cartValue * 1.06125;
+    const calcShipping = (cartValue, shippingOption) => {
+      if (shippingOption === 'Express') {
+        return cartValue * 1.0375;
+      }
+      return cartValue * 1.01875;
+    }
+    
 
-    // const calculateSubTotal = ({ item }) => {
-    //   const quant  = Number(item.quantityInCart);
-    //   const price = Number(item.quantityInCart);
-    //   const subTotal = quant * price;
-    //   return roundCents(subTotal);
-    // }
+  
 
 
     const getSubTotal = () => {
@@ -45,27 +45,7 @@ function ShoppingCart() {
           preTaxSubTotal = roundCents(cartItemsValue);
           console.log(`pretaxSubtotal value: ${preTaxSubTotal}`)
       }
-      // } else {
-      //   cartContents.map(item => {
-      //     console.log(item);
-      //     const quant = Number(item.quantityInCart);
-      //     const price = Number(item.price);
-      //     console.log(`Price: ${price} || quant: ${quant}`)
-      //     const multiply = price * quant;
-      //     // roundCents(multiply);
-      //     preTaxSubTotal = roundCents(multiply);
-      //     console.log(multiply)
-        
-          // additionArray.push(roundCents(cartItemsValue));
-          // console.table(additionArray);
-          // console.log(`Running-total`)
-          // let runningTotal = roundCents(cartItemsValue);
-          // preTaxSubTotal += runningTotal;
-        // })
-        
-      // console.log('test ' + preTaxSubTotal)
-      // return preTaxSubTotal;
-      // }  
+
      console.log('test ' + preTaxSubTotal)
      return preTaxSubTotal;
     }
