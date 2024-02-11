@@ -1,21 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ShopContext } from "./RootLayout";
 import Button from "./Button";
 
-function HamburgerMenuExpanded(props) {
+export default function HamburgerMenuExpanded() {
+
+  const { cartContents, countCartItems } = useContext(ShopContext);
 
   // const [showMenu, setShowMenu] = React.useState(false);
-
-  // const updateMenuStatus = () => {
-  //   return setShowMenu(!showMenu);
-  // }
-
-  // console.log(showMenu);
 
   return (
     <div className="modal-menu-overlay flex flex-row-reverse fixed w-full h-screen bg-indigo-800/75 ">
     <div className="hamburger-open flex flex-col bg-slate-200 w-96 h-fit p-4">
       <div className="products-in-cart mb-4">
-        <p>Therre are currently no products in your cart.</p>
+        {/* <p>{countCartItems()}</p> */}
       </div>
       <div className="order-details">
         <div className="hamburger-inner-container border-y border-t-slate-300 border-b-slate-500 py-4 my-2">
@@ -43,5 +40,3 @@ function HamburgerMenuExpanded(props) {
     </div>
   )
 }
-
-export default HamburgerMenuExpanded;

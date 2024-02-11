@@ -9,24 +9,12 @@ import { ShopContext } from "./RootLayout";
 function Header() {
 
   const [showMenu, setShowMenu] = React.useState(false);
-
-  const updateMenuStatus = () => {
-    return setShowMenu(!showMenu);
-  }
-
   const { logCartItems, emptyTheCart, countCartItems } = useContext(ShopContext);
 
-  function displayMenu() {
-    if (showMenu === true) {
-      return (
-        <HamburgerMenuExpanded />
-      )
-    } else {
-      return;
-    }
+  const updateMenuStatus = () => {
+    console.log(`oldshowmenustatus: ${showMenu}`)
+    return setShowMenu(!showMenu);
   }
-
-  displayMenu();
 
   return (
     <div className="header flex justify-between items-center px-12">
@@ -42,9 +30,9 @@ function Header() {
         <button type="button" onClick={countCartItems}>Test count all products + quantity</button>
       </nav>
       <div className="items-in-cart">
-        <p>
+        {/* <p>
           {countCartItems()}
-        </p>
+        </p> */}
       </div>
       <div className="cart-hamburger-icon">
         <img src={hamburger} className="hamburger" alt="View Your Cart" onClick={updateMenuStatus} />
