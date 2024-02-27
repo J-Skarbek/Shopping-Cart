@@ -8,6 +8,9 @@ export default function HamburgerMenuExpanded({ toggleMenu }) {
   const { cartContents, countCartItems } = useContext(ShopContext);
 
   return (
+    <div className="screen-overlay w-screen h-screen bg-black/50 fixed top-0 right-0 z-10">
+
+
     <div className="modal-menu-overlay flex flex-row-reverse absolute top-0 right-0 bg-white shadow-lg">
       <div className="hamburger-open flex flex-col bg-slate-200 w-96 h-fit p-4">
         <div className="close-button flex justify-end">
@@ -43,5 +46,7 @@ export default function HamburgerMenuExpanded({ toggleMenu }) {
         </div>
       </div>
     </div>
+
+    </div> //end screen ovelay
   )
 }
