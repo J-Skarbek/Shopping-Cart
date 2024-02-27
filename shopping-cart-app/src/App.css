@@ -50,3 +50,29 @@
 .swiper-free-mode > .swiper-wrapper {
   margin: 25px 0 !important;
 }
+
+.fade-in {
+  animation: fade-in .25s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+/* .fade-out {
+  animation: fade-in .25s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 100;
+  }
+  to {
+    opacity: 0;
+  }
+} */
