@@ -37,7 +37,7 @@ function Header() {
       <div className="cart-hamburger-icon">
         <img src={hamburger} className="hamburger" alt="View Your Cart" onClick={updateMenuStatus} />
         {showMenu && createPortal(
-          <HamburgerMenuExpanded />, document.body
+          <HamburgerMenuExpanded />, document.querySelector('.header')
         )}
       </div>
     </div>

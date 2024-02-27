@@ -6,10 +6,8 @@ export default function HamburgerMenuExpanded() {
 
   const { cartContents, countCartItems } = useContext(ShopContext);
 
-  // const [showMenu, setShowMenu] = React.useState(false);
-
   return (
-    <div className="modal-menu-overlay flex flex-row-reverse fixed w-full h-screen bg-indigo-800/75 ">
+    <div className="modal-menu-overlay flex flex-row-reverse fixed bg-white shadow-lg">
     <div className="hamburger-open flex flex-col bg-slate-200 w-96 h-fit p-4">
       <div className="products-in-cart mb-4">
         {/* <p>{countCartItems()}</p> */}
