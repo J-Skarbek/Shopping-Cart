@@ -7,7 +7,7 @@ export default function HamburgerMenuExpanded() {
   const { cartContents, countCartItems } = useContext(ShopContext);
 
   return (
-    <div className="modal-menu-overlay flex flex-row-reverse fixed bg-white shadow-lg">
+    <div className="modal-menu-overlay flex flex-row-reverse absolute top-0 right-16 bg-white shadow-lg">
     <div className="hamburger-open flex flex-col bg-slate-200 w-96 h-fit p-4">
       <div className="products-in-cart mb-4">
         {/* <p>{countCartItems()}</p> */}
