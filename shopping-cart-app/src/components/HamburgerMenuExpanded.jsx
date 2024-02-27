@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { ShopContext } from "./RootLayout";
 import Button from "./Button";
+import MenuCartItem from "./MenuCartItem";
 import closeBtn from '../assets/close-btn.svg'
 
 export default function HamburgerMenuExpanded({ toggleMenu, toggleState }) {
@@ -13,6 +14,25 @@ export default function HamburgerMenuExpanded({ toggleMenu, toggleState }) {
     }
     return "fade-out"
   }
+
+  // function displaySkusInMenu() {
+  //   cartContents.map((item, i )=> {
+  //     return (
+  //       <MenuCartItem 
+  //         key={i}
+  //       />
+  //     )
+  //   })
+  // }
+
+  const displaySkusInMenu = cartContents.map((item, i )=> {
+    return (
+      <MenuCartItem 
+        key={i}
+        productName={item.name}
+      />
+    )
+  })
 
   console.log(deriveClassName());
 
@@ -30,6 +50,7 @@ export default function HamburgerMenuExpanded({ toggleMenu, toggleState }) {
           <div className="products-in-cart mb-4">
             <p>Products in Cart: {countCartItems()}</p>
           </div>
+          { displaySkusInMenu }
           <div className="order-details">
             <div className="hamburger-inner-container border-y border-t-slate-300 border-b-slate-500 py-4 my-2">
               <div className="order-value flex justify-between mb-4">
