@@ -12,8 +12,8 @@ export const ShopContext = createContext({
   testCartAdd: () => {},
   addProduct: () => {},
   removeProduct: () => {},
-  countCartItems: () => {}
-
+  countCartItems: () => {},
+  testGetSubtotal: () => {}
 })
 
 function RootLayout() {
@@ -95,6 +95,41 @@ function RootLayout() {
     return totalProductCount;
   }
 
+  function testRoundCents(cartValue) {
+    return Number.parseFloat(cartValue).toFixed(2);
+  }
+
+  function testGetSubtotal() {
+    let preTaxSubTotal;
+    let additionArray = [];
+    if (cartContents.length === 0) {
+      preTaxSubTotal = Number(0.00);
+      console.log(`pretax subtotal: ${preTaxSubTotal}`);   
+    } else {
+      cartContents.map(item => {
+        const quant = Number(item.quantityInCart);
+        const price = Number(item.price);
+        const multiply = price * quant;
+        additionArray.push(Number(testRoundCents(multiply)));
+      })
+    }
+  
+    function reducer(accumulator, currentValue) {
+      const returns = accumulator + currentValue;
+      return returns;
+    }
+
+    const subTotalAll = () => {
+      if (additionArray.length === 0) {
+        console.log('There are no products in the cart.');
+        return;
+      }
+      const subTotaledValue = additionArray.reduce(reducer);
+      return subTotaledValue;
+    }
+
+    return subTotalAll();
+  }
 
   // function increaseQuntity() {
   //   //item.id -= 1;
@@ -113,7 +148,7 @@ function RootLayout() {
   const emptyTheCart = () => setCartContents([]);
 
   return (
-    <ShopContext.Provider value={{ cartContents, logCartItems, emptyTheCart, addProduct, removeProduct, countCartItems }}>
+    <ShopContext.Provider value={{ cartContents, logCartItems, emptyTheCart, addProduct, removeProduct, countCartItems, testGetSubtotal }}>
       <div className="root-layout">
         <Header />
         <main className="flex justify-center">
