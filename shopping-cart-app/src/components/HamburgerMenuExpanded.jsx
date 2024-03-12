@@ -26,11 +26,16 @@ export default function HamburgerMenuExpanded({ toggleMenu, toggleState }) {
   // }
 
   const displaySkusInMenu = cartContents.map((item, i)=> {
+    console.log(item)
     return (
       <MenuCartItem 
         key={i}
         productName={item.name}
+        productImage={item.imageArray[1]}
         productPrice={item.price}
+        productId={item.id}
+        quantity={item.quantityInCart}
+        productSize={item.sizeSelected}
       />
     )
   })
