@@ -13,7 +13,7 @@ export const ShopContext = createContext({
   addProduct: () => {},
   removeProduct: () => {},
   countCartItems: () => {},
-  testGetSubtotal: () => {}
+  getSubtotal: () => {}
 })
 
 function RootLayout() {
@@ -99,7 +99,7 @@ function RootLayout() {
     return Number.parseFloat(cartValue).toFixed(2);
   }
 
-  function testGetSubtotal() {
+  function getSubtotal() {
     let preTaxSubTotal;
     let additionArray = [];
     if (cartContents.length === 0) {
@@ -148,7 +148,7 @@ function RootLayout() {
   const emptyTheCart = () => setCartContents([]);
 
   return (
-    <ShopContext.Provider value={{ cartContents, logCartItems, emptyTheCart, addProduct, removeProduct, countCartItems, testGetSubtotal }}>
+    <ShopContext.Provider value={{ cartContents, logCartItems, emptyTheCart, addProduct, removeProduct, countCartItems, getSubtotal }}>
       <div className="root-layout">
         <Header />
         <main className="flex justify-center">

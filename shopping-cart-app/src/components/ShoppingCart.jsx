@@ -4,7 +4,7 @@ import ShoppingCartCard from "./ShoppingCartCard";
 
 function ShoppingCart() {
 
-  const { cartContents, emptyTheCart, testGetSubtotal } = useContext(ShopContext);
+  const { cartContents, emptyTheCart, getSubtotal } = useContext(ShopContext);
 
   const [purchaseOrder, setPurchaseOrder] = React.useState(null);
 
@@ -52,8 +52,8 @@ function ShoppingCart() {
 
     //   return subTotalAll();
     // }
-    console.log(`processed subtotal: ${testGetSubtotal()}`)
-    return testGetSubtotal();
+    console.log(`processed subtotal: ${getSubtotal()}`)
+    return getSubtotal();
   }
 
   const displayCartContents = cartContents.map(item => {
