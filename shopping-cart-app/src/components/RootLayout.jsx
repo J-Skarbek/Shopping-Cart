@@ -124,7 +124,7 @@ function RootLayout() {
         console.log('There are no products in the cart.');
         return;
       }
-      const subTotaledValue = additionArray.reduce(reducer);
+      const subTotaledValue = Number.parseFloat(additionArray.reduce(reducer)).toFixed(2);
       return subTotaledValue;
     }
 

@@ -7,7 +7,7 @@ import closeBtn from '../assets/close-btn.svg'
 
 export default function HamburgerMenuExpanded({ toggleMenu, toggleState }) {
 
-  const { cartContents, countCartItems } = useContext(ShopContext);
+  const { cartContents, countCartItems, getSubtotal } = useContext(ShopContext);
 
   function deriveClassName() {
     if (toggleState) {
@@ -43,15 +43,15 @@ export default function HamburgerMenuExpanded({ toggleMenu, toggleState }) {
               onClick={toggleMenu} 
             />
           </div>
-          <div className="products-in-cart mb-4">
+          {/* <div className="products-in-cart mb-4">
             <p>Products in Cart: {countCartItems()}</p>
-          </div>
+          </div> */}
           { displaySkusInMenu }
           <div className="order-details">
             <div className="hamburger-inner-container border-y border-t-slate-300 border-b-slate-500 py-4 my-2">
               <div className="order-value flex justify-between mb-4">
                 <p>Order Value</p>
-                <p>$99.99(ex)</p>
+                <p>${getSubtotal()}</p>
               </div>
               <div className="shipping-value flex justify-between">
                 <p>Shipping</p>
