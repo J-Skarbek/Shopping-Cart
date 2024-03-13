@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import PropTypes from 'prop-types';
 import { ShopContext } from "./RootLayout";
 import Button from "./Button";
 import MenuCartItem from "./MenuCartItem";
@@ -15,25 +16,14 @@ export default function HamburgerMenuExpanded({ toggleMenu, toggleState }) {
     return "fade-out"
   }
 
-  // function displaySkusInMenu() {
-  //   cartContents.map((item, i )=> {
-  //     return (
-  //       <MenuCartItem 
-  //         key={i}
-  //       />
-  //     )
-  //   })
-  // }
-
-  const displaySkusInMenu = cartContents.map((item, i)=> {
-    console.log(item)
+  const displaySkusInMenu = cartContents.map(item => {
+    console.log(item);
     return (
       <MenuCartItem 
-        key={i}
+        key={item.cartLoopKey}
         productName={item.name}
         productImage={item.imageArray[0]}
         productPrice={item.price}
-        productId={item.id}
         quantity={item.quantityInCart}
         productSize={item.sizeSelected}
       />
@@ -82,4 +72,9 @@ export default function HamburgerMenuExpanded({ toggleMenu, toggleState }) {
       </div>
     </div> //end screen ovelay
   )
+}
+
+HamburgerMenuExpanded.propTypes = {
+  toggleMenu: PropTypes.func.isRequired,
+  toggleState: PropTypes.bool.isRequired 
 }

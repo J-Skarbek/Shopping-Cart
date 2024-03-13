@@ -10,7 +10,7 @@ export default function MenuCartItem({ productName, productImage, productPrice, 
       </div>
       <div className="flex flex-col menu-product-details">
         <p className="font-semibold">{productName}</p>
-        <p>Price: {productPrice}</p>
+        <p>Price: ${productPrice}</p>
         <p>Quantity: {quantity}</p>
         <p>Size: {productSize.toUpperCase()}</p>
       </div>
