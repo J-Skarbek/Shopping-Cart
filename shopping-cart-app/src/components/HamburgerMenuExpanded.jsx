@@ -31,7 +31,7 @@ export default function HamburgerMenuExpanded({ toggleMenu, toggleState }) {
       <MenuCartItem 
         key={i}
         productName={item.name}
-        productImage={item.imageArray[1]}
+        productImage={item.imageArray[0]}
         productPrice={item.price}
         productId={item.id}
         quantity={item.quantityInCart}
