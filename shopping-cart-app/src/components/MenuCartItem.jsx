@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 export default function MenuCartItem({ productName, productImage, productPrice, productSize, quantity }) {
 
@@ -15,4 +16,12 @@ export default function MenuCartItem({ productName, productImage, productPrice, 
       </div>
     </div>
   )
+}
+
+MenuCartItem.propTypes = {
+  productName: PropTypes.string.isRequired,
+  productImage: PropTypes.string.isRequired,
+  productPrice: PropTypes.string.isRequired,
+  productSize: PropTypes.string.isRequired,
+  quantity: PropTypes.string.isRequired,
 }
