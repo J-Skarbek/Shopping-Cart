@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { ShopContext } from "./RootLayout";
 import Button from "./Button";
@@ -43,30 +44,25 @@ export default function HamburgerMenuExpanded({ toggleMenu, toggleState }) {
               onClick={toggleMenu} 
             />
           </div>
-          {/* <div className="products-in-cart mb-4">
-            <p>Products in Cart: {countCartItems()}</p>
-          </div> */}
-          { displaySkusInMenu }
+          <div className="menu-cart-display-container h-96 overflow-auto">
+            {displaySkusInMenu}
+          </div>
           <div className="order-details">
-            <div className="hamburger-inner-container border-y border-t-slate-300 border-b-slate-500 py-4 my-2">
-              <div className="order-value flex justify-between mb-4">
-                <p>Order Value</p>
+            <div className="hamburger-inner-container border-y border-t-slate-300 border-b-slate-500 py-2 my-2">
+              <div className="order-value flex justify-between">
+                <p>Order Total</p>
                 <p>${getSubtotal()}</p>
-              </div>
-              <div className="shipping-value flex justify-between">
-                <p>Shipping</p>
-                <p className="uppercase">FREE</p>
               </div>
             </div>
           </div>
           <div className="buttons-container flex flex-col">
-            <Button 
-              text='checkout'
-            />
-            <Button 
-              text='cart'
-            />
-            <button type="buton">Cart</button>
+            <Link to='cart' onClick={toggleMenu}>
+              <Button 
+                text='View Cart' />
+            </Link>
+            <Link to='checkout' onClick={toggleMenu}>
+              <Button text='Proceed to Checkout' />
+            </Link>
           </div>
         </div>
       </div>
