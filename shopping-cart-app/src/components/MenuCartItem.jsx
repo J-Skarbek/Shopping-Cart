@@ -13,6 +13,7 @@ export default function MenuCartItem({ productName, productImage, productPrice, 
         <p>Price: ${productPrice}</p>
         <p>Quantity: {quantity}</p>
         <p>Size: {productSize.toUpperCase()}</p>
+        <p>{productImage}</p>
       </div>
     </div>
   )

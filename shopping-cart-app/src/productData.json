@@ -9,18 +9,18 @@
           "category": "tops",
           "images":
             {
-              "image": "src/assets/products/tops/top1/textured-knit-tube-top-1.jpeg",
-              "image2": "src/assets/products/tops/top1/textured-knit-tube-top-2.webp",
-              "image3": "src/assets/products/tops/top1/textured-knit-tube-top-3.webp",
-              "image4": "src/assets/products/tops/top1/textured-knit-tube-top-4.webp",
-              "image5": "src/assets/products/tops/top1/textured-knit-tube-top-5.webp"
+              "image": "products/tops/top1/textured-knit-tube-top-1.jpeg",
+              "image2": "products/tops/top1/textured-knit-tube-top-2.webp",
+              "image3": "products/tops/top1/textured-knit-tube-top-3.webp",
+              "image4": "products/tops/top1/textured-knit-tube-top-4.webp",
+              "image5": "products/tops/top1/textured-knit-tube-top-5.webp"
             },
           "imageArray": [
-            "src/assets/products/tops/top1/textured-knit-tube-top-1.jpeg",
-            "src/assets/products/tops/top1/textured-knit-tube-top-2.webp",
-            "src/assets/products/tops/top1/textured-knit-tube-top-3.webp",
-            "src/assets/products/tops/top1/textured-knit-tube-top-4.webp",
-            "src/assets/products/tops/top1/textured-knit-tube-top-5.webp"
+            "products/tops/top1/textured-knit-tube-top-1.jpeg",
+            "products/tops/top1/textured-knit-tube-top-2.webp",
+            "products/tops/top1/textured-knit-tube-top-3.webp",
+            "products/tops/top1/textured-knit-tube-top-4.webp",
+            "products/tops/top1/textured-knit-tube-top-5.webp"
           ],
           "sizes": [
             "xs",
@@ -41,18 +41,18 @@
           "category": "tops",
           "images":
             {
-              "image": "src/assets/products/tops/top2/ribbed-tank-top-1.jpeg",
-              "image2": "src/assets/products/tops/top2/ribbed-tank-top-2.webp",
-              "image3": "src/assets/products/tops/top2/ribbed-tank-top-3.webp",
-              "image4": "src/assets/products/tops/top2/ribbed-tank-top-4.webp",
-              "image5": "src/assets/products/tops/top2/ribbed-tank-top-5.webp"
+              "image": "products/tops/top2/ribbed-tank-top-1.jpeg",
+              "image2": "products/tops/top2/ribbed-tank-top-2.webp",
+              "image3": "products/tops/top2/ribbed-tank-top-3.webp",
+              "image4": "products/tops/top2/ribbed-tank-top-4.webp",
+              "image5": "products/tops/top2/ribbed-tank-top-5.webp"
             },
           "imageArray": [
-            "src/assets/products/tops/top2/ribbed-tank-top-1.jpeg",
-            "src/assets/products/tops/top2/ribbed-tank-top-2.webp",
-            "src/assets/products/tops/top2/ribbed-tank-top-3.webp",
-            "src/assets/products/tops/top2/ribbed-tank-top-4.webp",
-            "src/assets/products/tops/top2/ribbed-tank-top-5.webp"
+            "products/tops/top2/ribbed-tank-top-1.jpeg",
+            "products/tops/top2/ribbed-tank-top-2.webp",
+            "products/tops/top2/ribbed-tank-top-3.webp",
+            "products/tops/top2/ribbed-tank-top-4.webp",
+            "products/tops/top2/ribbed-tank-top-5.webp"
           ],
           "sizes": [
             "xs",
@@ -73,18 +73,18 @@
           "category": "tops",
           "images":
             {
-              "image": "src/assets/products/tops/top3/linen-tshirt-1.jpeg",
-              "image2": "src/assets/products/tops/top3/linen-tshirt-2.webp",
-              "image3": "src/assets/products/tops/top3/linen-tshirt-3.webp",
-              "image4": "src/assets/products/tops/top3/linen-tshirt-4.webp",
-              "image5": "src/assets/products/tops/top3/linen-tshirt-5.webp"
+              "image": "products/tops/top3/linen-tshirt-1.jpeg",
+              "image2": "products/tops/top3/linen-tshirt-2.webp",
+              "image3": "products/tops/top3/linen-tshirt-3.webp",
+              "image4": "products/tops/top3/linen-tshirt-4.webp",
+              "image5": "products/tops/top3/linen-tshirt-5.webp"
             },
           "imageArray": [
-            "src/assets/products/tops/top3/linen-tshirt-1.jpeg",
-            "src/assets/products/tops/top3/linen-tshirt-2.webp",
-            "src/assets/products/tops/top3/linen-tshirt-3.webp",
-            "src/assets/products/tops/top3/linen-tshirt-4.webp",
-            "src/assets/products/tops/top3/linen-tshirt-5.webp"
+            "products/tops/top3/linen-tshirt-1.jpeg",
+            "products/tops/top3/linen-tshirt-2.webp",
+            "products/tops/top3/linen-tshirt-3.webp",
+            "products/tops/top3/linen-tshirt-4.webp",
+            "products/tops/top3/linen-tshirt-5.webp"
           ],
           "sizes": [
             "xs",
@@ -105,18 +105,18 @@
           "category": "tops",
           "images":
             {
-              "image": "src/assets/products/tops/top4/fine-knit-corset-style-top.jpeg",
-              "image2": "src/assets/products/tops/top4/fine-knit-corset-style-top-2.webp",
-              "image3": "src/assets/products/tops/top4/fine-knit-corset-style-top-3.webp",
-              "image4": "src/assets/products/tops/top4/fine-knit-corset-style-top-4.webp",
-              "image5": "src/assets/products/tops/top4/fine-knit-corset-style-top-5.webp"
+              "image": "products/tops/top4/fine-knit-corset-style-top.jpeg",
+              "image2": "products/tops/top4/fine-knit-corset-style-top-2.webp",
+              "image3": "products/tops/top4/fine-knit-corset-style-top-3.webp",
+              "image4": "products/tops/top4/fine-knit-corset-style-top-4.webp",
+              "image5": "products/tops/top4/fine-knit-corset-style-top-5.webp"
             },
           "imageArray": [
-            "src/assets/products/tops/top4/fine-knit-corset-style-top.jpeg",
-            "src/assets/products/tops/top4/fine-knit-corset-style-top-2.webp",
-            "src/assets/products/tops/top4/fine-knit-corset-style-top-3.webp",
-            "src/assets/products/tops/top4/fine-knit-corset-style-top-4.webp",
-            "src/assets/products/tops/top4/fine-knit-corset-style-top-5.webp"
+            "products/tops/top4/fine-knit-corset-style-top.jpeg",
+            "products/tops/top4/fine-knit-corset-style-top-2.webp",
+            "products/tops/top4/fine-knit-corset-style-top-3.webp",
+            "products/tops/top4/fine-knit-corset-style-top-4.webp",
+            "products/tops/top4/fine-knit-corset-style-top-5.webp"
           ],
           "sizes": [
             "xs",
@@ -137,18 +137,18 @@
           "category": "tops",
           "images":
           {
-            "image": "src/assets/products/tops/top5/ribbed-thong-bodysuit.jpeg",
-            "image2": "src/assets/products/tops/top5/ribbed-thong-bodysuit-2.webp",
-            "image3": "src/assets/products/tops/top5/ribbed-thong-bodysuit-3.webp",
-            "image4": "src/assets/products/tops/top5/ribbed-thong-bodysuit-4.webp",
-            "image5": "src/assets/products/tops/top5/ribbed-thong-bodysuit-5.webp"
+            "image": "products/tops/top5/ribbed-thong-bodysuit.jpeg",
+            "image2": "products/tops/top5/ribbed-thong-bodysuit-2.webp",
+            "image3": "products/tops/top5/ribbed-thong-bodysuit-3.webp",
+            "image4": "products/tops/top5/ribbed-thong-bodysuit-4.webp",
+            "image5": "products/tops/top5/ribbed-thong-bodysuit-5.webp"
           },
           "imageArray": [
-            "src/assets/products/tops/top5/ribbed-thong-bodysuit.jpeg",
-            "src/assets/products/tops/top5/ribbed-thong-bodysuit-2.webp",
-            "src/assets/products/tops/top5/ribbed-thong-bodysuit-3.webp",
-            "src/assets/products/tops/top5/ribbed-thong-bodysuit-4.webp",
-            "src/assets/products/tops/top5/ribbed-thong-bodysuit-5.webp"
+            "products/tops/top5/ribbed-thong-bodysuit.jpeg",
+            "products/tops/top5/ribbed-thong-bodysuit-2.webp",
+            "products/tops/top5/ribbed-thong-bodysuit-3.webp",
+            "products/tops/top5/ribbed-thong-bodysuit-4.webp",
+            "products/tops/top5/ribbed-thong-bodysuit-5.webp"
           ],
           "sizes": [
             "xs",
@@ -174,18 +174,18 @@
           "category": "dresses",
           "images":
             {
-              "image": "src/assets/products/dresses/dress1/draped-dress.jpeg",
-              "image2": "src/assets/products/dresses/dress1/draped-dress-2.webp",
-              "image3": "src/assets/products/dresses/dress1/draped-dress-3.webp",
-              "image4": "src/assets/products/dresses/dress1/draped-dress-4.webp",
-              "image5": "src/assets/products/dresses/dress1/draped-dress-5.webp"
+              "image": "products/dresses/dress1/draped-dress.jpeg",
+              "image2": "products/dresses/dress1/draped-dress-2.webp",
+              "image3": "products/dresses/dress1/draped-dress-3.webp",
+              "image4": "products/dresses/dress1/draped-dress-4.webp",
+              "image5": "products/dresses/dress1/draped-dress-5.webp"
             },
           "imageArray": [
-            "src/assets/products/dresses/dress1/draped-dress.jpeg",
-            "src/assets/products/dresses/dress1/draped-dress-2.webp",
-            "src/assets/products/dresses/dress1/draped-dress-3.webp",
-            "src/assets/products/dresses/dress1/draped-dress-4.webp",
-            "src/assets/products/dresses/dress1/draped-dress-5.webp"
+            "products/dresses/dress1/draped-dress.jpeg",
+            "products/dresses/dress1/draped-dress-2.webp",
+            "products/dresses/dress1/draped-dress-3.webp",
+            "products/dresses/dress1/draped-dress-4.webp",
+            "products/dresses/dress1/draped-dress-5.webp"
           ],
           "sizes": [
             "xs",
@@ -207,18 +207,18 @@
           "category": "dresses",
           "images":
             {
-              "image": "src/assets/products/dresses/dress2/open-backed-chiffon-dress.jpeg",
-              "image2": "src/assets/products/dresses/dress2/open-backed-chiffon-dress-2.webp",
-              "image3": "src/assets/products/dresses/dress2/open-backed-chiffon-dress-3.webp",
-              "image4": "src/assets/products/dresses/dress2/open-backed-chiffon-dress-4.webp",
-              "image5": "src/assets/products/dresses/dress2/open-backed-chiffon-dress-5.webp"
+              "image": "products/dresses/dress2/open-backed-chiffon-dress.jpeg",
+              "image2": "products/dresses/dress2/open-backed-chiffon-dress-2.webp",
+              "image3": "products/dresses/dress2/open-backed-chiffon-dress-3.webp",
+              "image4": "products/dresses/dress2/open-backed-chiffon-dress-4.webp",
+              "image5": "products/dresses/dress2/open-backed-chiffon-dress-5.webp"
             },
           "imageArray": [
-            "src/assets/products/dresses/dress2/open-backed-chiffon-dress.jpeg",
-            "src/assets/products/dresses/dress2/open-backed-chiffon-dress-2.webp",
-            "src/assets/products/dresses/dress2/open-backed-chiffon-dress-3.webp",
-            "src/assets/products/dresses/dress2/open-backed-chiffon-dress-4.webp",
-            "src/assets/products/dresses/dress2/open-backed-chiffon-dress-5.webp"
+            "products/dresses/dress2/open-backed-chiffon-dress.jpeg",
+            "products/dresses/dress2/open-backed-chiffon-dress-2.webp",
+            "products/dresses/dress2/open-backed-chiffon-dress-3.webp",
+            "products/dresses/dress2/open-backed-chiffon-dress-4.webp",
+            "products/dresses/dress2/open-backed-chiffon-dress-5.webp"
           ],
           "sizes": [
             "xs",
@@ -239,18 +239,18 @@
           "category": "dresses",
           "images":
             {
-              "image": "src/assets/products/dresses/dress3/cotton-bodycon-dress.jpeg",
-              "image2": "src/assets/products/dresses/dress3/cotton-bodycon-dress-2.webp",
-              "image3": "src/assets/products/dresses/dress3/cotton-bodycon-dress-3.webp",
-              "image4": "src/assets/products/dresses/dress3/cotton-bodycon-dress-4.webp",
-              "image5": "src/assets/products/dresses/dress3/cotton-bodycon-dress-5.webp"
+              "image": "products/dresses/dress3/cotton-bodycon-dress.jpeg",
+              "image2": "products/dresses/dress3/cotton-bodycon-dress-2.webp",
+              "image3": "products/dresses/dress3/cotton-bodycon-dress-3.webp",
+              "image4": "products/dresses/dress3/cotton-bodycon-dress-4.webp",
+              "image5": "products/dresses/dress3/cotton-bodycon-dress-5.webp"
             },
           "imageArray": [
-            "src/assets/products/dresses/dress3/cotton-bodycon-dress.jpeg",
-            "src/assets/products/dresses/dress3/cotton-bodycon-dress-2.webp",
-            "src/assets/products/dresses/dress3/cotton-bodycon-dress-3.webp",
-            "src/assets/products/dresses/dress3/cotton-bodycon-dress-4.webp",
-            "src/assets/products/dresses/dress3/cotton-bodycon-dress-5.webp"
+            "products/dresses/dress3/cotton-bodycon-dress.jpeg",
+            "products/dresses/dress3/cotton-bodycon-dress-2.webp",
+            "products/dresses/dress3/cotton-bodycon-dress-3.webp",
+            "products/dresses/dress3/cotton-bodycon-dress-4.webp",
+            "products/dresses/dress3/cotton-bodycon-dress-5.webp"
           ],
           "sizes": [
             "xs",
@@ -272,18 +272,18 @@
           "category": "dresses",
           "images":
             {
-              "image": "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-              "image2": "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-              "image3": "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-              "image4": "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-              "image5": "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+              "image": "products/dresses/dress4/denim-bodycon-dress.jpeg",
+              "image2": "products/dresses/dress4/denim-bodycon-dress-2.webp",
+              "image3": "products/dresses/dress4/denim-bodycon-dress-3.webp",
+              "image4": "products/dresses/dress4/denim-bodycon-dress-4.webp",
+              "image5": "products/dresses/dress4/denim-bodycon-dress-5.webp"
             },
           "imageArray": [
-            "src/assets/products/dresses/dress4/denim-bodycon-dress.jpeg",
-            "src/assets/products/dresses/dress4/denim-bodycon-dress-2.webp",
-            "src/assets/products/dresses/dress4/denim-bodycon-dress-3.webp",
-            "src/assets/products/dresses/dress4/denim-bodycon-dress-4.webp",
-            "src/assets/products/dresses/dress4/denim-bodycon-dress-5.webp"
+            "products/dresses/dress4/denim-bodycon-dress.jpeg",
+            "products/dresses/dress4/denim-bodycon-dress-2.webp",
+            "products/dresses/dress4/denim-bodycon-dress-3.webp",
+            "products/dresses/dress4/denim-bodycon-dress-4.webp",
+            "products/dresses/dress4/denim-bodycon-dress-5.webp"
           ],
           "sizes": [
             "xs",
@@ -304,18 +304,18 @@
           "category": "dresses",
           "images":
             {
-              "image": "src/assets/products/dresses/dress5/ruffle-trimmed-dress.jpeg",
-              "image2": "src/assets/products/dresses/dress5/ruffle-trimmed-dress-2.webp",
-              "image3": "src/assets/products/dresses/dress5/ruffle-trimmed-dress-3.webp",
-              "image4": "src/assets/products/dresses/dress5/ruffle-trimmed-dress-4.webp",
-              "image5": "src/assets/products/dresses/dress5/ruffle-trimmed-dress-5.webp"
+              "image": "products/dresses/dress5/ruffle-trimmed-dress.jpeg",
+              "image2": "products/dresses/dress5/ruffle-trimmed-dress-2.webp",
+              "image3": "products/dresses/dress5/ruffle-trimmed-dress-3.webp",
+              "image4": "products/dresses/dress5/ruffle-trimmed-dress-4.webp",
+              "image5": "products/dresses/dress5/ruffle-trimmed-dress-5.webp"
             },
           "imageArray": [
-            "src/assets/products/dresses/dress5/ruffle-trimmed-dress.jpeg",
-            "src/assets/products/dresses/dress5/ruffle-trimmed-dress-2.webp",
-            "src/assets/products/dresses/dress5/ruffle-trimmed-dress-3.webp",
-            "src/assets/products/dresses/dress5/ruffle-trimmed-dress-4.webp",
-            "src/assets/products/dresses/dress5/ruffle-trimmed-dress-5.webp"
+            "products/dresses/dress5/ruffle-trimmed-dress.jpeg",
+            "products/dresses/dress5/ruffle-trimmed-dress-2.webp",
+            "products/dresses/dress5/ruffle-trimmed-dress-3.webp",
+            "products/dresses/dress5/ruffle-trimmed-dress-4.webp",
+            "products/dresses/dress5/ruffle-trimmed-dress-5.webp"
           ],
           "sizes": [
             "xs",
@@ -341,18 +341,18 @@
           "category": "shoes",
           "images": 
             {
-              "image": "src/assets/products/shoes/shoes1/wedge-heeled-mules.jpeg",
-              "image2": "src/assets/products/shoes/shoes1/wedge-heeled-mules-2.webp",
-              "image3": "src/assets/products/shoes/shoes1/wedge-heeled-mules-3.webp",
-              "image4": "src/assets/products/shoes/shoes1/wedge-heeled-mules-4.webp",
-              "image5": "src/assets/products/shoes/shoes1/wedge-heeled-mules-5.webp"
+              "image": "products/shoes/shoes1/wedge-heeled-mules.jpeg",
+              "image2": "products/shoes/shoes1/wedge-heeled-mules-2.webp",
+              "image3": "products/shoes/shoes1/wedge-heeled-mules-3.webp",
+              "image4": "products/shoes/shoes1/wedge-heeled-mules-4.webp",
+              "image5": "products/shoes/shoes1/wedge-heeled-mules-5.webp"
             },
           "imageArray": [
-            "src/assets/products/shoes/shoes1/wedge-heeled-mules.jpeg",
-            "src/assets/products/shoes/shoes1/wedge-heeled-mules-2.webp",
-            "src/assets/products/shoes/shoes1/wedge-heeled-mules-3.webp",
-            "src/assets/products/shoes/shoes1/wedge-heeled-mules-4.webp",
-            "src/assets/products/shoes/shoes1/wedge-heeled-mules-5.webp"
+            "products/shoes/shoes1/wedge-heeled-mules.jpeg",
+            "products/shoes/shoes1/wedge-heeled-mules-2.webp",
+            "products/shoes/shoes1/wedge-heeled-mules-3.webp",
+            "products/shoes/shoes1/wedge-heeled-mules-4.webp",
+            "products/shoes/shoes1/wedge-heeled-mules-5.webp"
           ],
           "sizes": [
             "xs",
@@ -373,18 +373,18 @@
           "category": "shoes",
           "images": 
             {
-              "image": "src/assets/products/shoes/shoes2/heeled-sandals.jpeg",
-              "image2": "src/assets/products/shoes/shoes2/heeled-sandals-2.webp",
-              "image3": "src/assets/products/shoes/shoes2/heeled-sandals-3.webp",
-              "image4": "src/assets/products/shoes/shoes2/heeled-sandals-4.webp",
-              "image5": "src/assets/products/shoes/shoes2/heeled-sandals-5.webp"
+              "image": "products/shoes/shoes2/heeled-sandals.jpeg",
+              "image2": "products/shoes/shoes2/heeled-sandals-2.webp",
+              "image3": "products/shoes/shoes2/heeled-sandals-3.webp",
+              "image4": "products/shoes/shoes2/heeled-sandals-4.webp",
+              "image5": "products/shoes/shoes2/heeled-sandals-5.webp"
             },
           "imageArray": [
-            "src/assets/products/shoes/shoes2/heeled-sandals.jpeg",
-            "src/assets/products/shoes/shoes2/heeled-sandals-2.webp",
-            "src/assets/products/shoes/shoes2/heeled-sandals-3.webp",
-            "src/assets/products/shoes/shoes2/heeled-sandals-4.webp",
-            "src/assets/products/shoes/shoes2/heeled-sandals-5.webp"
+            "products/shoes/shoes2/heeled-sandals.jpeg",
+            "products/shoes/shoes2/heeled-sandals-2.webp",
+            "products/shoes/shoes2/heeled-sandals-3.webp",
+            "products/shoes/shoes2/heeled-sandals-4.webp",
+            "products/shoes/shoes2/heeled-sandals-5.webp"
           ],
           "sizes": [
             "xs",
@@ -405,18 +405,18 @@
           "category": "shoes",
           "images": 
             {
-              "image": "src/assets/products/shoes/shoes3/leather-sandals.jpeg",
-              "image2": "src/assets/products/shoes/shoes3/leather-sandals-2.webp",
-              "image3": "src/assets/products/shoes/shoes3/leather-sandals-3.webp",
-              "image4": "src/assets/products/shoes/shoes3/leather-sandals-4.webp",
-              "image5": "src/assets/products/shoes/shoes3/leather-sandals-5.webp"
+              "image": "products/shoes/shoes3/leather-sandals.jpeg",
+              "image2": "products/shoes/shoes3/leather-sandals-2.webp",
+              "image3": "products/shoes/shoes3/leather-sandals-3.webp",
+              "image4": "products/shoes/shoes3/leather-sandals-4.webp",
+              "image5": "products/shoes/shoes3/leather-sandals-5.webp"
             },
           "imageArray": [
-            "src/assets/products/shoes/shoes3/leather-sandals.jpeg",
-            "src/assets/products/shoes/shoes3/leather-sandals-2.webp",
-            "src/assets/products/shoes/shoes3/leather-sandals-3.webp",
-            "src/assets/products/shoes/shoes3/leather-sandals-4.webp",
-            "src/assets/products/shoes/shoes3/leather-sandals-5.webp"
+            "products/shoes/shoes3/leather-sandals.jpeg",
+            "products/shoes/shoes3/leather-sandals-2.webp",
+            "products/shoes/shoes3/leather-sandals-3.webp",
+            "products/shoes/shoes3/leather-sandals-4.webp",
+            "products/shoes/shoes3/leather-sandals-5.webp"
           ],
           "sizes": [
             "xs",
@@ -437,18 +437,18 @@
           "category": "shoes",
           "images": 
             {
-              "image": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals.jpeg",
-              "image2": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-2.webp",
-              "image3": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-3.webp",
-              "image4": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-4.webp",
-              "image5": "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-5.webp"
+              "image": "products/shoes/shoes4/knot-detail-platform-sandals.jpeg",
+              "image2": "products/shoes/shoes4/knot-detail-platform-sandals-2.webp",
+              "image3": "products/shoes/shoes4/knot-detail-platform-sandals-3.webp",
+              "image4": "products/shoes/shoes4/knot-detail-platform-sandals-4.webp",
+              "image5": "products/shoes/shoes4/knot-detail-platform-sandals-5.webp"
             },
           "imageArray": [
-            "src/assets/products/shoes/shoes4/knot-detail-platform-sandals.jpeg",
-            "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-2.webp",
-            "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-3.webp",
-            "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-4.webp",
-            "src/assets/products/shoes/shoes4/knot-detail-platform-sandals-5.webp"
+            "products/shoes/shoes4/knot-detail-platform-sandals.jpeg",
+            "products/shoes/shoes4/knot-detail-platform-sandals-2.webp",
+            "products/shoes/shoes4/knot-detail-platform-sandals-3.webp",
+            "products/shoes/shoes4/knot-detail-platform-sandals-4.webp",
+            "products/shoes/shoes4/knot-detail-platform-sandals-5.webp"
           ],
           "sizes": [
             "xs",
@@ -469,18 +469,18 @@
           "category": "shoes",
           "images": 
             {
-              "image": "src/assets/products/shoes/shoes5/chunky-sneakers.jpeg",
-              "image2": "src/assets/products/shoes/shoes5/chunky-sneakers-2.webp",
-              "image3": "src/assets/products/shoes/shoes5/chunky-sneakers-3.webp",
-              "image4": "src/assets/products/shoes/shoes5/chunky-sneakers-4.webp",
-              "image5": "src/assets/products/shoes/shoes5/chunky-sneakers-5.webp"
+              "image": "products/shoes/shoes5/chunky-sneakers.jpeg",
+              "image2": "products/shoes/shoes5/chunky-sneakers-2.webp",
+              "image3": "products/shoes/shoes5/chunky-sneakers-3.webp",
+              "image4": "products/shoes/shoes5/chunky-sneakers-4.webp",
+              "image5": "products/shoes/shoes5/chunky-sneakers-5.webp"
             },
           "imageArray": [
-            "src/assets/products/shoes/shoes5/chunky-sneakers.jpeg",
-            "src/assets/products/shoes/shoes5/chunky-sneakers-2.webp",
-            "src/assets/products/shoes/shoes5/chunky-sneakers-3.webp",
-            "src/assets/products/shoes/shoes5/chunky-sneakers-4.webp",
-            "src/assets/products/shoes/shoes5/chunky-sneakers-5.webp"
+            "products/shoes/shoes5/chunky-sneakers.jpeg",
+            "products/shoes/shoes5/chunky-sneakers-2.webp",
+            "products/shoes/shoes5/chunky-sneakers-3.webp",
+            "products/shoes/shoes5/chunky-sneakers-4.webp",
+            "products/shoes/shoes5/chunky-sneakers-5.webp"
           ],
           "sizes": [
             "xs",
@@ -506,18 +506,18 @@
           "category": "skirts",
           "images": 
             {
-              "image": "src/assets/products/skirts/skirt1/mini-skirt.jpeg",
-              "image2": "src/assets/products/skirts/skirt1/mini-skirt-2.webp",
-              "image3": "src/assets/products/skirts/skirt1/mini-skirt-3.webp",
-              "image4": "src/assets/products/skirts/skirt1/mini-skirt-4.webp",
-              "image5": "src/assets/products/skirts/skirt1/mini-skirt-5.webp"
+              "image": "products/skirts/skirt1/mini-skirt.jpeg",
+              "image2": "products/skirts/skirt1/mini-skirt-2.webp",
+              "image3": "products/skirts/skirt1/mini-skirt-3.webp",
+              "image4": "products/skirts/skirt1/mini-skirt-4.webp",
+              "image5": "products/skirts/skirt1/mini-skirt-5.webp"
             },
           "imageArray": [
-            "src/assets/products/skirts/skirt1/mini-skirt.jpeg",
-            "src/assets/products/skirts/skirt1/mini-skirt-2.webp",
-            "src/assets/products/skirts/skirt1/mini-skirt-3.webp",
-            "src/assets/products/skirts/skirt1/mini-skirt-4.webp",
-            "src/assets/products/skirts/skirt1/mini-skirt-5.webp"
+            "products/skirts/skirt1/mini-skirt.jpeg",
+            "products/skirts/skirt1/mini-skirt-2.webp",
+            "products/skirts/skirt1/mini-skirt-3.webp",
+            "products/skirts/skirt1/mini-skirt-4.webp",
+            "products/skirts/skirt1/mini-skirt-5.webp"
           ],
           "sizes": [
             "xs",
@@ -538,18 +538,18 @@
           "category": "skirts",
           "images": 
             {
-              "image": "src/assets/products/skirts/skirt2/jersey-skirt.jpeg",
-              "image2": "src/assets/products/skirts/skirt2/jersey-skirt-2.webp",
-              "image3": "src/assets/products/skirts/skirt2/jersey-skirt-3.webp",
-              "image4": "src/assets/products/skirts/skirt2/jersey-skirt-4.webp",
-              "image5": "src/assets/products/skirts/skirt2/jersey-skirt-5.webp"
+              "image": "products/skirts/skirt2/jersey-skirt.jpeg",
+              "image2": "products/skirts/skirt2/jersey-skirt-2.webp",
+              "image3": "products/skirts/skirt2/jersey-skirt-3.webp",
+              "image4": "products/skirts/skirt2/jersey-skirt-4.webp",
+              "image5": "products/skirts/skirt2/jersey-skirt-5.webp"
             },
           "imageArray": [
-            "src/assets/products/skirts/skirt2/jersey-skirt.jpeg",
-            "src/assets/products/skirts/skirt2/jersey-skirt-2.webp",
-            "src/assets/products/skirts/skirt2/jersey-skirt-3.webp",
-            "src/assets/products/skirts/skirt2/jersey-skirt-4.webp",
-            "src/assets/products/skirts/skirt2/jersey-skirt-5.webp"
+            "products/skirts/skirt2/jersey-skirt.jpeg",
+            "products/skirts/skirt2/jersey-skirt-2.webp",
+            "products/skirts/skirt2/jersey-skirt-3.webp",
+            "products/skirts/skirt2/jersey-skirt-4.webp",
+            "products/skirts/skirt2/jersey-skirt-5.webp"
           ],
           "sizes": [
             "xs",
@@ -570,18 +570,18 @@
           "category": "skirts",
           "images": 
             {
-              "image": "src/assets/products/skirts/skirt3/flared-skirt.jpeg",
-              "image2": "src/assets/products/skirts/skirt3/flared-skirt-2.webp",
-              "image3": "src/assets/products/skirts/skirt3/flared-skirt-3.webp",
-              "image4": "src/assets/products/skirts/skirt3/flared-skirt-4.webp",
-              "image5": "src/assets/products/skirts/skirt3/flared-skirt-5.webp"
+              "image": "products/skirts/skirt3/flared-skirt.jpeg",
+              "image2": "products/skirts/skirt3/flared-skirt-2.webp",
+              "image3": "products/skirts/skirt3/flared-skirt-3.webp",
+              "image4": "products/skirts/skirt3/flared-skirt-4.webp",
+              "image5": "products/skirts/skirt3/flared-skirt-5.webp"
             },
           "imageArray": [
-            "src/assets/products/skirts/skirt3/flared-skirt.jpeg",
-            "src/assets/products/skirts/skirt3/flared-skirt-2.webp",
-            "src/assets/products/skirts/skirt3/flared-skirt-3.webp",
-            "src/assets/products/skirts/skirt3/flared-skirt-4.webp",
-            "src/assets/products/skirts/skirt3/flared-skirt-5.webp"
+            "products/skirts/skirt3/flared-skirt.jpeg",
+            "products/skirts/skirt3/flared-skirt-2.webp",
+            "products/skirts/skirt3/flared-skirt-3.webp",
+            "products/skirts/skirt3/flared-skirt-4.webp",
+            "products/skirts/skirt3/flared-skirt-5.webp"
           ],
           "sizes": [
             "xs",
@@ -602,18 +602,18 @@
           "category": "skirts",
           "images": 
             {
-              "image": "src/assets/products/skirts/skirt4/creped-skirt.jpeg",
-              "image2": "src/assets/products/skirts/skirt4/creped-skirt-2.webp",
-              "image3": "src/assets/products/skirts/skirt4/creped-skirt-3.webp",
-              "image4": "src/assets/products/skirts/skirt4/creped-skirt-4.webp",
-              "image5": "src/assets/products/skirts/skirt4/creped-skirt-5.webp"
+              "image": "products/skirts/skirt4/creped-skirt.jpeg",
+              "image2": "products/skirts/skirt4/creped-skirt-2.webp",
+              "image3": "products/skirts/skirt4/creped-skirt-3.webp",
+              "image4": "products/skirts/skirt4/creped-skirt-4.webp",
+              "image5": "products/skirts/skirt4/creped-skirt-5.webp"
             },
           "imageArray": [
-            "src/assets/products/skirts/skirt4/creped-skirt.jpeg",
-            "src/assets/products/skirts/skirt4/creped-skirt-2.webp",
-            "src/assets/products/skirts/skirt4/creped-skirt-3.webp",
-            "src/assets/products/skirts/skirt4/creped-skirt-4.webp",
-            "src/assets/products/skirts/skirt4/creped-skirt-5.webp"
+            "products/skirts/skirt4/creped-skirt.jpeg",
+            "products/skirts/skirt4/creped-skirt-2.webp",
+            "products/skirts/skirt4/creped-skirt-3.webp",
+            "products/skirts/skirt4/creped-skirt-4.webp",
+            "products/skirts/skirt4/creped-skirt-5.webp"
           ],
           "sizes": [
             "xs",
@@ -634,18 +634,18 @@
           "category": "skirts",
           "images": 
             {
-              "image": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt.webp",
-              "image2": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-2.jpeg",
-              "image3": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-3.webp",
-              "image4": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-4.webp",
-              "image5": "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-5.webp"
+              "image": "products/skirts/skirt5/pleated-chiffon-skirt.webp",
+              "image2": "products/skirts/skirt5/pleated-chiffon-skirt-2.jpeg",
+              "image3": "products/skirts/skirt5/pleated-chiffon-skirt-3.webp",
+              "image4": "products/skirts/skirt5/pleated-chiffon-skirt-4.webp",
+              "image5": "products/skirts/skirt5/pleated-chiffon-skirt-5.webp"
             },
           "imageArray": [
-            "src/assets/products/skirts/skirt5/pleated-chiffon-skirt.webp",
-            "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-2.jpeg",
-            "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-3.webp",
-            "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-4.webp",
-            "src/assets/products/skirts/skirt5/pleated-chiffon-skirt-5.webp"
+            "products/skirts/skirt5/pleated-chiffon-skirt.webp",
+            "products/skirts/skirt5/pleated-chiffon-skirt-2.jpeg",
+            "products/skirts/skirt5/pleated-chiffon-skirt-3.webp",
+            "products/skirts/skirt5/pleated-chiffon-skirt-4.webp",
+            "products/skirts/skirt5/pleated-chiffon-skirt-5.webp"
           ],
           "sizes": [
             "xs",
@@ -671,14 +671,14 @@
           "category": "accessories",
           "images": 
             {
-              "image": "src/assets/products/accessories/accessory1/straw-bucket-hat.jpeg",
-              "image2": "src/assets/products/accessories/accessory1/straw-bucket-hat-2.webp",
-              "image3": "src/assets/products/accessories/accessory1/straw-bucket-hat-3.webp"
+              "image": "products/accessories/accessory1/straw-bucket-hat.jpeg",
+              "image2": "products/accessories/accessory1/straw-bucket-hat-2.webp",
+              "image3": "products/accessories/accessory1/straw-bucket-hat-3.webp"
             },
           "imageArray": [
-            "src/assets/products/accessories/accessory1/straw-bucket-hat.jpeg",
-            "src/assets/products/accessories/accessory1/straw-bucket-hat-2.webp",
-            "src/assets/products/accessories/accessory1/straw-bucket-hat-3.webp"
+            "products/accessories/accessory1/straw-bucket-hat.jpeg",
+            "products/accessories/accessory1/straw-bucket-hat-2.webp",
+            "products/accessories/accessory1/straw-bucket-hat-3.webp"
           ],
           "sizes": [
             "xs",
@@ -699,18 +699,18 @@
           "category": "accessories",
           "images": 
             {
-              "image": "src/assets/products/accessories/accessory2/crochet-look-sarong.jpeg",
-              "image2": "src/assets/products/accessories/accessory2/crochet-look-sarong-2.webp",
-              "image3": "src/assets/products/accessories/accessory2/crochet-look-sarong-3.webp",
-              "image4": "src/assets/products/accessories/accessory2/crochet-look-sarong-4.webp",
-              "image5": "src/assets/products/accessories/accessory2/crochet-look-sarong-5.webp"
+              "image": "products/accessories/accessory2/crochet-look-sarong.jpeg",
+              "image2": "products/accessories/accessory2/crochet-look-sarong-2.webp",
+              "image3": "products/accessories/accessory2/crochet-look-sarong-3.webp",
+              "image4": "products/accessories/accessory2/crochet-look-sarong-4.webp",
+              "image5": "products/accessories/accessory2/crochet-look-sarong-5.webp"
             },
           "imageArray": [
-            "src/assets/products/accessories/accessory2/crochet-look-sarong.jpeg",
-            "src/assets/products/accessories/accessory2/crochet-look-sarong-2.webp",
-            "src/assets/products/accessories/accessory2/crochet-look-sarong-3.webp",
-            "src/assets/products/accessories/accessory2/crochet-look-sarong-4.webp",
-            "src/assets/products/accessories/accessory2/crochet-look-sarong-5.webp"
+            "products/accessories/accessory2/crochet-look-sarong.jpeg",
+            "products/accessories/accessory2/crochet-look-sarong-2.webp",
+            "products/accessories/accessory2/crochet-look-sarong-3.webp",
+            "products/accessories/accessory2/crochet-look-sarong-4.webp",
+            "products/accessories/accessory2/crochet-look-sarong-5.webp"
           ],
           "sizes": [
             "xs",
@@ -731,18 +731,18 @@
           "category": "accessories",
           "images": 
             {
-              "image": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch.jpeg",
-              "image2": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-2.webp",
-              "image3": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-3.webp",
-              "image4": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-4.webp",
-              "image5": "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-5.webp"
+              "image": "products/accessories/accessory3/shoulder-bag-with-pouch.jpeg",
+              "image2": "products/accessories/accessory3/shoulder-bag-with-pouch-2.webp",
+              "image3": "products/accessories/accessory3/shoulder-bag-with-pouch-3.webp",
+              "image4": "products/accessories/accessory3/shoulder-bag-with-pouch-4.webp",
+              "image5": "products/accessories/accessory3/shoulder-bag-with-pouch-5.webp"
             },
           "imageArray": [
-            "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch.jpeg",
-            "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-2.webp",
-            "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-3.webp",
-            "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-4.webp",
-            "src/assets/products/accessories/accessory3/shoulder-bag-with-pouch-5.webp"
+            "products/accessories/accessory3/shoulder-bag-with-pouch.jpeg",
+            "products/accessories/accessory3/shoulder-bag-with-pouch-2.webp",
+            "products/accessories/accessory3/shoulder-bag-with-pouch-3.webp",
+            "products/accessories/accessory3/shoulder-bag-with-pouch-4.webp",
+            "products/accessories/accessory3/shoulder-bag-with-pouch-5.webp"
           ],
           "sizes": [
             "xs",
@@ -763,18 +763,18 @@
           "category": "accessories",
           "images": 
             {
-              "image": "src/assets/products/accessories/accessory4/large-straw-shopper.jpeg",
-              "image2": "src/assets/products/accessories/accessory4/large-straw-shopper-2.webp",
-              "image3": "src/assets/products/accessories/accessory4/large-straw-shopper-3.webp",
-              "image4": "src/assets/products/accessories/accessory4/large-straw-shopper-4.webp",
-              "image5": "src/assets/products/accessories/accessory4/large-straw-shopper-5.webp"
+              "image": "products/accessories/accessory4/large-straw-shopper.jpeg",
+              "image2": "products/accessories/accessory4/large-straw-shopper-2.webp",
+              "image3": "products/accessories/accessory4/large-straw-shopper-3.webp",
+              "image4": "products/accessories/accessory4/large-straw-shopper-4.webp",
+              "image5": "products/accessories/accessory4/large-straw-shopper-5.webp"
             },
           "imageArray": [
-            "src/assets/products/accessories/accessory4/large-straw-shopper.jpeg",
-            "src/assets/products/accessories/accessory4/large-straw-shopper-2.webp",
-            "src/assets/products/accessories/accessory4/large-straw-shopper-3.webp",
-            "src/assets/products/accessories/accessory4/large-straw-shopper-4.webp",
-            "src/assets/products/accessories/accessory4/large-straw-shopper-5.webp"
+            "products/accessories/accessory4/large-straw-shopper.jpeg",
+            "products/accessories/accessory4/large-straw-shopper-2.webp",
+            "products/accessories/accessory4/large-straw-shopper-3.webp",
+            "products/accessories/accessory4/large-straw-shopper-4.webp",
+            "products/accessories/accessory4/large-straw-shopper-5.webp"
           ],  
           "sizes": [
             "xs",
@@ -795,18 +795,18 @@
           "category": "accessories",
           "images": 
             {
-              "image": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper.jpeg",
-              "image2": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-2.webp",
-              "image3": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-3.webp",
-              "image4": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-4.webp",
-              "image5": "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-5.webp"
+              "image": "products/accessories/accessory5/jute-blend-mini-shopper.jpeg",
+              "image2": "products/accessories/accessory5/jute-blend-mini-shopper-2.webp",
+              "image3": "products/accessories/accessory5/jute-blend-mini-shopper-3.webp",
+              "image4": "products/accessories/accessory5/jute-blend-mini-shopper-4.webp",
+              "image5": "products/accessories/accessory5/jute-blend-mini-shopper-5.webp"
             },
           "imageArray": [
-            "src/assets/products/accessories/accessory5/jute-blend-mini-shopper.jpeg",
-            "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-2.webp",
-            "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-3.webp",
-            "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-4.webp",
-            "src/assets/products/accessories/accessory5/jute-blend-mini-shopper-5.webp"
+            "products/accessories/accessory5/jute-blend-mini-shopper.jpeg",
+            "products/accessories/accessory5/jute-blend-mini-shopper-2.webp",
+            "products/accessories/accessory5/jute-blend-mini-shopper-3.webp",
+            "products/accessories/accessory5/jute-blend-mini-shopper-4.webp",
+            "products/accessories/accessory5/jute-blend-mini-shopper-5.webp"
           ],
           "sizes": [
             "xs",
