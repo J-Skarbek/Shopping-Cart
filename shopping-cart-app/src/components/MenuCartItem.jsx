@@ -6,7 +6,7 @@ export default function MenuCartItem({ productName, productImage, productPrice, 
   return (
     <div className="flex menu-mini-cart-item p-4 mb-2 border-b border-gray-300">
       <div className="menu-cart-item-img w-1/4 mr-4">
-        <img src={productImage} alt={productName} />
+        <img src={`/${productImage}`} alt={productName} />
       </div>
       <div className="flex flex-col menu-product-details">
         <p className="font-semibold">{productName}</p>
