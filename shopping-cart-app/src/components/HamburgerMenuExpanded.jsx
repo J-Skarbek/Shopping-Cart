@@ -40,7 +40,7 @@ export default function HamburgerMenuExpanded({ toggleMenu, toggleState }) {
           <div className="close-button flex justify-end">
             <img 
               src={closeBtn} 
-              alt="Close the menu."
+              alt='Close the menu'
               onClick={toggleMenu} 
             />
           </div>

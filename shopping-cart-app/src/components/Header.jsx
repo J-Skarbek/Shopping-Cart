@@ -21,13 +21,13 @@ function Header() {
       <div className="logo w-1/12">
         <Link to='/'><img className="logo-img w-5/6" src={panda} alt="logo" /></Link>
       </div>
-      <nav className="nav-menu flex justify-around w-[33%] min-w-[33%]">
+      <nav className="nav-menu flex items-center justify-around w-[33%] min-w-[33%]">
         <NavLink to='cart'>Cart</NavLink>
         <NavLink to='shop'>Shop</NavLink>
         <NavLink to='checkout'>Checkout</NavLink>
-        <button type="button" onClick={emptyTheCart}>Empty the Cart Testing BTN</button>
-        <button type="button" onClick={logCartItems}>See the current cart status</button>
-        <button type="button" onClick={countCartItems}>Test count all products + quantity</button>
+        <button type="button" onClick={emptyTheCart}>Empty Cart</button>
+        <button type="button" onClick={logCartItems}>Cart Status</button>
+        <button type="button" onClick={countCartItems}>Test</button>
       </nav>
       <div className="items-in-cart">
         {/* <p>
