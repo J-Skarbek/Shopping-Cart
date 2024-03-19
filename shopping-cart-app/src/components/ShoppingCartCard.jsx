@@ -9,8 +9,8 @@ export default function ShoppingCartCard({image, productName, price, size, quant
   console.log(typeof price)
 
   return (
-    <div className="flex" data-dom-key={cartLoopKey}>
-      <img src={image} className="w-1/6 mr-4 mb-4"></img>
+    <div className="flex mb-4 bg-slate-50 drop-shadow rounded-md " data-dom-key={cartLoopKey}>
+      <img src={image} className="w-1/6 mr-4"></img>
       <div className="prod-overview flex flex-col px-4">
         <p className="font-bold">{productName}</p>
         <p>Price: {price}</p>
