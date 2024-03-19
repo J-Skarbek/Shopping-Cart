@@ -74,11 +74,14 @@ function ShoppingCart() {
   return (
     <div className="shopping-cart-main">
       <div className="flex flex-col max-w-7xl px-8 py-16">
-        <div className="cart-options flex">
+        <div className="flex justify-evenly cart-options mb-4">
           <button type="button" onClick={emptyTheCart}>Empty Cart</button>
           <button type="button">Go Back</button>
         </div>
-        { displayCartContents.length === 0 ? <button>Shop Now</button> : displayCartContents}
+        <div className="products-in-cart-display">
+          { displayCartContents.length === 0 ? <button>Shop Now</button> : displayCartContents}
+        </div>
+        {/* { displayCartContents.length === 0 ? <button>Shop Now</button> : displayCartContents} */}
         {/* {displayCartContents} */}
       </div>
       <div>
