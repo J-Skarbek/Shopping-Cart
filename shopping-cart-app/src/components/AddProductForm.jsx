@@ -37,7 +37,8 @@ export default function AddProductForm({details}) {
         <label htmlFor='quantity'></label>
         <input 
           type="number" 
-          min="0" 
+          min="1"
+          placeholder="1"
           name="quantityInCart" 
           id="quantity" 
           className="form-input"
