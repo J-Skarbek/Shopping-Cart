@@ -14,8 +14,8 @@ function Footer() {
   };
 
   return (
-    <div className="footer flex bg-slate-100 items-end py-4 mt-4">
-       <div className="left-col px-16">
+    <div className="footer flex flex-col sm:flex-row items-center sm:items-end bg-slate-100 items-end py-4 mt-4">
+       <div className="left-col px-16 py-8 sm:py-0 flex flex-col items-center align-center sm:items-start sm:align-start">
         <img className="logo-img w-1/6 my-4" src={panda} alt="logo" />
         <h2>PANDA</h2>
         <h3>{testValue}</h3>
