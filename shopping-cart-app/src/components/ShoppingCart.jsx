@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { useLocation, Link } from "react-router-dom";
 import { ShopContext } from "./RootLayout";
 import ShoppingCartCard from "./ShoppingCartCard";
 
@@ -7,6 +8,9 @@ function ShoppingCart() {
   const { cartContents, emptyTheCart, getSubtotal } = useContext(ShopContext);
 
   const [purchaseOrder, setPurchaseOrder] = React.useState(null);
+
+  const location = useLocation();
+  const search = location.state?.search || '';
 
   function sendToCheckout(e) {
     e.preventDefault();
@@ -37,6 +41,7 @@ function ShoppingCart() {
         <div className="flex justify-evenly cart-options mb-4">
           <button type="button" onClick={sendToCheckout}>Checkout</button>
           <button type="button" onClick={emptyTheCart}>Empty Cart</button>
+          <Link to={`..${search}`}>Back</Link>
           <button type="button">Go Back</button>
         </div>
         <div className="products-in-cart-display">
