@@ -10,17 +10,19 @@ export default function ShoppingCartCard({image, productName, price, size, quant
 
   return (
     <div className="flex mb-4 bg-slate-50 drop-shadow rounded-md justify-between" data-dom-key={cartLoopKey}>
-      <img src={image} className="w-1/2 h-[400px] mr-4"></img>
-      <div className="prod-overview flex flex-col p-4">
-        <p className="font-bold">{productName}</p>
-        <p>Price: {price}</p>
-        <p>Quantity: {quantity}</p>
-        <p>Size: {size}</p>
-      </div>
-      <div>
-      <div className="cart-cardImg-container p-4">
-        <img src={trashCan} alt='remove from cart' onClick={removeProduct} className="remove-from-cart-icon"></img>
-      </div>
+      <div className="cart-content-wrapper flex">
+        <img src={image} className="h-[250px] mr-4"></img>
+        <div className="prod-overview flex flex-col w-[400px] p-4">
+          <p className="font-bold">{productName}</p>
+          <p>Price: {price}</p>
+          <p>Quantity: {quantity}</p>
+          <p>Size: {size}</p>
+        </div>
+        <div>
+          <div className="cart-cardImg-container p-4">
+            <img src={trashCan} alt='remove from cart' onClick={removeProduct} className="remove-from-cart-icon"></img>
+          </div>
+        </div>
       </div>
     </div>
   )
