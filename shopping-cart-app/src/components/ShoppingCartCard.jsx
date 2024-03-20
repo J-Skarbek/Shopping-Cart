@@ -20,7 +20,7 @@ export default function ShoppingCartCard({image, productName, price, size, quant
         </div>
         <div>
           <div className="cart-cardImg-container p-4">
-            <img src={trashCan} alt='remove from cart' onClick={removeProduct} className="remove-from-cart-icon w-8"></img>
+            <img src={trashCan} alt='remove from cart' onClick={removeProduct} className="remove-from-cart-icon w-8 sm:w-6"></img>
           </div>
         </div>
       </div>
