@@ -11,16 +11,16 @@ export default function ShoppingCartCard({image, productName, price, size, quant
   return (
     <div className="flex mb-4 bg-slate-50 drop-shadow rounded-md justify-between" data-dom-key={cartLoopKey}>
       <div className="cart-content-wrapper flex">
-        <img src={image} className="h-[250px] mr-4"></img>
-        <div className="prod-overview flex flex-col w-[400px] p-4">
+        <img src={image} className="h-36 sm:h-60 mr-4"></img>
+        <div className="prod-overview flex flex-col w-48 sm:w-96 p-4">
           <p className="font-bold">{productName}</p>
-          <p>Price: {price}</p>
-          <p>Quantity: {quantity}</p>
-          <p>Size: {size}</p>
+          <p>Price: ${price}</p>
+          <p>In Cart: {quantity}</p>
+          <p>Size: {size.toUpperCase()}</p>
         </div>
         <div>
           <div className="cart-cardImg-container p-4">
-            <img src={trashCan} alt='remove from cart' onClick={removeProduct} className="remove-from-cart-icon"></img>
+            <img src={trashCan} alt='remove from cart' onClick={removeProduct} className="remove-from-cart-icon w-8"></img>
           </div>
         </div>
       </div>
