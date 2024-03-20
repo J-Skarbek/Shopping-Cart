@@ -74,13 +74,15 @@ function RootLayout() {
     e.preventDefault();
     let updatedCart = [];
 
-    const getUniqueCartId = e.target.parentNode.parentNode.dataset.domKey;
+    const getUniqueCartId = e.target.parentNode.parentNode.parentNode.dataset.domKey;
+    console.log(e.target.parentNode.parentNode.parentNode)
+    console.log(`domID = ${getUniqueCartId}`)
     cartContents.map(item => {
       if (item.cartLoopKey !== getUniqueCartId) {
         updatedCart.push(item);
       }
     });
-
+    console.log('product should be removed now')
     setCartContents(updatedCart);
   }
 
@@ -143,6 +145,7 @@ function RootLayout() {
     console.log(cartContents)
     console.table(cartContents);
     console.log(`localStorage count of items ${JSON.parse(localStorage.items).length}`)
+    console.log(`number of items in cart is ${countCartItems()}`)
   }
   
   const emptyTheCart = () => setCartContents([]);
