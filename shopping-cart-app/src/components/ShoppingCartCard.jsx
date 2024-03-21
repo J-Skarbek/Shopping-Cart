@@ -3,7 +3,7 @@ import { ShopContext } from "./RootLayout";
 import PropTypes from 'prop-types';
 import trashCan from '/trash-can.svg';
 
-export default function ShoppingCartCard({image, productName, price, size, quantity, available, cartLoopKey}) {
+export default function ShoppingCartCard({image, productName, price, size, quantity, cartLoopKey}) {
 
   const { removeProduct } = useContext(ShopContext);
 
@@ -19,7 +19,7 @@ export default function ShoppingCartCard({image, productName, price, size, quant
         </div>
         <div>
           <div className="cart-cardImg-container p-4">
-            <img src={trashCan} alt='remove from cart' onClick={(e) =>removeProduct(e)} className="remove-from-cart-icon w-8 sm:w-6"></img>
+            <img src={trashCan} alt='remove from cart' onClick={(e) => removeProduct(e)} className="remove-from-cart-icon w-8 sm:w-6"></img>
           </div>
         </div>
       </div>

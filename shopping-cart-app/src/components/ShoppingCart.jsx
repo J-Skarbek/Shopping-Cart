@@ -1,16 +1,11 @@
 import React, { useContext } from "react";
-import { useLocation, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { ShopContext } from "./RootLayout";
 import ShoppingCartCard from "./ShoppingCartCard";
 
 function ShoppingCart() {
 
   const { cartContents, emptyTheCart, getSubtotal } = useContext(ShopContext);
-
-  const [purchaseOrder, setPurchaseOrder] = React.useState(null);
-
-  const location = useLocation();
-  const search = location.state?.search || '';
 
   function sendToCheckout(e) {
     e.preventDefault();
@@ -39,13 +34,17 @@ function ShoppingCart() {
     <div className="shopping-cart-main">
       <div className="flex flex-col max-w-7xl px-8 py-16">
         <div className="flex justify-evenly cart-options mb-4">
-          <button type="button" onClick={sendToCheckout}>Checkout</button>
+          {/* <button type="button" onClick={sendToCheckout}>Checkout</button> */}
+          <Link to={'/checkout'}><button onClick={sendToCheckout}>Go To Checkout</button></Link>
           <button type="button" onClick={emptyTheCart}>Empty Cart</button>
-          <Link to={`..${search}`}>Back</Link>
-          <button type="button">Go Back</button>
         </div>
-        <div className="products-in-cart-display">
-          {displayCartContents.length === 0 ? <button>Shop Now</button> : displayCartContents}
+        <div className="products-in-cart-display flex flex-col items-center">
+          { displayCartContents.length === 0 ? 
+          <div className="nothing-in-cart">
+            <h2 className="font-bold">There&apos;s nothing in your cart right now.</h2>
+            <Link to={'/shop'}>Shop Now</Link>
+          </div>
+          : displayCartContents }
         </div>
       </div>
     </div>
