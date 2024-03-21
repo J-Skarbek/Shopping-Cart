@@ -5,15 +5,7 @@ import ShoppingCartCard from "./ShoppingCartCard";
 
 function ShoppingCart() {
 
-  const { cartContents, emptyTheCart, getSubtotal } = useContext(ShopContext);
-
-  function sendToCheckout(e) {
-    e.preventDefault();
-    console.log(`Default Prevented == ${e.defaultPrevented}`);
- 
-    console.log(`processed subtotal: ${getSubtotal()}`)
-    return getSubtotal();
-  }
+  const { cartContents, emptyTheCart } = useContext(ShopContext);
 
   const displayCartContents = cartContents.map(item => {
     return (
@@ -34,8 +26,7 @@ function ShoppingCart() {
     <div className="shopping-cart-main">
       <div className="flex flex-col max-w-7xl px-8 py-16">
         <div className="flex justify-evenly cart-options mb-4">
-          {/* <button type="button" onClick={sendToCheckout}>Checkout</button> */}
-          <Link to={'/checkout'}><button onClick={sendToCheckout}>Go To Checkout</button></Link>
+          <Link to={'/checkout'}><button>Go To Checkout</button></Link>
           <button type="button" onClick={emptyTheCart}>Empty Cart</button>
         </div>
         <div className="products-in-cart-display flex flex-col items-center">
