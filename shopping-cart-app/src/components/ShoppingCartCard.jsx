@@ -16,13 +16,11 @@ export default function ShoppingCartCard({image, productName, price, size, quant
           <p>Price: ${price}</p>
           <p>In Cart: {quantity}</p>
           <p>Size: {size.toUpperCase()}</p>
-          <p>CartloopKey: {cartLoopKey}</p>
         </div>
         <div>
-          {/* <div className="cart-cardImg-container p-4"> */}
-            {/* <button type="button" onClick={(e) => removeProduct(e)}>Remove</button> */}
+          <div className="cart-cardImg-container p-4">
             <img src={trashCan} alt='remove from cart' onClick={(e) =>removeProduct(e)} className="remove-from-cart-icon w-8 sm:w-6"></img>
-          {/* </div> */}
+          </div>
         </div>
       </div>
     </div>

@@ -74,15 +74,12 @@ function RootLayout() {
     e.preventDefault();
     let updatedCart = [];
 
-    const getUniqueCartId = e.target.parentNode.parentNode.parentNode.dataset.domKey;
-    console.log(e.target.parentNode.parentNode.parentNode)
-    console.log(`domID = ${getUniqueCartId}`)
+    const getUniqueCartId = e.target.parentNode.parentNode.parentNode.parentNode.dataset.domKey;
     cartContents.map(item => {
       if (item.cartLoopKey !== getUniqueCartId) {
         updatedCart.push(item);
       }
     });
-    console.log('product should be removed now')
     setCartContents(updatedCart);
   }
 
