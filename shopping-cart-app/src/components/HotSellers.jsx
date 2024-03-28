@@ -22,8 +22,9 @@ export default function HotSellers() {
   });
 
   const displayHotSellers = allProducts.map(product => {
-    return (
-      <ProductCard 
+    if (product.isPopular === true) {
+      return (
+        <ProductCard 
         name={product.name}
         description={product.desciption}
         img={product.imageArray[0]}
@@ -31,7 +32,8 @@ export default function HotSellers() {
         key={nanoid()}
         searchParams={searchParams}
       />
-    )
+      )
+    }
   })
 
   return(
