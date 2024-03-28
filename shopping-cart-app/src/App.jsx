@@ -25,6 +25,7 @@ const router = createBrowserRouter(
           index
           element={<Homepage />}
           errorElement={<Error />}
+          loader={productsLoader}
         />
         <Route 
           path='shop'
